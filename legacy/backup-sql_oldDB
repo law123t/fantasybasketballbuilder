@@ -1,0 +1,183 @@
+USE test_basketball;
+-- MySQL dump 10.13  Distrib 5.7.19, for Win64 (x86_64)
+--
+-- Host: 127.0.0.1    Database: ind_proj
+-- ------------------------------------------------------
+-- Server version	5.7.19-log
+
+/*!40101 SET @OLD_CHARACTER_SET_CLIENT=@@CHARACTER_SET_CLIENT */;
+/*!40101 SET @OLD_CHARACTER_SET_RESULTS=@@CHARACTER_SET_RESULTS */;
+/*!40101 SET @OLD_COLLATION_CONNECTION=@@COLLATION_CONNECTION */;
+/*!40101 SET NAMES utf8 */;
+/*!40103 SET @OLD_TIME_ZONE=@@TIME_ZONE */;
+/*!40103 SET TIME_ZONE='+00:00' */;
+/*!40014 SET @OLD_UNIQUE_CHECKS=@@UNIQUE_CHECKS, UNIQUE_CHECKS=0 */;
+/*!40014 SET @OLD_FOREIGN_KEY_CHECKS=@@FOREIGN_KEY_CHECKS, FOREIGN_KEY_CHECKS=0 */;
+/*!40101 SET @OLD_SQL_MODE=@@SQL_MODE, SQL_MODE='NO_AUTO_VALUE_ON_ZERO' */;
+/*!40111 SET @OLD_SQL_NOTES=@@SQL_NOTES, SQL_NOTES=0 */;
+
+--
+-- Table structure for table `player`
+--
+
+DROP TABLE IF EXISTS `player`;
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+/*!40101 SET character_set_client = utf8 */;
+CREATE TABLE `player` (
+  `player_id` int(11) NOT NULL AUTO_INCREMENT,
+  `first_name` varchar(255) NOT NULL,
+  `last_name` varchar(255) NOT NULL,
+  `player_position` int(11) NOT NULL,
+  `points` int(11) NOT NULL,
+  `assists` int(11) NOT NULL,
+  `rebounds` int(11) NOT NULL,
+  `steals` int(11) NOT NULL,
+  `blocks` int(11) NOT NULL,
+  `turnovers` int(11) NOT NULL,
+  PRIMARY KEY (`player_id`),
+  KEY `fk_player_playerposition_inx` (`player_position`),
+  CONSTRAINT `fk_player_playerposition` FOREIGN KEY (`player_position`) REFERENCES `player_position` (`playerposition_id`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+/*!40101 SET character_set_client = @saved_cs_client */;
+
+--
+-- Dumping data for table `player`
+--
+
+LOCK TABLES `player` WRITE;
+/*!40000 ALTER TABLE `player` DISABLE KEYS */;
+INSERT INTO `player` VALUES (null,'Russel','Westbrook',1,2558,840,864,132,31,438),(null,'James','Harden',2,2356,907,659,121,38,464),(null,'Lebron','James',3,1954,646,639,92,44,303),(null,'Anthony','Davis',4,2099,157,884,94,167,181),(null,'Karl','Anthony Towns',5,805,220,1007,56,103,212),(null,'Stephen','Curry',1,1999,524,353,142,17,239),(null,'DeMar','DeRozan',2,2020,290,386,78,13,180),(null,'Kawhi','Leonard',3,1376,260,430,133,55,154);
+/*!40000 ALTER TABLE `player` ENABLE KEYS */;
+UNLOCK TABLES;
+
+--
+-- Table structure for table `player_position`
+--
+
+DROP TABLE IF EXISTS `player_position`;
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+/*!40101 SET character_set_client = utf8 */;
+CREATE TABLE `player_position` (
+  `playerposition_id` int(11) NOT NULL,
+  `position_name` varchar(255) NOT NULL,
+  PRIMARY KEY (`playerposition_id`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+/*!40101 SET character_set_client = @saved_cs_client */;
+
+--
+-- Dumping data for table `player_position`
+--
+
+LOCK TABLES `player_position` WRITE;
+/*!40000 ALTER TABLE `player_position` DISABLE KEYS */;
+INSERT INTO `player_position` VALUES (1,'PG'),(2,'SG'),(3,'SF'),(4,'PF'),(5,'C');
+/*!40000 ALTER TABLE `player_position` ENABLE KEYS */;
+UNLOCK TABLES;
+
+--
+-- Table structure for table `user_roles`
+--
+
+DROP TABLE IF EXISTS `user_roles`;
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+/*!40101 SET character_set_client = utf8 */;
+CREATE TABLE `user_roles` (
+  `userrole_id` int(11) NOT NULL AUTO_INCREMENT,
+  `role_name` varchar(15) NOT NULL,
+  `user_id` int(11) NOT NULL,
+  PRIMARY KEY (`userrole_id`),
+  KEY `fk_user_id_inx` (`user_id`),
+  CONSTRAINT `user_id` FOREIGN KEY (`user_id`) REFERENCES `users` (`user_id`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+/*!40101 SET character_set_client = @saved_cs_client */;
+
+--
+-- Dumping data for table `user_roles`
+--
+
+LOCK TABLES `user_roles` WRITE;
+/*!40000 ALTER TABLE `user_roles` DISABLE KEYS */;
+INSERT INTO `user_roles` VALUES (null,'administrator', '1'),(null,'administrator', '2'),(null,'user', '3');
+/*!40000 ALTER TABLE `user_roles` ENABLE KEYS */;
+UNLOCK TABLES;
+
+--
+-- Table structure for table `user_team`
+--
+
+DROP TABLE IF EXISTS `user_team`;
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+/*!40101 SET character_set_client = utf8 */;
+CREATE TABLE `user_team` (
+  `team_id` int(11) NOT NULL AUTO_INCREMENT,
+  `team_name` varchar(255) NOT NULL,
+  `playerone_player_id` int(11) DEFAULT NULL,
+  `playertwo_player_id` int(11) DEFAULT NULL,
+  `playerthree_player_id` int(11) DEFAULT NULL,
+  `playerfour_player_id` int(11) DEFAULT NULL,
+  `playerfive_player_id` int(11) DEFAULT NULL,
+  `user_id` int(11) NOT NULL,
+  PRIMARY KEY (`team_id`),
+  KEY `fk_player_one_inx` (`playerone_player_id`),
+  KEY `fk_player_two_inx` (`playertwo_player_id`),
+  KEY `fk_player_three_inx` (`playerthree_player_id`),
+  KEY `fk_player_four_inx` (`playerfour_player_id`),
+  KEY `fk_player_five_inx` (`playerfive_player_id`),
+  KEY `fk_user_id_inx` (`user_id`),
+  CONSTRAINT `fk_user_id` FOREIGN KEY (`user_id`) REFERENCES `users` (`user_id`),
+  CONSTRAINT `fk_player_five` FOREIGN KEY (`playerfive_player_id`) REFERENCES `player` (`player_id`),
+  CONSTRAINT `fk_player_four` FOREIGN KEY (`playerfour_player_id`) REFERENCES `player` (`player_id`),
+  CONSTRAINT `fk_player_one` FOREIGN KEY (`playerone_player_id`) REFERENCES `player` (`player_id`),
+  CONSTRAINT `fk_player_three` FOREIGN KEY (`playerthree_player_id`) REFERENCES `player` (`player_id`),
+  CONSTRAINT `fk_player_two` FOREIGN KEY (`playertwo_player_id`) REFERENCES `player` (`player_id`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+/*!40101 SET character_set_client = @saved_cs_client */;
+
+--
+-- Dumping data for table `user_team`
+--
+
+LOCK TABLES `user_team` WRITE;
+/*!40000 ALTER TABLE `user_team` DISABLE KEYS */;
+INSERT INTO `user_team` VALUES (null,'Team One',1,2,3,4,5,1);
+/*!40000 ALTER TABLE `user_team` ENABLE KEYS */;
+UNLOCK TABLES;
+
+--
+-- Table structure for table `users`
+--
+
+DROP TABLE IF EXISTS `users`;
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+/*!40101 SET character_set_client = utf8 */;
+CREATE TABLE `users` (
+  `user_id` int(11) NOT NULL AUTO_INCREMENT,
+  `user_name` varchar(15) NOT NULL,
+  `user_pass` varchar(15) NOT NULL,
+  `first_name` varchar(255) NOT NULL,
+  `last_name` varchar(255) NOT NULL,
+  `email` varchar(255) NOT NULL,
+  PRIMARY KEY (`user_id`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+/*!40101 SET character_set_client = @saved_cs_client */;
+
+--
+-- Dumping data for table `users`
+--
+
+LOCK TABLES `users` WRITE;
+/*!40000 ALTER TABLE `users` DISABLE KEYS */;
+INSERT INTO `users` VALUES (null,'admin','admin','John','Smith','smith@john.com'),(null,'admin2','admin2','Tim','Jim','Jim@Tim.com'),(null,'User','User','Beth','Seth','seth@beth.com');
+/*!40000 ALTER TABLE `users` ENABLE KEYS */;
+UNLOCK TABLES;
+/*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
+
+/*!40101 SET SQL_MODE=@OLD_SQL_MODE */;
+/*!40014 SET FOREIGN_KEY_CHECKS=@OLD_FOREIGN_KEY_CHECKS */;
+/*!40014 SET UNIQUE_CHECKS=@OLD_UNIQUE_CHECKS */;
+/*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
+/*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;
+/*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
+/*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
+
+-- Dump completed on 2018-02-11 17:38:14
