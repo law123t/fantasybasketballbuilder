@@ -26,6 +26,9 @@ public class UserRoles {
     @JoinColumn(name="user_id")
     private User userId;
 
+    @Column(name="user_name")
+    private String userName;
+
     /**
      * Instantiates a new User role.
      */
@@ -39,10 +42,11 @@ public class UserRoles {
      * @param userRoleId   the role id
      * @param roleName the role name
      */
-    public UserRoles(int userRoleId, String roleName, User userId) {
+    public UserRoles(int userRoleId, String roleName, User userId, String userName) {
         this.userRoleId = userRoleId;
         this.roleName = roleName;
         this.userId = userId;
+        this.userName = userName;
 
     }
 
@@ -101,10 +105,19 @@ public class UserRoles {
         this.userId = userId;
     }
 
+    public String getUserName() {
+        return userName;
+    }
+
+    public void setUserName(String userName) {
+        this.userName = userName;
+    }
+
     @Override
     public String toString() {
-        return "User{" +
+        return "UserRoles{" +
                 ", roleName ='" + roleName + '\'' +
+                ", userName ='" + userName + '\'' +
                 '}';
     }
 }

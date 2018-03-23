@@ -7,13 +7,13 @@
                 </a>
             </li>
             <li>
-                <a href="ILoggedIn.jsp">Login tester 2</a>
+                <a href="basketballApp/ILoggedIn.jsp">Login tester 4</a>
             </li>
             <li>
-                <a href="#">Shortcuts</a>
+                <a href="login">login servlet</a>
             </li>
             <li>
-                <a href="#">Overview</a>
+                <a href="createTeam">Create a Team</a>
             </li>
             <li>
                 <a href="#">Events</a>

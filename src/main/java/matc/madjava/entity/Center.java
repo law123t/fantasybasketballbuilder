@@ -42,7 +42,7 @@ public class Center {
     private int turnovers;
 
 
-    @OneToMany(mappedBy = "centers", cascade = CascadeType.ALL, orphanRemoval = true, fetch = FetchType.EAGER)
+    @OneToMany(mappedBy = "center", cascade = CascadeType.ALL, orphanRemoval = true, fetch = FetchType.EAGER)
     private Set<Team> teams = new HashSet<>();
 
     //private Status status;

@@ -3,8 +3,10 @@ matc\madjava\entity\Team.class
 matc\madjava\persistence\UserDAO.class
 matc\madjava\controller\Login.class
 matc\madjava\persistence\SessionFactoryProvider.class
+matc\madjava\persistence\TeamDAO.class
 matc\madjava\persistence\UserRolesDAO.class
 matc\madjava\persistence\CenterDAO.class
+matc\madjava\controller\CreateTeam.class
 matc\madjava\persistence\GenericDAO.class
 matc\madjava\entity\User.class
 matc\madjava\entity\Center.class
@@ -13,6 +15,7 @@ matc\madjava\entity\ShootingGuard.class
 matc\madjava\persistence\ShootingGuardDAO.class
 matc\madjava\entity\PointGuard.class
 matc\madjava\entity\PowerForward.class
+matc\madjava\controller\CreateResults.class
 matc\madjava\entity\UserRoles.class
 matc\madjava\entity\SmallForward.class
 matc\madjava\persistence\SmallForwardDAO.class

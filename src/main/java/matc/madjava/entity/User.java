@@ -30,6 +30,9 @@ public class User {
     @OneToMany(mappedBy = "user", cascade = CascadeType.ALL, orphanRemoval = true, fetch = FetchType.EAGER)
     private Set<Team> teams = new HashSet<>();
 
+
+    @OneToOne(mappedBy="userId", cascade = CascadeType.ALL, orphanRemoval = true, fetch = FetchType.EAGER)
+    private UserRoles userRoles;
     /**
      * Instantiates a new User.
      */
@@ -195,6 +198,14 @@ public class User {
     public void removeTeam(Team team) {
         teams.remove( team );
         team.setUser( null );
+    }
+
+    public UserRoles getUserRoles() {
+        return userRoles;
+    }
+
+    public void setUserRoles(UserRoles userRoles) {
+        this.userRoles = userRoles;
     }
 
     @Override

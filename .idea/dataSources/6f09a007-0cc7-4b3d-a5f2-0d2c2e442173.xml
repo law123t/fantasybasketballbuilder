@@ -1285,161 +1285,167 @@
       <NotNull>1</NotNull>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <index id="301" parent="245" name="fk_user_id_inx">
+    <column id="301" parent="245" name="user_name">
+      <Position>4</Position>
+      <DataType>varchar(15)|0</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <index id="302" parent="245" name="fk_user_id_roles_inx">
       <ColNames>user_id</ColNames>
     </index>
-    <key id="302" parent="245" name="PRIMARY">
+    <key id="303" parent="245" name="PRIMARY">
       <NameSurrogate>1</NameSurrogate>
       <ColNames>userrole_id</ColNames>
       <Primary>1</Primary>
     </key>
-    <foreign-key id="303" parent="245" name="user_id">
+    <foreign-key id="304" parent="245" name="fk_user_id_roles">
       <ColNames>user_id</ColNames>
       <RefSchemaName>test_basketball</RefSchemaName>
       <RefTableName>users</RefTableName>
       <RefColNames>user_id</RefColNames>
     </foreign-key>
-    <column id="304" parent="246" name="team_id">
+    <column id="305" parent="246" name="team_id">
       <Position>1</Position>
       <DataType>int(11)|0</DataType>
       <NotNull>1</NotNull>
       <SequenceIdentity>1</SequenceIdentity>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="305" parent="246" name="team_name">
+    <column id="306" parent="246" name="team_name">
       <Position>2</Position>
       <DataType>varchar(255)|0</DataType>
       <NotNull>1</NotNull>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="306" parent="246" name="pointguard_id">
+    <column id="307" parent="246" name="pointguard_id">
       <Position>3</Position>
       <DataType>int(11)|0</DataType>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="307" parent="246" name="shootingguard_id">
+    <column id="308" parent="246" name="shootingguard_id">
       <Position>4</Position>
       <DataType>int(11)|0</DataType>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="308" parent="246" name="smallforward_id">
+    <column id="309" parent="246" name="smallforward_id">
       <Position>5</Position>
       <DataType>int(11)|0</DataType>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="309" parent="246" name="powerforward_id">
+    <column id="310" parent="246" name="powerforward_id">
       <Position>6</Position>
       <DataType>int(11)|0</DataType>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="310" parent="246" name="center_id">
+    <column id="311" parent="246" name="center_id">
       <Position>7</Position>
       <DataType>int(11)|0</DataType>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="311" parent="246" name="user_id">
+    <column id="312" parent="246" name="user_id">
       <Position>8</Position>
       <DataType>int(11)|0</DataType>
       <NotNull>1</NotNull>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <index id="312" parent="246" name="fk_pointguard_inx">
+    <index id="313" parent="246" name="fk_pointguard_idinx">
       <ColNames>pointguard_id</ColNames>
     </index>
-    <index id="313" parent="246" name="fk_shootingguard_inx">
+    <index id="314" parent="246" name="fk_shootingguard_id_inx">
       <ColNames>shootingguard_id</ColNames>
     </index>
-    <index id="314" parent="246" name="fk_smallforward_inx">
+    <index id="315" parent="246" name="fk_smallforward_id_inx">
       <ColNames>smallforward_id</ColNames>
     </index>
-    <index id="315" parent="246" name="fk_powerforward_inx">
+    <index id="316" parent="246" name="fk_powerforward_id_inx">
       <ColNames>powerforward_id</ColNames>
     </index>
-    <index id="316" parent="246" name="fk_center_inx">
+    <index id="317" parent="246" name="fk_center_id_inx">
       <ColNames>center_id</ColNames>
     </index>
-    <index id="317" parent="246" name="fk_user_id_inx">
+    <index id="318" parent="246" name="fk_user_id_inx">
       <ColNames>user_id</ColNames>
     </index>
-    <key id="318" parent="246" name="PRIMARY">
+    <key id="319" parent="246" name="PRIMARY">
       <NameSurrogate>1</NameSurrogate>
       <ColNames>team_id</ColNames>
       <Primary>1</Primary>
     </key>
-    <foreign-key id="319" parent="246" name="fk_pointguard">
+    <foreign-key id="320" parent="246" name="fk_pointguard_id">
       <ColNames>pointguard_id</ColNames>
       <RefSchemaName>test_basketball</RefSchemaName>
       <RefTableName>point_guard</RefTableName>
       <RefColNames>pointguard_id</RefColNames>
     </foreign-key>
-    <foreign-key id="320" parent="246" name="fk_shootingguard">
+    <foreign-key id="321" parent="246" name="fk_shootingguard_id">
       <ColNames>shootingguard_id</ColNames>
       <RefSchemaName>test_basketball</RefSchemaName>
-      <RefTableName>shootingguard</RefTableName>
+      <RefTableName>shooting_guard</RefTableName>
       <RefColNames>shootingguard_id</RefColNames>
     </foreign-key>
-    <foreign-key id="321" parent="246" name="fk_smallforward">
+    <foreign-key id="322" parent="246" name="fk_smallforward_id">
       <ColNames>smallforward_id</ColNames>
       <RefSchemaName>test_basketball</RefSchemaName>
       <RefTableName>small_forward</RefTableName>
       <RefColNames>smallforward_id</RefColNames>
     </foreign-key>
-    <foreign-key id="322" parent="246" name="fk_powerforward">
+    <foreign-key id="323" parent="246" name="fk_powerforward_id">
       <ColNames>powerforward_id</ColNames>
       <RefSchemaName>test_basketball</RefSchemaName>
       <RefTableName>power_forward</RefTableName>
       <RefColNames>powerforward_id</RefColNames>
     </foreign-key>
-    <foreign-key id="323" parent="246" name="fk_center">
+    <foreign-key id="324" parent="246" name="fk_center_id">
       <ColNames>center_id</ColNames>
       <RefSchemaName>test_basketball</RefSchemaName>
       <RefTableName>center</RefTableName>
       <RefColNames>center_id</RefColNames>
     </foreign-key>
-    <foreign-key id="324" parent="246" name="fk_user_id">
+    <foreign-key id="325" parent="246" name="fk_user_id">
       <ColNames>user_id</ColNames>
       <RefSchemaName>test_basketball</RefSchemaName>
       <RefTableName>users</RefTableName>
       <RefColNames>user_id</RefColNames>
     </foreign-key>
-    <column id="325" parent="247" name="user_id">
+    <column id="326" parent="247" name="user_id">
       <Position>1</Position>
       <DataType>int(11)|0</DataType>
       <NotNull>1</NotNull>
       <SequenceIdentity>1</SequenceIdentity>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="326" parent="247" name="user_name">
+    <column id="327" parent="247" name="user_name">
       <Position>2</Position>
       <DataType>varchar(15)|0</DataType>
       <NotNull>1</NotNull>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="327" parent="247" name="user_pass">
+    <column id="328" parent="247" name="user_pass">
       <Position>3</Position>
       <DataType>varchar(15)|0</DataType>
       <NotNull>1</NotNull>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="328" parent="247" name="first_name">
+    <column id="329" parent="247" name="first_name">
       <Position>4</Position>
       <DataType>varchar(255)|0</DataType>
       <NotNull>1</NotNull>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="329" parent="247" name="last_name">
+    <column id="330" parent="247" name="last_name">
       <Position>5</Position>
       <DataType>varchar(255)|0</DataType>
       <NotNull>1</NotNull>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="330" parent="247" name="email">
+    <column id="331" parent="247" name="email">
       <Position>6</Position>
       <DataType>varchar(255)|0</DataType>
       <NotNull>1</NotNull>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <key id="331" parent="247" name="PRIMARY">
+    <key id="332" parent="247" name="PRIMARY">
       <NameSurrogate>1</NameSurrogate>
       <ColNames>user_id</ColNames>
       <Primary>1</Primary>

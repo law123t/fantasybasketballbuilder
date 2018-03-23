@@ -42,7 +42,7 @@ public class ShootingGuard {
     private int turnovers;
 
 
-    @OneToMany(mappedBy = "shootingGuards", cascade = CascadeType.ALL, orphanRemoval = true, fetch = FetchType.EAGER)
+    @OneToMany(mappedBy = "shootingGuard", cascade = CascadeType.ALL, orphanRemoval = true, fetch = FetchType.EAGER)
     private Set<Team> teams = new HashSet<>();
 
     //private Status status;

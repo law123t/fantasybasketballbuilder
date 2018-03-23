@@ -4,6 +4,7 @@ import matc.madjava.entity.User;
 import matc.madjava.util.Database;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
+import org.junit.jupiter.api.AfterEach;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
@@ -18,11 +19,11 @@ class UserDAOTest {
 
     @BeforeEach
     void setUp() {
-        userDAO = new UserDAO();
-        genericDAO = new GenericDAO(User.class);
-
         Database database = matc.madjava.util.Database.getInstance();
         database.runSQL("cleandb.sql");
+
+        userDAO = new UserDAO();
+        genericDAO = new GenericDAO(User.class);
 
         userDAO = new UserDAO();
     }
@@ -49,9 +50,8 @@ class UserDAOTest {
         int id = userDAO.insertUser(newUser);
         assertNotEquals(0,id);
         User insertedUser = userDAO.getUserByID(id);
-        assertEquals("Test", insertedUser.getFirstName());
-        // Could continue comparing all values, but
-        // it may make sense to use .equals()
+        assertEquals("Test", insertedUser.getFirstName(), "first name is not equal");
+        assertTrue(insertedUser.equals(newUser), "users are not equal");
     }
 
     /**
@@ -59,8 +59,8 @@ class UserDAOTest {
      */
     @Test
     void deleteSuccess() {
-        userDAO.deleteUserByID(userDAO.getUserByID(1));
-        assertNull(userDAO.getUserByID(1));
+        userDAO.deleteUserByID(userDAO.getUserByID(2));
+        assertNull(userDAO.getUserByID(2));
     }
 
     /**
@@ -88,6 +88,9 @@ class UserDAOTest {
     @Test
     void getByPropertyLikeSuccess() {
         List<User> users = userDAO.getByPropertyLike("lastName", "S");
+        for(User user : users) {
+            log.info(user.getLastName());
+        }
         assertEquals(2, users.size());
     }
 }

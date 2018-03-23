@@ -42,7 +42,7 @@ public class SmallForward {
     private int turnovers;
 
 
-    @OneToMany(mappedBy = "smallForwards", cascade = CascadeType.ALL, orphanRemoval = true, fetch = FetchType.EAGER)
+    @OneToMany(mappedBy = "smallForward", cascade = CascadeType.ALL, orphanRemoval = true, fetch = FetchType.EAGER)
     private Set<Team> teams = new HashSet<>();
 
     //private Status status;

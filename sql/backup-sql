@@ -178,9 +178,10 @@ CREATE TABLE `user_roles` (
   `userrole_id` int(11) NOT NULL AUTO_INCREMENT,
   `role_name` varchar(15) NOT NULL,
   `user_id` int(11) NOT NULL,
+  `user_name` varchar(15) NOT NULL,
   PRIMARY KEY (`userrole_id`),
-  KEY `fk_user_id_inx` (`user_id`),
-  CONSTRAINT `user_id` FOREIGN KEY (`user_id`) REFERENCES `users` (`user_id`)
+  KEY `fk_user_id_roles_inx` (`user_id`),
+  CONSTRAINT `fk_user_id_roles` FOREIGN KEY (`user_id`) REFERENCES `users` (`user_id`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
@@ -190,7 +191,7 @@ CREATE TABLE `user_roles` (
 
 LOCK TABLES `user_roles` WRITE;
 /*!40000 ALTER TABLE `user_roles` DISABLE KEYS */;
-INSERT INTO `user_roles` VALUES (null,'administrator', '1'),(null,'administrator', '2'),(null,'user', '3');
+INSERT INTO `user_roles` VALUES (null,'administrator','1','admin'),(null,'administrator', '2','admin2'),(null,'user','3','User');
 /*!40000 ALTER TABLE `user_roles` ENABLE KEYS */;
 UNLOCK TABLES;
 
@@ -219,7 +220,7 @@ CREATE TABLE `user_team` (
   KEY `fk_user_id_inx` (`user_id`),
   CONSTRAINT `fk_user_id` FOREIGN KEY (`user_id`) REFERENCES `users` (`user_id`),
   CONSTRAINT `fk_pointguard` FOREIGN KEY (`pointguard_id`) REFERENCES `point_guard` (`pointguard_id`),
-  CONSTRAINT `fk_shootingguard` FOREIGN KEY (`shootingguard_id`) REFERENCES `shootingguard` (`shootingguard_id`),
+  CONSTRAINT `fk_shootingguard` FOREIGN KEY (`shootingguard_id`) REFERENCES `shooting_guard` (`shootingguard_id`),
   CONSTRAINT `fk_smallforward` FOREIGN KEY (`smallforward_id`) REFERENCES `small_forward` (`smallforward_id`),
   CONSTRAINT `fk_powerforward` FOREIGN KEY (`powerforward_id`) REFERENCES `power_forward` (`powerforward_id`),
   CONSTRAINT `fk_center` FOREIGN KEY (`center_id`) REFERENCES `center` (`center_id`)

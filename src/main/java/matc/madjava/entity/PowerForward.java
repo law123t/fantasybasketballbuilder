@@ -42,7 +42,7 @@ public class PowerForward {
     private int turnovers;
 
 
-    @OneToMany(mappedBy = "powerForwards", cascade = CascadeType.ALL, orphanRemoval = true, fetch = FetchType.EAGER)
+    @OneToMany(mappedBy = "powerForward", cascade = CascadeType.ALL, orphanRemoval = true, fetch = FetchType.EAGER)
     private Set<Team> teams = new HashSet<>();
 
     //private Status status;

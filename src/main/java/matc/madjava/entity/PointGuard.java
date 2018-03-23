@@ -42,7 +42,7 @@ public class PointGuard {
     private int turnovers;
 
 
-    @OneToMany(mappedBy = "pointGuards", cascade = CascadeType.ALL, orphanRemoval = true, fetch = FetchType.EAGER)
+    @OneToMany(mappedBy = "pointGuard", cascade = CascadeType.ALL, orphanRemoval = true, fetch = FetchType.EAGER)
     private Set<Team> teams = new HashSet<>();
 
     //private Status status;
