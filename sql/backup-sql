@@ -1,4 +1,4 @@
-USE test_basketball;
+USE proj_basketball;
 -- MySQL dump 10.13  Distrib 5.7.19, for Win64 (x86_64)
 --
 -- Host: 127.0.0.1    Database: ind_proj
@@ -212,18 +212,18 @@ CREATE TABLE `user_team` (
   `center_id` int(11) DEFAULT NULL,
   `user_id` int(11) NOT NULL,
   PRIMARY KEY (`team_id`),
-  KEY `fk_pointguard_inx` (`pointguard_id`),
-  KEY `fk_shootingguard_inx` (`shootingguard_id`),
-  KEY `fk_smallforward_inx` (`smallforward_id`),
-  KEY `fk_powerforward_inx` (`powerforward_id`),
-  KEY `fk_center_inx` (`center_id`),
+  KEY `fk_pointguard_idinx` (`pointguard_id`),
+  KEY `fk_shootingguard_id_inx` (`shootingguard_id`),
+  KEY `fk_smallforward_id_inx` (`smallforward_id`),
+  KEY `fk_powerforward_id_inx` (`powerforward_id`),
+  KEY `fk_center_id_inx` (`center_id`),
   KEY `fk_user_id_inx` (`user_id`),
   CONSTRAINT `fk_user_id` FOREIGN KEY (`user_id`) REFERENCES `users` (`user_id`),
-  CONSTRAINT `fk_pointguard` FOREIGN KEY (`pointguard_id`) REFERENCES `point_guard` (`pointguard_id`),
-  CONSTRAINT `fk_shootingguard` FOREIGN KEY (`shootingguard_id`) REFERENCES `shooting_guard` (`shootingguard_id`),
-  CONSTRAINT `fk_smallforward` FOREIGN KEY (`smallforward_id`) REFERENCES `small_forward` (`smallforward_id`),
-  CONSTRAINT `fk_powerforward` FOREIGN KEY (`powerforward_id`) REFERENCES `power_forward` (`powerforward_id`),
-  CONSTRAINT `fk_center` FOREIGN KEY (`center_id`) REFERENCES `center` (`center_id`)
+  CONSTRAINT `fk_pointguard_id` FOREIGN KEY (`pointguard_id`) REFERENCES `point_guard` (`pointguard_id`),
+  CONSTRAINT `fk_shootingguard_id` FOREIGN KEY (`shootingguard_id`) REFERENCES `shooting_guard` (`shootingguard_id`),
+  CONSTRAINT `fk_smallforward_id` FOREIGN KEY (`smallforward_id`) REFERENCES `small_forward` (`smallforward_id`),
+  CONSTRAINT `fk_powerforward_id` FOREIGN KEY (`powerforward_id`) REFERENCES `power_forward` (`powerforward_id`),
+  CONSTRAINT `fk_center_id` FOREIGN KEY (`center_id`) REFERENCES `center` (`center_id`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 /*!40101 SET character_set_client = @saved_cs_client */;
 

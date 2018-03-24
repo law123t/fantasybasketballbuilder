@@ -47,7 +47,7 @@ class UserDAOTest {
     void insertSuccess() {
 
         User newUser = new User("testname","testpass","Test","name","test@pass.com");
-        int id = userDAO.insertUser(newUser);
+        int id = genericDAO.insert(newUser);
         assertNotEquals(0,id);
         User insertedUser = userDAO.getUserByID(id);
         assertEquals("Test", insertedUser.getFirstName(), "first name is not equal");
