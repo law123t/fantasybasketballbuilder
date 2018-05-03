@@ -24,8 +24,52 @@
 
     <security-constraint>
         <web-resource-collection>
+            <web-resource-name>appIndex</web-resource-name>
+            <url-pattern>/appIndex.jsp</url-pattern>
+        </web-resource-collection>
+        <auth-constraint>
+            <role-name>user</role-name>
+            <role-name>administrator</role-name>
+        </auth-constraint>
+    </security-constraint>
+
+    <security-constraint>
+        <web-resource-collection>
             <web-resource-name>createTeamServlet</web-resource-name>
             <url-pattern>/createTeam</url-pattern>
+        </web-resource-collection>
+        <auth-constraint>
+            <role-name>user</role-name>
+            <role-name>administrator</role-name>
+        </auth-constraint>
+    </security-constraint>
+
+    <security-constraint>
+        <web-resource-collection>
+            <web-resource-name>createResultsServlet</web-resource-name>
+            <url-pattern>/createResults</url-pattern>
+        </web-resource-collection>
+        <auth-constraint>
+            <role-name>user</role-name>
+            <role-name>administrator</role-name>
+        </auth-constraint>
+    </security-constraint>
+
+    <security-constraint>
+        <web-resource-collection>
+            <web-resource-name>viewSelectorServlet</web-resource-name>
+            <url-pattern>/teamSelector</url-pattern>
+        </web-resource-collection>
+        <auth-constraint>
+            <role-name>user</role-name>
+            <role-name>administrator</role-name>
+        </auth-constraint>
+    </security-constraint>
+
+    <security-constraint>
+        <web-resource-collection>
+            <web-resource-name>viewTeamServlet</web-resource-name>
+            <url-pattern>/viewTeams</url-pattern>
         </web-resource-collection>
         <auth-constraint>
             <role-name>user</role-name>

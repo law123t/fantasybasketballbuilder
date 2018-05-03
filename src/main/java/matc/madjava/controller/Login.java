@@ -24,7 +24,7 @@ public class Login extends HttpServlet {
 
         HttpSession session = req.getSession();
 
-        resp.sendRedirect("basketballApp/ILoggedIn.jsp");
+        resp.sendRedirect("appIndex.jsp");
 
     }
 }

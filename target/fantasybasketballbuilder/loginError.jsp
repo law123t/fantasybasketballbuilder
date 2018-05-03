@@ -9,7 +9,7 @@
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <html>
 <c:set var="pageTitle" value="LOGIN ERROR" scope="session" />
-<c:import url="/content-jsp/head.jsp" />
+<c:import url="/content-jsp/head-launch.jsp" />
 
 <body>
 

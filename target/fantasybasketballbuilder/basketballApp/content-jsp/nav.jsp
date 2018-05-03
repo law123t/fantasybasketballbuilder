@@ -2,30 +2,24 @@
     <div id="sidebar-wrapper">
         <ul class="sidebar-nav">
             <li class="sidebar-brand">
-                <a href="#">
-                    Start Bootstrap
+                <a href="appIndex.jsp">
+                    Fantasy Basketball Builder
                 </a>
             </li>
             <li>
-                <a href="basketballApp/ILoggedIn.jsp">Login tester 4</a>
-            </li>
-            <li>
-                <a href="login">login servlet</a>
+                <a href="teamSelector">My Teams</a>
             </li>
             <li>
                 <a href="createTeam">Create a Team</a>
             </li>
             <li>
-                <a href="#">Events</a>
-            </li>
-            <li>
-                <a href="#">About</a>
-            </li>
-            <li>
-                <a href="#">Services</a>
+                <a href="#">About Us</a>
             </li>
             <li>
                 <a href="#">Contact</a>
+            </li>
+            <li>
+                <a href="logout">Log Out</a>
             </li>
         </ul>
     </div>

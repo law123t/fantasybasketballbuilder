@@ -104,4 +104,19 @@ public class GenericDAO<T> {
         return entities;
     }
 
+    public T getByPropertyEqualUnique(String propertyName, String value) {
+        Session session = getSession();
+
+        log.debug("Searching for user with " + propertyName + " = " + value);
+
+        CriteriaBuilder builder = session.getCriteriaBuilder();
+        CriteriaQuery<T> query = builder.createQuery( type );
+        Root<T> root = query.from( type );
+        query.select(root).where(builder.equal(root.get(propertyName), value));
+        T entity = session.createQuery( query ).getSingleResult();
+
+        session.close();
+        return entity;
+    }
+
 }

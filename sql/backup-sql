@@ -1,4 +1,4 @@
-USE proj_basketball;
+USE test_basketball;
 -- MySQL dump 10.13  Distrib 5.7.19, for Win64 (x86_64)
 --
 -- Host: 127.0.0.1    Database: ind_proj

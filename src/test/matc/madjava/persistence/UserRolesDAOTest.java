@@ -15,7 +15,6 @@ import static org.junit.jupiter.api.Assertions.*;
 class UserRolesDAOTest {
 
     private final Logger log = LogManager.getLogger(this.getClass());
-    UserRolesDAO userRolesDAO;
     GenericDAO genericDAO;
 
     @BeforeEach
@@ -23,14 +22,11 @@ class UserRolesDAOTest {
         Database database = matc.madjava.util.Database.getInstance();
         database.runSQL("cleandb.sql");
 
-        userRolesDAO = new UserRolesDAO();
         genericDAO = new GenericDAO(UserRoles.class);
-
-        userRolesDAO = new UserRolesDAO();
-    }
+}
 
     /**
-     * Verify successful retrieval of a user
+     * Verify successful retrieval of a role
      */
     @Test
     void getByIdSuccess() {
@@ -41,33 +37,33 @@ class UserRolesDAOTest {
     }
 
     /**
-     * Verify successful insert of a user
+     * Verify successful insert of a user role
      */
     @Test
     void insertSuccess() {
         User newUser = new User("testname","testpass","Test","name","test@pass.com");
         UserRoles newRole = new UserRoles(1, "administrator", newUser, "testname");
-        int id = userRolesDAO.insertUserRoles(newRole);
+        int id = genericDAO.insert(newRole);
         assertNotEquals(0,id);
-        UserRoles insertedRole = userRolesDAO.getUserRoleByID(id);
+        UserRoles insertedRole = (UserRoles)genericDAO.getByID(id);
         assertEquals("administrator", insertedRole.getRoleName(), "role is not equal");
     }
 
     /**
-     * Verify successful delete of user
+     * Verify successful delete of user role
      */
     @Test
     void deleteSuccess() {
-        userRolesDAO.deleteUserRolesByID(userRolesDAO.getUserRoleByID(2));
-        assertNull(userRolesDAO.getUserRoleByID(2));
+        genericDAO.delete(genericDAO.getByID(2));
+        assertNull(genericDAO.getByID(2));
     }
 
     /**
-     * Verify successful retrieval of all users
+     * Verify successful retrieval of all users role
      */
     @Test
     void getAllSuccess() {
-        List<UserRoles> roles = userRolesDAO.getAllUserRoles();
+        List<UserRoles> roles = genericDAO.getAll();
         assertEquals(3, roles.size());
     }
 
@@ -76,7 +72,7 @@ class UserRolesDAOTest {
      */
     @Test
     void getByPropertyEqualSuccess() {
-        List<UserRoles> roles = userRolesDAO.getByPropertyLike("userName", "admin");
+        List<UserRoles> roles = genericDAO.getByPropertyLike("userName", "admin");
         assertEquals(2, roles.size());
         assertEquals(1, roles.get(0).getUserRoleId());
     }
@@ -86,10 +82,19 @@ class UserRolesDAOTest {
      */
     @Test
     void getByPropertyLikeSuccess() {
-        List<UserRoles> roles = userRolesDAO.getByPropertyLike("userName", "a");
+        List<UserRoles> roles = genericDAO.getByPropertyLike("userName", "a");
         for(UserRoles role : roles) {
             log.info(role.getUserName());
         }
         assertEquals(2, roles.size());
+    }
+
+    /**
+     * successful use of specific use case unique finder (equal match)
+     */
+    @Test
+    void getByPropertyEqualUnique() {
+        UserRoles role = (UserRoles)genericDAO.getByPropertyEqualUnique("userName", "admin");
+        assertEquals("admin", role.getUserName());
     }
 }

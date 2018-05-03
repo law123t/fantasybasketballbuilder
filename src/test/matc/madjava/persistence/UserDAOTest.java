@@ -4,17 +4,16 @@ import matc.madjava.entity.User;
 import matc.madjava.util.Database;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
+import org.junit.After;
 import org.junit.jupiter.api.AfterEach;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
-
 import java.util.List;
 
 import static org.junit.jupiter.api.Assertions.*;
 
 class UserDAOTest {
     private final Logger log = LogManager.getLogger(this.getClass());
-    UserDAO userDAO;
     GenericDAO genericDAO;
 
     @BeforeEach
@@ -22,10 +21,13 @@ class UserDAOTest {
         Database database = matc.madjava.util.Database.getInstance();
         database.runSQL("cleandb.sql");
 
-        userDAO = new UserDAO();
         genericDAO = new GenericDAO(User.class);
+    }
 
-        userDAO = new UserDAO();
+    @AfterEach
+    void tearDown() {
+        Database database = matc.madjava.util.Database.getInstance();
+        database.runSQL("cleandb.sql");
     }
 
     /**
@@ -49,9 +51,13 @@ class UserDAOTest {
         User newUser = new User("testname","testpass","Test","name","test@pass.com");
         int id = genericDAO.insert(newUser);
         assertNotEquals(0,id);
-        User insertedUser = userDAO.getUserByID(id);
+        User insertedUser = (User)genericDAO.getByID(id);
         assertEquals("Test", insertedUser.getFirstName(), "first name is not equal");
-        assertTrue(insertedUser.equals(newUser), "users are not equal");
+        assertEquals("testname", insertedUser.getUserName(), "Username is not equal");
+        assertEquals("testpass", insertedUser.getUserPass(), "Pass is not equal");
+        assertEquals("name", insertedUser.getLastName(), "Last name is not equal");
+        assertEquals("test@pass.com", insertedUser.getEmail(), "Email is not equal");
+
     }
 
     /**
@@ -59,8 +65,8 @@ class UserDAOTest {
      */
     @Test
     void deleteSuccess() {
-        userDAO.deleteUserByID(userDAO.getUserByID(2));
-        assertNull(userDAO.getUserByID(2));
+        genericDAO.delete((genericDAO.getByID(2)));
+        assertNull(genericDAO.getByID(2));
     }
 
     /**
@@ -68,7 +74,7 @@ class UserDAOTest {
      */
     @Test
     void getAllSuccess() {
-        List<User> users = userDAO.getAllUsers();
+        List<User> users = genericDAO.getAll();
         assertEquals(3, users.size());
     }
 
@@ -77,7 +83,7 @@ class UserDAOTest {
      */
     @Test
     void getByPropertyEqualSuccess() {
-        List<User> users = userDAO.getByPropertyLike("lastName", "Seth");
+        List<User> users = genericDAO.getByPropertyLike("lastName", "Seth");
         assertEquals(1, users.size());
         assertEquals(3, users.get(0).getUserId());
     }
@@ -87,10 +93,19 @@ class UserDAOTest {
      */
     @Test
     void getByPropertyLikeSuccess() {
-        List<User> users = userDAO.getByPropertyLike("lastName", "S");
+        List<User> users = genericDAO.getByPropertyLike("lastName", "S");
         for(User user : users) {
             log.info(user.getLastName());
         }
         assertEquals(2, users.size());
+    }
+
+    /**
+     * successful use of specific use case unique finder (equal match)
+     */
+    @Test
+    void getByPropertyEqualUnique() {
+        User user = (User)genericDAO.getByPropertyEqualUnique("email", "seth@beth.com");
+        assertEquals("Beth", user.getFirstName() );
     }
 }
