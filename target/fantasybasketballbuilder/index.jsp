@@ -16,7 +16,7 @@
                     <h5>Our site provides the sandbox team builder of your dreams!</h5>
                 </div>
             </div>
-            <div id="errormessage" class="container-fluid"><h1>${errormessage}</h1></div>
+            <div id="errormessage" class="container-fluid" style="margin:40px;color:red;"><h1>${errormessage}</h1></div>
 
             <a href="#menu-toggle" class="btn btn-secondary" id="menu-toggle">Toggle Menu</a>
         </div>

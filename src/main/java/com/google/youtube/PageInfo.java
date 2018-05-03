@@ -1,14 +1,17 @@
 package com.google.youtube;
 
+import com.fasterxml.jackson.annotation.JsonIgnore;
 import com.fasterxml.jackson.annotation.JsonProperty;
 import javax.annotation.Generated;
 
 @Generated("com.robohorse.robopojogenerator")
 public class PageInfo{
 
+	@JsonIgnore
 	@JsonProperty("totalResults")
 	private int totalResults;
 
+	@JsonIgnore
 	@JsonProperty("resultsPerPage")
 	private int resultsPerPage;
 

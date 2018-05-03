@@ -1,17 +1,21 @@
 package com.google.youtube;
 
+import com.fasterxml.jackson.annotation.JsonIgnore;
 import com.fasterxml.jackson.annotation.JsonProperty;
 import javax.annotation.Generated;
 
 @Generated("com.robohorse.robopojogenerator")
 public class JsonMemberDefault{
 
+	@JsonIgnore
 	@JsonProperty("width")
 	private int width;
 
+	@JsonIgnore
 	@JsonProperty("url")
 	private String url;
 
+	@JsonIgnore
 	@JsonProperty("height")
 	private int height;
 

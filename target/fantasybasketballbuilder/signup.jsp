@@ -14,7 +14,7 @@
 
 <body>
 <div id="wrapper">
-    <c:import url="content-jsp/nav.jsp"/>
+    <c:import url="content-jsp/nav-launch.jsp"/>
     <div id="page-content-wrapper">
         <div class="container-fluid">
             <div class="hero-section">
@@ -29,21 +29,21 @@
             <form method="POST" action="signup">
                 <div class="form-group">
                     <label for="username">Username:</label>
-                    <input type="text" name="username" id="username"/>
+                    <input type="text" name="username" id="username" required/>
                 </div>
                 <div class="form-group">
                     <label for="password">Password:</label>
-                    <input type="password" name="password" id="password" />
+                    <input type="password" name="password" id="password" required/>
                 </div>
                     <label for="firstName">First Name:</label>
-                    <input type="text" name="firstName" id="firstName"/>
+                    <input type="text" name="firstName" id="firstName" required/>
                 <div class="form-group">
                     <label for="lastName">Last Name:</label>
-                    <input type="text" name="lastName" id="lastName"/>
+                    <input type="text" name="lastName" id="lastName" required/>
                 </div>
                 <div class="form-group">
                     <label for="email">Email:</label>
-                    <input type="text" name="email" id="email"/>
+                    <input type="text" name="email" id="email" required/>
                 </div>
                 <div class="form-group">
                     <label for="admin">Enter Admin Key:</label>

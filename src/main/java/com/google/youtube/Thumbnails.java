@@ -1,20 +1,25 @@
 package com.google.youtube;
 
+import com.fasterxml.jackson.annotation.JsonIgnore;
 import com.fasterxml.jackson.annotation.JsonProperty;
 import javax.annotation.Generated;
 
 @Generated("com.robohorse.robopojogenerator")
 public class Thumbnails{
 
+	@JsonIgnore
 	@JsonProperty("standard")
 	private Standard standard;
 
+	@JsonIgnore
 	@JsonProperty("default")
 	private JsonMemberDefault jsonMemberDefault;
 
+	@JsonIgnore
 	@JsonProperty("high")
 	private High high;
 
+	@JsonIgnore
 	@JsonProperty("medium")
 	private Medium medium;
 

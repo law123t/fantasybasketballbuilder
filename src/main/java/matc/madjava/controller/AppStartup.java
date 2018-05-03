@@ -41,7 +41,6 @@ import javax.servlet.http.*;
     public void init() throws ServletException {
 
         loadProperties("/fantasybasketballbuilder.properties");
-
         ServletContext context = getServletContext();
         context.setAttribute("fbbProperties", properties);
     }

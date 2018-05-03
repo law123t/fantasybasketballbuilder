@@ -1,18 +1,23 @@
 package com.google.youtube;
 
 import java.util.List;
+
+import com.fasterxml.jackson.annotation.JsonIgnore;
 import com.fasterxml.jackson.annotation.JsonProperty;
 import javax.annotation.Generated;
 
 @Generated("com.robohorse.robopojogenerator")
 public class Response{
 
+	@JsonIgnore
 	@JsonProperty("kind")
 	private String kind;
 
+	@JsonIgnore
 	@JsonProperty("pageInfo")
 	private PageInfo pageInfo;
 
+	@JsonIgnore
 	@JsonProperty("etag")
 	private String etag;
 

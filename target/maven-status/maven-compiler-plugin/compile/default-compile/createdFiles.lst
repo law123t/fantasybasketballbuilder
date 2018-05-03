@@ -17,6 +17,7 @@ matc\madjava\controller\Signup.class
 com\google\youtube\ItemsItem.class
 com\google\youtube\High.class
 matc\madjava\controller\Login.class
+matc\madjava\controller\LoadAPI.class
 com\google\youtube\Localized.class
 matc\madjava\entity\User.class
 matc\madjava\util\Functions.class

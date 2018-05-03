@@ -256,6 +256,7 @@
 
     $(document).ready(function() {
         $("#submitteam").click(function() {
+            $('#successtext').empty();
             var teamName = $('input[name="teamName"]').val();
             if (pgID > 0 && sgID > 0 && sfID > 0 && pfID > 0 && cID > 0 && teamName !== ""){
                 servletCall();

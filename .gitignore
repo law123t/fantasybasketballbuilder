@@ -1,6 +1,5 @@
 #gitignore
 fantasybasketballbuilder.iml
 .idea/*
-legacy/
 logs/*
 sql/*

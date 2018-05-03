@@ -17,7 +17,7 @@
                     <h5>Get started on new teams or view previous teams</h5>
                 </div>
             </div>
-            <p>this application allows the lineups of your dreams! <code>#page-content-wrapper</code>.</p>
+            <p>this application allows the lineups of your dreams! ${playlistID}<code>#page-content-wrapper</code>.</p>
         </div>
     </div>
     <div id="message" class="container-fluid">
@@ -26,6 +26,12 @@
                 <h2>${message}</h2>
             </div>
         </div>
+    </div>
+    <div class="flex-lg-wrap"style="float:right;margin:auto;">
+        <div>
+            <h2>Highlights around the League!</h2>
+        </div>
+        <div class="container"><div id="player"></div></div>
     </div>
     <a href="/#menu-toggle" class="btn btn-secondary" id="menu-toggle">Toggle Menu</a>
 </div>

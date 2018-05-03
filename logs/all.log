@@ -9635,3 +9635,12 @@
 [DEBUG] 2018-05-03 10:30:33.183 [http-nio-8080-exec-6] GenericDAO - Searching for class matc.madjava.entity.User with userName = adminAdded
 [DEBUG] 2018-05-03 10:30:33.183 [http-nio-8080-exec-6] GenericDAO - Searching for class matc.madjava.entity.User with email = little@dog.com
 [INFO ] 2018-05-03 10:30:33.560 [http-nio-8080-exec-6] Signup - adminAdded added, redirecting to index
+[INFO ] 2018-05-03 11:27:31.416 [http-nio-8080-exec-10] LoadAPI - https://www.googleapis.com/youtube/v3/playlists?key=AIzaSyD6O_2WJ-IlAjmAB_cd7hL9t4mX4b7WDUo%0D%0A&part=snippet&maxResults=20channelId=UCoh_z6QB0AGB1oxWufvbDUg
+[INFO ] 2018-05-03 11:30:34.757 [http-nio-8080-exec-4] LoadAPI - https://www.googleapis.com/youtube/v3/playlists?key=AIzaSyD6O_2WJ-IlAjmAB_cd7hL9t4mX4b7WDUo%0D%0A&part=snippet&maxResults=20channelId=UCoh_z6QB0AGB1oxWufvbDUg
+[INFO ] 2018-05-03 11:38:30.168 [http-nio-8080-exec-2] LoadAPI - https://www.googleapis.com/youtube/v3/playlists?key=AIzaSyD6O_2WJ-IlAjmAB_cd7hL9t4mX4b7WDUo%0D%0A&part=snippet&maxResults=20channelId=UCoh_z6QB0AGB1oxWufvbDUg
+[DEBUG] 2018-05-03 12:00:56.882 [http-nio-8080-exec-1] GenericDAO - The list of entity type [Player{playerID='1', firstName='Russel', lastName='Westbrook'}, Player{playerID='2', firstName='Stephen', lastName='Curry'}]
+[DEBUG] 2018-05-03 12:00:56.940 [http-nio-8080-exec-1] GenericDAO - The list of entity type [Player{playerID='1', firstName='James', lastName='Harden'}, Player{playerID='2', firstName='DeMar', lastName='DeRozan'}]
+[DEBUG] 2018-05-03 12:00:56.983 [http-nio-8080-exec-1] GenericDAO - The list of entity type [Player{playerID='1', firstName='Lebron', lastName='James'}, Player{playerID='2', firstName='Kawhi', lastName='Leonard'}]
+[DEBUG] 2018-05-03 12:00:57.028 [http-nio-8080-exec-1] GenericDAO - The list of entity type [Player{playerID='1', firstName='Anthony', lastName='Davis'}]
+[DEBUG] 2018-05-03 12:00:57.064 [http-nio-8080-exec-1] GenericDAO - The list of entity type [Player{playerID='1', firstName='Karl', lastName='Anthony Towns'}]
+[DEBUG] 2018-05-03 12:01:29.263 [http-nio-8080-exec-2] GenericDAO - Searching for user with userName = admin2
