@@ -1,4 +1,4 @@
-# FinalFantasyFootball
+# Fantasy Basketball Builder
 
 ## Problem Statement
 * In this project, I plan to address the problem of having the freedom to project and simulate football
@@ -23,10 +23,15 @@ the simulation 16 times, giving only the total season points and amounts of wins
 * Maven
 * Hibernate
 * AWS
-* JQuery (draggable droppable?)
 * Tomcat & Tomee
 * Java
 * SQL</br>
+
+### Independent Research Technology
+* JQuery library (Draggable Droppable, conforming to form functionality); </br>
+
+### API Implemented:
+* API Youtube Data API/ Playlist
 
 ### [Screen Design](screendesign.md)
 ### [Database Design](databasedesign.md)</br>
