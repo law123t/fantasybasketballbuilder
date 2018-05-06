@@ -90,10 +90,21 @@
     <security-constraint>
         <web-resource-collection>
             <web-resource-name>deleteUserServlet</web-resource-name>
-            <url-pattern>/deleteuser</url-pattern>
+            <url-pattern>/deleteUser</url-pattern>
         </web-resource-collection>
         <auth-constraint>
             <role-name>administrator</role-name>
+        </auth-constraint>
+    </security-constraint>
+
+    <security-constraint>
+        <web-resource-collection>
+            <web-resource-name>updateUserServlet</web-resource-name>
+            <url-pattern>/viewUser</url-pattern>
+        </web-resource-collection>
+        <auth-constraint>
+            <role-name>administrator</role-name>
+            <role-name>user</role-name>
         </auth-constraint>
     </security-constraint>
 

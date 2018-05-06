@@ -7,7 +7,7 @@
                 </a>
             </li>
             <li>
-                <a href="deleteuser">Delete a User</a>
+                <a href="deleteUser">Delete a User</a>
             </li>
             <li>
                 <a href="#">PlaceHolder Functionality</a>

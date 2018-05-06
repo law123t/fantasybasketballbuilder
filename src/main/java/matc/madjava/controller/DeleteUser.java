@@ -1,8 +1,6 @@
 package matc.madjava.controller;
 
-import matc.madjava.entity.Team;
 import matc.madjava.entity.User;
-import matc.madjava.entity.UserRoles;
 import matc.madjava.persistence.GenericDAO;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
@@ -18,29 +16,21 @@ import java.io.IOException;
 import java.security.Principal;
 import java.util.ArrayList;
 import java.util.List;
-import java.util.Set;
 
 @WebServlet(
-        urlPatterns={"/deleteuser"},
-        name="deleteuser"
+        urlPatterns={"/deleteUser"},
+        name="deleteUser"
 )
 
 public class DeleteUser extends HttpServlet {
     private final Logger log = LogManager.getLogger(this.getClass());
     GenericDAO genericDAOUser;
-    GenericDAO getGenericDAOUserRole;
     User user;
-    UserRoles userRoles;
 
     @Override
     protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
         HttpSession httpSession = req.getSession();
         genericDAOUser = new GenericDAO(User.class);
-
-        Principal principal = req.getUserPrincipal();
-        String username = principal.getName();
-
-        User user = (User)genericDAOUser.getByPropertyEqualUnique("userName",username);
 
         List<User> users = genericDAOUser.getAll();
 
@@ -67,12 +57,24 @@ public class DeleteUser extends HttpServlet {
         int toDelete =  Integer.parseInt(req.getParameter("deleteuser"));
         log.info(toDelete);
 
-        User deleteUser = (User)genericDAOUser.getByID(toDelete);
-        String user = deleteUser.getUserName();
-        genericDAOUser.delete(deleteUser);
+        Principal principal = req.getUserPrincipal();
+        String username = principal.getName();
 
-        req.setAttribute("message_admin", user + " has been delete!");
-        RequestDispatcher dispatcher = req.getRequestDispatcher("basketballApp/basketballApp-Admin/admin.jsp");
-        dispatcher.forward(req, resp);
+        user = (User)genericDAOUser.getByPropertyEqualUnique("userName",username);
+        int userID = user.getUserId();
+
+        User deleteUser = (User)genericDAOUser.getByID(toDelete);
+        int deleteUserId = deleteUser.getUserId();
+        String user = deleteUser.getUserName();
+        if (userID != deleteUserId) {
+            genericDAOUser.delete(deleteUser);
+            req.setAttribute("message_admin", user + " has been delete!");
+            RequestDispatcher dispatcher = req.getRequestDispatcher("basketballApp/basketballApp-Admin/admin.jsp");
+            dispatcher.forward(req, resp);
+        } else {
+            req.setAttribute("message_admin", "You Cannot Delete Yourself!");
+            RequestDispatcher dispatcher = req.getRequestDispatcher("basketballApp/basketballApp-Admin/admin.jsp");
+            dispatcher.forward(req, resp);
+        }
     }
 }

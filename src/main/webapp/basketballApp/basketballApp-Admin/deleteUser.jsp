@@ -17,7 +17,7 @@
         <div class="container-fluid">
             <div class="container-fluid">
                 <div class="col-lg-8">
-                    <form method="POST" action="deleteuser">
+                    <form method="POST" action="deleteUser">
                         <div class="form-group">
                             <label>Select Your Team</label>
                             <select name="deleteuser" id="deleteuser">

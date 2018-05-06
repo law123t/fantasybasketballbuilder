@@ -5,6 +5,7 @@ com\google\youtube\Thumbnails.class
 matc\madjava\persistence\SessionFactoryProvider.class
 matc\madjava\controller\Logout.class
 matc\madjava\controller\CreateTeam.class
+matc\madjava\controller\ViewUser.class
 matc\madjava\persistence\GenericDAO.class
 matc\madjava\controller\ViewTeams.class
 matc\madjava\entity\Center.class

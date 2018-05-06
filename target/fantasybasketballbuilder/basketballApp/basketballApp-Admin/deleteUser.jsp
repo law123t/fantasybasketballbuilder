@@ -17,7 +17,7 @@
         <div class="container-fluid">
             <div class="container-fluid">
                 <div class="col-lg-8">
-                    <form method="POST" action="deleteuser">
+                    <form method="POST" action="deleteUser">
                         <div class="form-group">
                             <label>Select Your Team</label>
                             <select name="deleteuser" id="deleteuser">
@@ -31,7 +31,7 @@
                         </div>
                     </form>
                 </div>
-                <div class="back"><a href="admin.jsp" style="font-size:2em;text-align:center;">Back to Admin Tools</a></div>
+                <div class="back"><a href="basketballApp/basketballApp-Admin/admin.jsp" style="font-size:2em;text-align:center;">Back to Admin Tools</a></div>
             </div>
             <a href="#menu-toggle" class="btn btn-secondary" id="menu-toggle">Toggle Menu</a>
         </div>

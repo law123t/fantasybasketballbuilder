@@ -26,13 +26,13 @@
                     </div>
                     <div id="admintools">
                         <ul style="font-size:2em;">
-                            <li><a href="deleteuser">Delete A User</a></li>
+                            <li><a href="deleteUser">Delete A User</a></li>
                             <li><a href="#">Next Patch</a></li>
                             <li><a href="#">Next Patch</a></li>
                             <li><a href="#">Next Patch</a></li>
                         </ul>
                     </div>
-                    <div class="back"><a href="appIndex.jsp" style="font-size:2em;text-align:center;">Back to Index</a></div>
+                    <div class="back"><a href="/fantasybasketballbuilder/appIndex.jsp" style="font-size:2em;text-align:center;">Back to Index</a></div>
                 </div>
             </div>
         </div>
