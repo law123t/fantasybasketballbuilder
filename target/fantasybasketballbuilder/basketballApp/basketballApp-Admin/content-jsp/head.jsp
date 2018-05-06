@@ -13,5 +13,22 @@
         <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
         <!-- Custom styles for this template -->
         <link href="css/simple-sidebar.css" rel="stylesheet">
+    <style>
+        #admintools {
+            margin-top:40px;
+            margin-left:auto;
+            margin-right:auto;
+            margin-bottom:40px;
+            border:5px solid black;
+            background-color:bisque;
+            padding: 15px;
+            width: 700px;
+            height: 400px;
+        }
+        .back {
+            width: 400px;
+            margin: auto;
+        }
+    </style>
 
 </head>

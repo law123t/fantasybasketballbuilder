@@ -5,6 +5,7 @@ import matc.madjava.entity.UserRoles;
 import matc.madjava.util.Database;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
+import org.junit.jupiter.api.AfterEach;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
@@ -23,7 +24,13 @@ class UserRolesDAOTest {
         database.runSQL("cleandb.sql");
 
         genericDAO = new GenericDAO(UserRoles.class);
-}
+    }
+
+    @AfterEach
+    void tearDown() {
+        Database database = matc.madjava.util.Database.getInstance();
+        database.runSQL("cleandb.sql");
+    }
 
     /**
      * Verify successful retrieval of a role

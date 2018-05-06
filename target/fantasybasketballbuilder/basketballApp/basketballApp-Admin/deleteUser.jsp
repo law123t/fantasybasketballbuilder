@@ -17,20 +17,21 @@
         <div class="container-fluid">
             <div class="container-fluid">
                 <div class="col-lg-8">
-                    <form method="GET" action="viewTeams">
+                    <form method="POST" action="deleteuser">
                         <div class="form-group">
                             <label>Select Your Team</label>
-                            <select name="team" id="team">
+                            <select name="deleteuser" id="deleteuser">
                                 <c:forEach var="user" items="${user_data}">
                                     <option value="${user.userId}">${user.userName}</option>
                                 </c:forEach>
                             </select>
                         </div>
                         <div class="form-group">
-                            <input type="submit" value="View Team">
+                            <input type="submit" value="Delete User">
                         </div>
                     </form>
                 </div>
+                <div class="back"><a href="admin.jsp" style="font-size:2em;text-align:center;">Back to Admin Tools</a></div>
             </div>
             <a href="#menu-toggle" class="btn btn-secondary" id="menu-toggle">Toggle Menu</a>
         </div>

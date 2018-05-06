@@ -15123,3 +15123,36 @@
 [DEBUG] 2018-05-06 13:34:44.811 [http-nio-8080-exec-9] GenericDAO - Searching for user with userName = admin2
 [DEBUG] 2018-05-06 13:35:54.299 [http-nio-8080-exec-8] GenericDAO - Searching for user with userName = User
 [DEBUG] 2018-05-06 13:41:59.338 [http-nio-8080-exec-8] GenericDAO - Searching for user with userName = admin
+[DEBUG] 2018-05-06 13:48:31.299 [http-nio-8080-exec-5] GenericDAO - Searching for user with userName = User
+[DEBUG] 2018-05-06 13:48:45.616 [http-nio-8080-exec-6] GenericDAO - Searching for user with userName = User
+[DEBUG] 2018-05-06 13:48:57.487 [http-nio-8080-exec-6] GenericDAO - Searching for user with userName = admin
+[DEBUG] 2018-05-06 13:55:57.491 [http-nio-8080-exec-10] GenericDAO - Searching for user with userName = admin
+[DEBUG] 2018-05-06 13:56:12.708 [http-nio-8080-exec-5] GenericDAO - Searching for user with userName = admin
+[DEBUG] 2018-05-06 13:56:12.874 [http-nio-8080-exec-5] GenericDAO - The list of entity type [User{userName ='admin', userPass ='admin', first name ='John', last name ='Smith', email ='smith@john.com'}, User{userName ='admin2', userPass ='admin2', first name ='Tim', last name ='Jim', email ='Jim@Tim.com'}, User{userName ='User', userPass ='User', first name ='Beth', last name ='Seth', email ='seth@beth.com'}, User{userName ='testname', userPass ='testpass', first name ='Test', last name ='name', email ='test@pass.com'}, User{userName ='adminAdded', userPass ='added', first name ='Lawrence', last name ='Thao', email ='little@dog.com'}]
+[DEBUG] 2018-05-06 14:06:50.696 [http-nio-8080-exec-5] GenericDAO - Searching for user with userName = admin
+[DEBUG] 2018-05-06 14:06:57.378 [http-nio-8080-exec-10] GenericDAO - Searching for user with userName = admin
+[DEBUG] 2018-05-06 14:06:58.137 [http-nio-8080-exec-10] GenericDAO - The list of entity type [User{userName ='admin', userPass ='admin', first name ='John', last name ='Smith', email ='smith@john.com'}, User{userName ='admin2', userPass ='admin2', first name ='Tim', last name ='Jim', email ='Jim@Tim.com'}, User{userName ='User', userPass ='User', first name ='Beth', last name ='Seth', email ='seth@beth.com'}, User{userName ='testname', userPass ='testpass', first name ='Test', last name ='name', email ='test@pass.com'}, User{userName ='adminAdded', userPass ='added', first name ='Lawrence', last name ='Thao', email ='little@dog.com'}]
+[INFO ] 2018-05-06 14:10:07.241 [http-nio-8080-exec-7] DeleteUser - 11
+[DEBUG] 2018-05-06 14:17:51.936 [http-nio-8080-exec-5] GenericDAO - Searching for user with userName = admin
+[DEBUG] 2018-05-06 14:20:46.562 [http-nio-8080-exec-10] GenericDAO - Searching for user with userName = admin
+[DEBUG] 2018-05-06 14:20:53.380 [http-nio-8080-exec-4] GenericDAO - Searching for user with userName = admin
+[DEBUG] 2018-05-06 14:26:57.481 [http-nio-8080-exec-7] GenericDAO - Searching for user with userName = admin
+[DEBUG] 2018-05-06 14:29:21.799 [http-nio-8080-exec-10] GenericDAO - Searching for user with userName = admin
+[DEBUG] 2018-05-06 14:29:23.219 [http-nio-8080-exec-1] GenericDAO - Searching for user with userName = admin
+[DEBUG] 2018-05-06 14:29:58.261 [http-nio-8080-exec-8] GenericDAO - Searching for user with userName = admin
+[DEBUG] 2018-05-06 14:29:58.817 [http-nio-8080-exec-8] GenericDAO - The list of entity type [User{userName ='admin', userPass ='admin', first name ='John', last name ='Smith', email ='smith@john.com'}, User{userName ='admin2', userPass ='admin2', first name ='Tim', last name ='Jim', email ='Jim@Tim.com'}, User{userName ='User', userPass ='User', first name ='Beth', last name ='Seth', email ='seth@beth.com'}, User{userName ='adminAdded', userPass ='added', first name ='Lawrence', last name ='Thao', email ='little@dog.com'}]
+[DEBUG] 2018-05-06 14:30:09.865 [http-nio-8080-exec-2] GenericDAO - Searching for user with userName = admin
+[DEBUG] 2018-05-06 14:30:09.957 [http-nio-8080-exec-2] GenericDAO - The list of entity type [User{userName ='admin', userPass ='admin', first name ='John', last name ='Smith', email ='smith@john.com'}, User{userName ='admin2', userPass ='admin2', first name ='Tim', last name ='Jim', email ='Jim@Tim.com'}, User{userName ='User', userPass ='User', first name ='Beth', last name ='Seth', email ='seth@beth.com'}, User{userName ='adminAdded', userPass ='added', first name ='Lawrence', last name ='Thao', email ='little@dog.com'}]
+[DEBUG] 2018-05-06 14:37:08.870 [http-nio-8080-exec-5] GenericDAO - Searching for user with userName = admin
+[DEBUG] 2018-05-06 14:38:18.612 [http-nio-8080-exec-3] GenericDAO - Searching for user with userName = admin
+[DEBUG] 2018-05-06 14:38:18.756 [http-nio-8080-exec-3] GenericDAO - The list of entity type [User{userName ='admin', userPass ='admin', first name ='John', last name ='Smith', email ='smith@john.com'}, User{userName ='admin2', userPass ='admin2', first name ='Tim', last name ='Jim', email ='Jim@Tim.com'}, User{userName ='User', userPass ='User', first name ='Beth', last name ='Seth', email ='seth@beth.com'}, User{userName ='adminAdded', userPass ='added', first name ='Lawrence', last name ='Thao', email ='little@dog.com'}]
+[DEBUG] 2018-05-06 14:46:16.294 [http-nio-8080-exec-10] GenericDAO - Searching for user with userName = admin
+[DEBUG] 2018-05-06 14:46:34.339 [http-nio-8080-exec-9] GenericDAO - Searching for user with userName = admin
+[DEBUG] 2018-05-06 14:50:40.342 [http-nio-8080-exec-6] GenericDAO - Searching for user with userName = admin
+[DEBUG] 2018-05-06 14:50:41.992 [http-nio-8080-exec-8] GenericDAO - Searching for user with userName = admin
+[DEBUG] 2018-05-06 14:50:54.969 [http-nio-8080-exec-8] GenericDAO - Searching for user with userName = admin
+[DEBUG] 2018-05-06 14:51:06.634 [http-nio-8080-exec-4] GenericDAO - Searching for user with userName = admin
+[DEBUG] 2018-05-06 14:51:06.793 [http-nio-8080-exec-4] GenericDAO - The list of entity type [User{userName ='admin', userPass ='admin', first name ='John', last name ='Smith', email ='smith@john.com'}, User{userName ='admin2', userPass ='admin2', first name ='Tim', last name ='Jim', email ='Jim@Tim.com'}, User{userName ='User', userPass ='User', first name ='Beth', last name ='Seth', email ='seth@beth.com'}, User{userName ='adminAdded', userPass ='added', first name ='Lawrence', last name ='Thao', email ='little@dog.com'}]
+[DEBUG] 2018-05-06 14:55:10.093 [http-nio-8080-exec-1] GenericDAO - Searching for user with userName = admin2
+[DEBUG] 2018-05-06 14:55:18.488 [http-nio-8080-exec-9] GenericDAO - Searching for user with userName = admin2
+[DEBUG] 2018-05-06 14:55:18.992 [http-nio-8080-exec-9] GenericDAO - The list of entity type [User{userName ='admin', userPass ='admin', first name ='John', last name ='Smith', email ='smith@john.com'}, User{userName ='admin2', userPass ='admin2', first name ='Tim', last name ='Jim', email ='Jim@Tim.com'}, User{userName ='User', userPass ='User', first name ='Beth', last name ='Seth', email ='seth@beth.com'}, User{userName ='adminAdded', userPass ='added', first name ='Lawrence', last name ='Thao', email ='little@dog.com'}]

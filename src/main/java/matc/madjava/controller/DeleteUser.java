@@ -4,6 +4,8 @@ import matc.madjava.entity.Team;
 import matc.madjava.entity.User;
 import matc.madjava.entity.UserRoles;
 import matc.madjava.persistence.GenericDAO;
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
 
 import javax.servlet.RequestDispatcher;
 import javax.servlet.ServletException;
@@ -24,6 +26,7 @@ import java.util.Set;
 )
 
 public class DeleteUser extends HttpServlet {
+    private final Logger log = LogManager.getLogger(this.getClass());
     GenericDAO genericDAOUser;
     GenericDAO getGenericDAOUserRole;
     User user;
@@ -59,5 +62,17 @@ public class DeleteUser extends HttpServlet {
     protected void doPost(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
         HttpSession httpSession = req.getSession();
 
+        genericDAOUser = new GenericDAO(User.class);
+
+        int toDelete =  Integer.parseInt(req.getParameter("deleteuser"));
+        log.info(toDelete);
+
+        User deleteUser = (User)genericDAOUser.getByID(toDelete);
+        String user = deleteUser.getUserName();
+        genericDAOUser.delete(deleteUser);
+
+        req.setAttribute("message_admin", user + " has been delete!");
+        RequestDispatcher dispatcher = req.getRequestDispatcher("basketballApp/basketballApp-Admin/admin.jsp");
+        dispatcher.forward(req, resp);
     }
 }

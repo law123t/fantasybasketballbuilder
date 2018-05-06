@@ -1,10 +1,9 @@
  <!-- Sidebar -->
     <div id="sidebar-wrapper">
-        <h1>ADMIN RIGHTS</h1>
         <ul class="sidebar-nav">
             <li class="sidebar-brand">
                 <a href="appIndex.jsp">
-                    Back to Application.
+                    ADMIN - to Index
                 </a>
             </li>
             <li>
