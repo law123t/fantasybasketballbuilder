@@ -108,6 +108,16 @@
         </auth-constraint>
     </security-constraint>
 
+    <security-constraint>
+        <web-resource-collection>
+            <web-resource-name>deleteAdminServlet</web-resource-name>
+            <url-pattern>/deleteAdmin</url-pattern>
+        </web-resource-collection>
+        <auth-constraint>
+            <role-name>administrator</role-name>
+        </auth-constraint>
+    </security-constraint>
+
   <security-role>
     <role-name>user</role-name>
   </security-role>

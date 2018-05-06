@@ -1,6 +1,7 @@
 package matc.madjava.controller;
 
 import matc.madjava.entity.User;
+import matc.madjava.entity.UserRoles;
 import matc.madjava.persistence.GenericDAO;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
@@ -25,6 +26,8 @@ import java.util.List;
 public class DeleteUser extends HttpServlet {
     private final Logger log = LogManager.getLogger(this.getClass());
     GenericDAO genericDAOUser;
+    GenericDAO genericDAOUserRole;
+    UserRoles userRoles;
     User user;
 
     @Override
@@ -32,7 +35,10 @@ public class DeleteUser extends HttpServlet {
         HttpSession httpSession = req.getSession();
         genericDAOUser = new GenericDAO(User.class);
 
-        List<User> users = genericDAOUser.getAll();
+        Principal principal = req.getUserPrincipal();
+        String username = principal.getName();
+
+        List<User> users = genericDAOUser.getAllExceptEntity("userName", username);
 
         List<String> userByName = new ArrayList<>();
 
@@ -53,6 +59,7 @@ public class DeleteUser extends HttpServlet {
         HttpSession httpSession = req.getSession();
 
         genericDAOUser = new GenericDAO(User.class);
+        genericDAOUserRole = new GenericDAO(UserRoles.class);
 
         int toDelete =  Integer.parseInt(req.getParameter("deleteuser"));
         log.info(toDelete);
@@ -65,14 +72,24 @@ public class DeleteUser extends HttpServlet {
 
         User deleteUser = (User)genericDAOUser.getByID(toDelete);
         int deleteUserId = deleteUser.getUserId();
+        String deleteUserName = deleteUser.getUserName();
         String user = deleteUser.getUserName();
-        if (userID != deleteUserId) {
+
+        userRoles = (UserRoles)genericDAOUserRole.getByPropertyEqualUnique("userName", username);
+
+        String userRights = userRoles.getRoleName().trim();
+
+        if (userRights.equals("user")) {
             genericDAOUser.delete(deleteUser);
             req.setAttribute("message_admin", user + " has been delete!");
             RequestDispatcher dispatcher = req.getRequestDispatcher("basketballApp/basketballApp-Admin/admin.jsp");
             dispatcher.forward(req, resp);
+        } else if (userRights.equals("administrator")) {
+            req.setAttribute("adminvalue",  deleteUser);
+            RequestDispatcher dispatcher = req.getRequestDispatcher("basketballApp/basketballApp-Admin/adminpasscheck.jsp");
+            dispatcher.forward(req, resp);
         } else {
-            req.setAttribute("message_admin", "You Cannot Delete Yourself!");
+            req.setAttribute("message_admin", "Something Went Wrong!");
             RequestDispatcher dispatcher = req.getRequestDispatcher("basketballApp/basketballApp-Admin/admin.jsp");
             dispatcher.forward(req, resp);
         }

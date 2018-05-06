@@ -119,4 +119,19 @@ public class GenericDAO<T> {
         return entity;
     }
 
+    public List<T> getAllExceptEntity(String propertyName, String value) {
+        Session session = getSession();
+
+        log.debug("Searching for " + type + " with " + propertyName + " = " + value);
+
+        CriteriaBuilder builder = session.getCriteriaBuilder();
+        CriteriaQuery<T> query = builder.createQuery( type );
+        Root<T> root = query.from( type );
+        query.select(root).where(builder.notEqual(root.get(propertyName), value));
+        List<T> entities = session.createQuery( query ).getResultList();
+
+        session.close();
+        return entities;
+    }
+
 }

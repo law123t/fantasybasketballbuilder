@@ -29,4 +29,5 @@ com\google\youtube\PageInfo.class
 matc\madjava\entity\PowerForward.class
 com\google\youtube\Standard.class
 com\google\youtube\Medium.class
+matc\madjava\controller\DeleteAdmin.class
 matc\madjava\controller\DeleteUser.class

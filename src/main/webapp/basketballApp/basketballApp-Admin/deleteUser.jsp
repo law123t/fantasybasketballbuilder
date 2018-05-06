@@ -19,7 +19,7 @@
                 <div class="col-lg-8">
                     <form method="POST" action="deleteUser">
                         <div class="form-group">
-                            <label>Select Your Team</label>
+                            <label>Select a User</label>
                             <select name="deleteuser" id="deleteuser">
                                 <c:forEach var="user" items="${user_data}">
                                     <option value="${user.userId}">${user.userName}</option>

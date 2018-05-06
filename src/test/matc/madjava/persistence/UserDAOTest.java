@@ -108,4 +108,16 @@ class UserDAOTest {
         User user = (User)genericDAO.getByPropertyEqualUnique("email", "seth@beth.com");
         assertEquals("Beth", user.getFirstName() );
     }
+
+    /**
+     * Verify successful get by property (equal match)
+     */
+    @Test
+    void getByPropertyNotEqualSuccess() {
+        List<User> users = genericDAO.getAllExceptEntity("lastName", "Seth");
+        for(User user : users) {
+            System.out.println(user.getLastName());
+        }
+        assertEquals(2, users.size());
+    }
 }
