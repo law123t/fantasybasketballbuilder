@@ -1,31 +1,41 @@
-# Database Design for Final Fantasy Football
+# Database Design for Fantasy Basketball Builder
 
-![Screen Design](images/DatabaseDesign.jpg)
+![Screen Design](images/DatabaseDesign.png)
 
 * Users can have multiple teams
 
 * Teams pull players by ID and fill slots of "player one, player two, etc..." this way
 
-* players populate with lookup tables of player types, this allows for easy querying and organizing
-
-* players will have an enumerated status that can be changed manually or automatically, this will 
-then make teams status as valid or invalid, prompting a change in the team
+* players populate by type with player tables, this allows for easy querying and organizing
 
 ### User Team table contains these fields
-* 8 Player fields
+* Team ID
+* 5 Player Fields
 * Team name
+* User ID
 
-### Player table contains these fields
+### Point Guard, Shooting Guard, Center, Power Forward, Small Forward table contains these fields
+* ID (corresponding to table name)
 * First Name
 * Last Name
-* Player Position
-* Total yards
-* Passing Yards
-* Rushing Yards
-* Receiving Yards
-* Touchdowns
-* Interceptions
-* Sacks
+* Total Points
+* Assists
+* Rebounds
+* Steals
+* Blocks
+* Turnovers
+* Total Fantasy Points
 
-### Player Position table contains these fields
-* Player Position
+### Users table contains these fields
+* User ID
+* First Name
+* Last Name
+* User Name
+* Password
+* Email
+
+### User Roles table contains these fields
+* Role ID
+* Role Name
+* User ID
+* Username
