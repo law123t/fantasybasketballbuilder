@@ -16,7 +16,7 @@
                 <a href="#">About Us</a>
             </li>
             <li>
-                <a href="#">Contact</a>
+                <a href="checkadmin">Admin Tools</a>
             </li>
             <li>
                 <a href="logout">Log Out</a>
