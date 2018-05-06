@@ -7,26 +7,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="96b480fa-f281-40ef-8134-faeb902e446e" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/matc/madjava/controller/CheckAdmin.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/basketballApp/basketballApp-Admin/admin.jsp" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/basketballApp/basketballApp-Admin/content-jsp/head.jsp" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/basketballApp/basketballApp-Admin/content-jsp/javascript.jsp" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/basketballApp/basketballApp-Admin/content-jsp/nav.jsp" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/basketballApp/basketballApp-Admin/deleteUser.jsp" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/logs/all.log" afterPath="$PROJECT_DIR$/logs/all.log" />
-      <change beforePath="$PROJECT_DIR$/logs/hibernate.log" afterPath="$PROJECT_DIR$/logs/hibernate.log" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/matc/madjava/controller/DeleteUser.java" afterPath="$PROJECT_DIR$/src/main/java/matc/madjava/controller/DeleteUser.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/content-jsp/nav.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/content-jsp/nav.jsp" />
-      <change beforePath="$PROJECT_DIR$/target/classes/matc/madjava/controller/DeleteUser.class" afterPath="$PROJECT_DIR$/target/classes/matc/madjava/controller/DeleteUser.class" />
-      <change beforePath="$PROJECT_DIR$/target/fantasybasketballbuilder.war" afterPath="$PROJECT_DIR$/target/fantasybasketballbuilder.war" />
-      <change beforePath="$PROJECT_DIR$/target/fantasybasketballbuilder/WEB-INF/classes/matc/madjava/controller/DeleteUser.class" afterPath="$PROJECT_DIR$/target/fantasybasketballbuilder/WEB-INF/classes/matc/madjava/controller/DeleteUser.class" />
-      <change beforePath="$PROJECT_DIR$/target/fantasybasketballbuilder/WEB-INF/web.xml" afterPath="$PROJECT_DIR$/target/fantasybasketballbuilder/WEB-INF/web.xml" />
-      <change beforePath="$PROJECT_DIR$/target/fantasybasketballbuilder/content-jsp/nav.jsp" afterPath="$PROJECT_DIR$/target/fantasybasketballbuilder/content-jsp/nav.jsp" />
-      <change beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" afterPath="$PROJECT_DIR$/target/maven-archiver/pom.properties" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/matc/madjava/controller/CheckAdmin.java" afterPath="$PROJECT_DIR$/src/main/java/matc/madjava/controller/CheckAdmin.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -110,8 +91,8 @@
       <file leaf-file-name="CheckAdmin.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/matc/madjava/controller/CheckAdmin.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="408">
-              <caret line="51" column="0" lean-forward="false" selection-start-line="51" selection-start-column="0" selection-end-line="51" selection-end-column="0" />
+            <state relative-caret-position="221">
+              <caret line="46" column="68" lean-forward="false" selection-start-line="46" selection-start-column="68" selection-end-line="46" selection-end-column="68" />
               <folding />
             </state>
           </provider>
@@ -830,7 +811,7 @@
       <workItem from="1525068870428" duration="331000" />
       <workItem from="1525069252661" duration="99146000" />
       <workItem from="1525348220296" duration="11410000" />
-      <workItem from="1525360059401" duration="17097000" />
+      <workItem from="1525360059401" duration="17276000" />
     </task>
     <servers />
   </component>
@@ -867,7 +848,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="210839000" />
+    <option name="totallyTimeSpent" value="211018000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -1385,8 +1366,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/matc/madjava/controller/CheckAdmin.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="51" column="0" lean-forward="false" selection-start-line="51" selection-start-column="0" selection-end-line="51" selection-end-column="0" />
+        <state relative-caret-position="221">
+          <caret line="46" column="68" lean-forward="false" selection-start-line="46" selection-start-column="68" selection-end-line="46" selection-end-column="68" />
           <folding />
         </state>
       </provider>

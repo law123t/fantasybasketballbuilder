@@ -40,7 +40,7 @@ public class CheckAdmin extends HttpServlet {
 
 
         if (!userRights.equals("administrator")){
-            req.setAttribute("message", "User Is not an " + userRights);
+            req.setAttribute("message", username + " is not an Administrator");
             RequestDispatcher dispatcher = req.getRequestDispatcher("appIndex.jsp");
             dispatcher.forward(req, resp);
         } else {
