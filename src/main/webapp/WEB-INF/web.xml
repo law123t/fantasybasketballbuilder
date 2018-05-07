@@ -99,8 +99,19 @@
 
     <security-constraint>
         <web-resource-collection>
-            <web-resource-name>updateUserServlet</web-resource-name>
+            <web-resource-name>viewUserServlet</web-resource-name>
             <url-pattern>/viewUser</url-pattern>
+        </web-resource-collection>
+        <auth-constraint>
+            <role-name>administrator</role-name>
+            <role-name>user</role-name>
+        </auth-constraint>
+    </security-constraint>
+
+    <security-constraint>
+        <web-resource-collection>
+            <web-resource-name>updateUserServlet</web-resource-name>
+            <url-pattern>/updateUser</url-pattern>
         </web-resource-collection>
         <auth-constraint>
             <role-name>administrator</role-name>

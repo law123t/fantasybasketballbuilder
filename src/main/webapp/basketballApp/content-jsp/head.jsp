@@ -41,5 +41,18 @@
             font-size: 1.35em;
             text-shadow: 1px 1px 2px #0a0a0a;
         }
+
+        #update {
+            margin-top:40px;
+            margin-left:auto;
+            margin-right:auto;
+            margin-bottom:40px;
+            border:5px solid black;
+            background-color:bisque;
+            padding: 15px;
+            width: 700px;
+            height: 300px;
+            clear: both;
+        }
     </style>
 </head>

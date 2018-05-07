@@ -64,7 +64,9 @@ public class GenericDAO<T> {
 
     public void update(T entity) {
         Session session = getSession();
+        Transaction transaction = session.beginTransaction();
         session.saveOrUpdate(entity);
+        transaction.commit();
         session.close();
     }
 
@@ -128,6 +130,21 @@ public class GenericDAO<T> {
         CriteriaQuery<T> query = builder.createQuery( type );
         Root<T> root = query.from( type );
         query.select(root).where(builder.notEqual(root.get(propertyName), value));
+        List<T> entities = session.createQuery( query ).getResultList();
+
+        session.close();
+        return entities;
+    }
+
+    public List<T> getByPropertyEqualObject(String propertyName, T value) {
+        Session session = getSession();
+
+        log.debug("Searching for Object: " + type + " with " + propertyName + " = " + value);
+
+        CriteriaBuilder builder = session.getCriteriaBuilder();
+        CriteriaQuery<T> query = builder.createQuery( type );
+        Root<T> root = query.from( type );
+        query.select(root).where(builder.equal(root.get(propertyName), value));
         List<T> entities = session.createQuery( query ).getResultList();
 
         session.close();

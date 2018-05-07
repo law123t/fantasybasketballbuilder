@@ -60,6 +60,16 @@ class UserDAOTest {
 
     }
 
+    @Test
+    void updateSuccess(){
+        User updateUser = (User)genericDAO.getByID(1);
+        updateUser.setLastName("Findme");
+        genericDAO.update(updateUser);
+        User updateUserCheck = (User)genericDAO.getByID(1);
+
+        assertEquals("Findme", updateUserCheck.getLastName());
+
+    }
     /**
      * Verify successful delete of user
      */

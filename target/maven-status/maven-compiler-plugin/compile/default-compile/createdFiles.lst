@@ -15,6 +15,7 @@ matc\madjava\entity\PointGuard.class
 matc\madjava\entity\UserRoles.class
 matc\madjava\entity\SmallForward.class
 matc\madjava\controller\Signup.class
+matc\madjava\controller\updateUser.class
 com\google\youtube\ItemsItem.class
 com\google\youtube\High.class
 matc\madjava\controller\Login.class

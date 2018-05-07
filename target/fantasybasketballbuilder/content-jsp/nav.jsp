@@ -7,13 +7,19 @@
                 </a>
             </li>
             <li>
-                <a href="teamSelector">My Teams</a>
+                <a href="teamSelector">View Teams Stats</a>
             </li>
             <li>
                 <a href="createTeam">Create a Team</a>
             </li>
             <li>
                 <a href="viewUser">View My Profile</a>
+            </li>
+            <li>
+                <a href="#">About Us</a>
+            </li>
+            <li>
+                <a href="#">Contact</a>
             </li>
             <li>
                 <a href="checkadmin">Admin Tools</a>
