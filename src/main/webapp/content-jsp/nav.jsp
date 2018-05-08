@@ -16,10 +16,10 @@
                 <a href="viewUser">View My Profile</a>
             </li>
             <li>
-                <a href="#">About Us</a>
+                <a href="https://github.com/law123t/fantasybasketballbuilder">About Us</a>
             </li>
             <li>
-                <a href="#">Contact</a>
+                <a href="http://www.nba.com/">Contact</a>
             </li>
             <li>
                 <a href="checkadmin">Admin Tools</a>

@@ -23,7 +23,7 @@
                 </div>
                 <div class="form-group">
                     <label>Please Enter Admin's Password</label>
-                    <input type="text" name="checkpass" id="checkpass" />
+                    <input type="password" name="checkpass" id="checkpass" />
                 </div>
                 <div class="form-group">
                     <input type="submit" value="Delete Admin">

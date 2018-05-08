@@ -9,3 +9,14 @@
         $("#wrapper").toggleClass("toggled");
     });
 </script>
+<script>
+    if( !$('#deleteteam').val() ) {
+        document.getElementById('submitteamdelete').disabled = true;
+    }
+</script>
+
+<script>
+    if( !$('#team').val() ) {
+        document.getElementById('teamselect').disabled = true;
+    }
+</script>

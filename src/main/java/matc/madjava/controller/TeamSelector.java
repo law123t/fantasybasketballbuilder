@@ -28,6 +28,13 @@ public class TeamSelector extends HttpServlet {
     private GenericDAO userDAO;
     private final Logger log = LogManager.getLogger(this.getClass());
 
+    /**
+     * This method gets logged in user and all users teams, and returns them as a array of teams to the teamselector.jsp
+     * @param req
+     * @param resp
+     * @throws ServletException
+     * @throws IOException
+     */
     @Override
     protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
         HttpSession httpSession = req.getSession();

@@ -16,7 +16,7 @@
     </div>
     <div id="page-content-wrapper" style="width:90%;margin:auto;background-color:white">
         <div class="container-fluid">
-        <h1 id="successtext"></h1>
+        <h1 id="successtext">${message}</h1>
         </div>
         <br/>
         <div>

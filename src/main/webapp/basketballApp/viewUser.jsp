@@ -71,6 +71,24 @@
                     </table>
                 <br/>
                 <br/>
+                <div>
+                <form action="deleteTeam" method="POST">
+                    <table>
+                        <tr>
+                            <td>
+                                <select name="deleteteam" id="deleteteam">
+                                    <c:forEach var="teams" items="${userTeams}">
+                                    <option value="${teams.getTeamID()}">${teams.getTeamName()}</option>
+                                    </c:forEach>
+                                </select>
+                            </td>
+                            <td><input type="submit" id="submitteamdelete" value="Delete This Team" /></td>
+                        </tr>
+                    </table>
+                </form>
+                </div>
+                <br/>
+                <br/>
                 <div class="container-fluid" id="update">
                     <form id="updateUser" action="updateUser" method="POST">
                         <div class="form-group">
@@ -88,7 +106,7 @@
                         </div>
                         <div class="form-group">
                             <label for="checkpassword">Enter Password(Only if selected password)</label>
-                            <input type="text" name="checkpassword" id="checkpassword" />
+                            <input type="password" name="checkpassword" id="checkpassword" />
                         </div>
                         <div class="form-group">
                             <input type="submit" value="Update User">

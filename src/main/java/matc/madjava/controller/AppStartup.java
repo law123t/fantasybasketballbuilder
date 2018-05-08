@@ -37,7 +37,10 @@ import javax.servlet.http.*;
             throws ServletException, IOException {
     }
 
-
+    /**
+     * Method that runs on startup
+     * @throws ServletException
+     */
     public void init() throws ServletException {
 
         loadProperties("/fantasybasketballbuilder.properties");
@@ -46,6 +49,10 @@ import javax.servlet.http.*;
     }
 
 
+    /**
+     * Method that loads properties Files
+     * @param propertiesFilePath
+     */
     private void loadProperties(String propertiesFilePath) {
         properties = new Properties();
         try {

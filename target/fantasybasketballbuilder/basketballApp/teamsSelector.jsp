@@ -35,7 +35,7 @@
                             </select>
                         </div>
                         <div class="form-group">
-                            <input type="submit" value="View Team">
+                            <input type="submit" value="View Team" id="teamselect">
                         </div>
                     </form>
                 </div>

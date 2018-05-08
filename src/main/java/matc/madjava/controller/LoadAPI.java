@@ -3,6 +3,8 @@ package matc.madjava.controller;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import com.google.youtube.APIResponse;
 import com.google.youtube.ItemsItem;
+import matc.madjava.entity.UserRoles;
+import matc.madjava.persistence.GenericDAO;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
@@ -19,6 +21,7 @@ import javax.ws.rs.client.WebTarget;
 import javax.ws.rs.core.MediaType;
 import javax.xml.ws.Response;
 import java.io.IOException;
+import java.security.Principal;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Properties;
@@ -43,13 +46,11 @@ public class LoadAPI extends HttpServlet {
         String part = properties.getProperty("part");
         String maxResults = properties.getProperty("maxResults");
         String channelId = properties.getProperty("channelId");
+        int playlistIDDetermine = Integer.parseInt(properties.getProperty("playlistIDDetermine"));
 
 
         Client client = ClientBuilder.newClient();
 
-        String targetString = "https://www.googleapis.com/youtube/v3/playlists?" +
-                "key=" + key + "&part=" + part + "&maxResults=" + maxResults + "channelId=" + channelId;
-        log.info(targetString);
 
         WebTarget target = client.target("https://www.googleapis.com/youtube/v3/playlists?key=AIzaSyD6O_2WJ-IlAjmAB_cd7hL9t4mX4b7WDUo%0D%0A&part=snippet&maxResults=20&channelId=UCoh_z6QB0AGB1oxWufvbDUg");
 
@@ -58,7 +59,9 @@ public class LoadAPI extends HttpServlet {
         log.info(webResponse);
 
         APIResponse response = mapper.readValue(webResponse, APIResponse.class);
-        String playlistId = response.getItems().get(1).getId();
+        String playlistId = response.getItems().get(playlistIDDetermine).getId();
+
+
         session.setAttribute("playlistID", playlistId);
         resp.sendRedirect("appIndex.jsp");
 

@@ -4190,3 +4190,1824 @@
 [INFO ] 2018-05-07 20:35:23.702 [http-nio-8080-exec-3] LoadAPI - items idPL5j8RirTTnK78PtLzP05VGHAp9qrU8NAE
 [INFO ] 2018-05-07 20:35:23.702 [http-nio-8080-exec-3] LoadAPI - items id initPL5j8RirTTnK78PtLzP05VGHAp9qrU8NAE
 [INFO ] 2018-05-07 20:35:23.704 [http-nio-8080-exec-3] LoadAPI - [PL5j8RirTTnK5nkT8Y8ej2XJECIXzrmWjj, PL5j8RirTTnK6N3ILtk4ZnQhBevGlSbB86, PL5j8RirTTnK6Z4aPxa-7ZcrApp3snojIq, PL5j8RirTTnK5YbZCIY_fAgyEzdBcyXA3b, PL5j8RirTTnK6WiA838VLzaTIxnd9zxP8f, PL5j8RirTTnK78PtLzP05VGHAp9qrU8NAE]
+[INFO ] 2018-05-08 14:02:52.007 [http-nio-8080-exec-10] LoadAPI - "https://www.googleapis.com/youtube/v3/playlists?key=AIzaSyD6O_2WJ-IlAjmAB_cd7hL9t4mX4b7WDUo%0D%0A&part=snippet&maxResults=20channelId=UCoh_z6QB0AGB1oxWufvbDUg"
+[INFO ] 2018-05-08 14:07:36.358 [http-nio-8080-exec-4] LoadAPI - https://www.googleapis.com/youtube/v3/playlists?key=AIzaSyD6O_2WJ-IlAjmAB_cd7hL9t4mX4b7WDUo%0D%0A&part=snippet&maxResults=20channelId=UCoh_z6QB0AGB1oxWufvbDUg
+[INFO ] 2018-05-08 14:09:30.012 [http-nio-8080-exec-3] LoadAPI - https://www.googleapis.com/youtube/v3/playlists?key=AIzaSyD6O_2WJ-IlAjmAB_cd7hL9t4mX4b7WDUo%0D%0A&part=snippet&maxResults=20channelId=UCoh_z6QB0AGB1oxWufvbDUg
+[INFO ] 2018-05-08 14:09:31.317 [http-nio-8080-exec-3] LoadAPI - {
+ "kind": "youtube#playlistListResponse",
+ "etag": "\"95M1zlW0txkV42I4OG1Zscxrg5A/7f_lGhgFYn4WDSO4KZtuxQmNc60\"",
+ "pageInfo": {
+  "totalResults": 6,
+  "resultsPerPage": 20
+ },
+ "items": [
+  {
+   "kind": "youtube#playlist",
+   "etag": "\"95M1zlW0txkV42I4OG1Zscxrg5A/rlNixQvMtzuAQgtHdMLZC8bxX8Y\"",
+   "id": "PL5j8RirTTnK5nkT8Y8ej2XJECIXzrmWjj",
+   "snippet": {
+    "publishedAt": "2018-04-12T12:01:40.000Z",
+    "channelId": "UCoh_z6QB0AGB1oxWufvbDUg",
+    "title": "2018 NBA Playoffs | Full Game Highlights",
+    "description": "",
+    "thumbnails": {
+     "default": {
+      "url": "https://i.ytimg.com/vi/vug4bROR79I/default.jpg",
+      "width": 120,
+      "height": 90
+     },
+     "medium": {
+      "url": "https://i.ytimg.com/vi/vug4bROR79I/mqdefault.jpg",
+      "width": 320,
+      "height": 180
+     },
+     "high": {
+      "url": "https://i.ytimg.com/vi/vug4bROR79I/hqdefault.jpg",
+      "width": 480,
+      "height": 360
+     },
+     "standard": {
+      "url": "https://i.ytimg.com/vi/vug4bROR79I/sddefault.jpg",
+      "width": 640,
+      "height": 480
+     }
+    },
+    "channelTitle": "MLG Highlights",
+    "localized": {
+     "title": "2018 NBA Playoffs | Full Game Highlights",
+     "description": ""
+    }
+   }
+  },
+  {
+   "kind": "youtube#playlist",
+   "etag": "\"95M1zlW0txkV42I4OG1Zscxrg5A/HeGqjFziiUSqyzNKWhUGoJ0A3Dc\"",
+   "id": "PL5j8RirTTnK6N3ILtk4ZnQhBevGlSbB86",
+   "snippet": {
+    "publishedAt": "2018-02-16T10:27:39.000Z",
+    "channelId": "UCoh_z6QB0AGB1oxWufvbDUg",
+    "title": "2018 NBA All-Star Weekend Full Highlights",
+    "description": "",
+    "thumbnails": {
+     "default": {
+      "url": "https://i.ytimg.com/vi/1mRA9FVJNkQ/default.jpg",
+      "width": 120,
+      "height": 90
+     },
+     "medium": {
+      "url": "https://i.ytimg.com/vi/1mRA9FVJNkQ/mqdefault.jpg",
+      "width": 320,
+      "height": 180
+     },
+     "high": {
+      "url": "https://i.ytimg.com/vi/1mRA9FVJNkQ/hqdefault.jpg",
+      "width": 480,
+      "height": 360
+     },
+     "standard": {
+      "url": "https://i.ytimg.com/vi/1mRA9FVJNkQ/sddefault.jpg",
+      "width": 640,
+      "height": 480
+     }
+    },
+    "channelTitle": "MLG Highlights",
+    "localized": {
+     "title": "2018 NBA All-Star Weekend Full Highlights",
+     "description": ""
+    }
+   }
+  },
+  {
+   "kind": "youtube#playlist",
+   "etag": "\"95M1zlW0txkV42I4OG1Zscxrg5A/sHJnadTGrKq0ZTthA4YstTD-YWg\"",
+   "id": "PL5j8RirTTnK6Z4aPxa-7ZcrApp3snojIq",
+   "snippet": {
+    "publishedAt": "2018-01-18T08:41:15.000Z",
+    "channelId": "UCoh_z6QB0AGB1oxWufvbDUg",
+    "title": "Hoops N Brews: NBA Debate Show",
+    "description": "",
+    "thumbnails": {
+     "default": {
+      "url": "https://i.ytimg.com/vi/Yw8Hig_duRg/default.jpg",
+      "width": 120,
+      "height": 90
+     },
+     "medium": {
+      "url": "https://i.ytimg.com/vi/Yw8Hig_duRg/mqdefault.jpg",
+      "width": 320,
+      "height": 180
+     },
+     "high": {
+      "url": "https://i.ytimg.com/vi/Yw8Hig_duRg/hqdefault.jpg",
+      "width": 480,
+      "height": 360
+     },
+     "standard": {
+      "url": "https://i.ytimg.com/vi/Yw8Hig_duRg/sddefault.jpg",
+      "width": 640,
+      "height": 480
+     },
+     "maxres": {
+      "url": "https://i.ytimg.com/vi/Yw8Hig_duRg/maxresdefault.jpg",
+      "width": 1280,
+      "height": 720
+     }
+    },
+    "channelTitle": "MLG Highlights",
+    "localized": {
+     "title": "Hoops N Brews: NBA Debate Show",
+     "description": ""
+    }
+   }
+  },
+  {
+   "kind": "youtube#playlist",
+   "etag": "\"95M1zlW0txkV42I4OG1Zscxrg5A/VGEdwoZF984ktOKcTDJSVkXoM3o\"",
+   "id": "PL5j8RirTTnK5YbZCIY_fAgyEzdBcyXA3b",
+   "snippet": {
+    "publishedAt": "2017-11-28T05:02:28.000Z",
+    "channelId": "UCoh_z6QB0AGB1oxWufvbDUg",
+    "title": "2017-18 NBA Recaps / Short Moments",
+    "description": "",
+    "thumbnails": {
+     "default": {
+      "url": "https://i.ytimg.com/vi/u5RXAInymBU/default.jpg",
+      "width": 120,
+      "height": 90
+     },
+     "medium": {
+      "url": "https://i.ytimg.com/vi/u5RXAInymBU/mqdefault.jpg",
+      "width": 320,
+      "height": 180
+     },
+     "high": {
+      "url": "https://i.ytimg.com/vi/u5RXAInymBU/hqdefault.jpg",
+      "width": 480,
+      "height": 360
+     },
+     "standard": {
+      "url": "https://i.ytimg.com/vi/u5RXAInymBU/sddefault.jpg",
+      "width": 640,
+      "height": 480
+     },
+     "maxres": {
+      "url": "https://i.ytimg.com/vi/u5RXAInymBU/maxresdefault.jpg",
+      "width": 1280,
+      "height": 720
+     }
+    },
+    "channelTitle": "MLG Highlights",
+    "localized": {
+     "title": "2017-18 NBA Recaps / Short Moments",
+     "description": ""
+    }
+   }
+  },
+  {
+   "kind": "youtube#playlist",
+   "etag": "\"95M1zlW0txkV42I4OG1Zscxrg5A/W54RShSIID_8AbZjRZAx2KBVsIw\"",
+   "id": "PL5j8RirTTnK6WiA838VLzaTIxnd9zxP8f",
+   "snippet": {
+    "publishedAt": "2017-11-28T05:01:35.000Z",
+    "channelId": "UCoh_z6QB0AGB1oxWufvbDUg",
+    "title": "2017-18 NBA Player Highlights",
+    "description": "",
+    "thumbnails": {
+     "default": {
+      "url": "https://i.ytimg.com/vi/7LIz1BwZu_I/default.jpg",
+      "width": 120,
+      "height": 90
+     },
+     "medium": {
+      "url": "https://i.ytimg.com/vi/7LIz1BwZu_I/mqdefault.jpg",
+      "width": 320,
+      "height": 180
+     },
+     "high": {
+      "url": "https://i.ytimg.com/vi/7LIz1BwZu_I/hqdefault.jpg",
+      "width": 480,
+      "height": 360
+     },
+     "standard": {
+      "url": "https://i.ytimg.com/vi/7LIz1BwZu_I/sddefault.jpg",
+      "width": 640,
+      "height": 480
+     }
+    },
+    "channelTitle": "MLG Highlights",
+    "localized": {
+     "title": "2017-18 NBA Player Highlights",
+     "description": ""
+    }
+   }
+  },
+  {
+   "kind": "youtube#playlist",
+   "etag": "\"95M1zlW0txkV42I4OG1Zscxrg5A/Ltjrl5COOFMD8_6t5OaaKaOVQAI\"",
+   "id": "PL5j8RirTTnK78PtLzP05VGHAp9qrU8NAE",
+   "snippet": {
+    "publishedAt": "2017-09-26T14:07:53.000Z",
+    "channelId": "UCoh_z6QB0AGB1oxWufvbDUg",
+    "title": "2017-18 NBA Full Game Highlights",
+    "description": "",
+    "thumbnails": {
+     "default": {
+      "url": "https://i.ytimg.com/vi/k6iQGGGPb2Y/default.jpg",
+      "width": 120,
+      "height": 90
+     },
+     "medium": {
+      "url": "https://i.ytimg.com/vi/k6iQGGGPb2Y/mqdefault.jpg",
+      "width": 320,
+      "height": 180
+     },
+     "high": {
+      "url": "https://i.ytimg.com/vi/k6iQGGGPb2Y/hqdefault.jpg",
+      "width": 480,
+      "height": 360
+     },
+     "standard": {
+      "url": "https://i.ytimg.com/vi/k6iQGGGPb2Y/sddefault.jpg",
+      "width": 640,
+      "height": 480
+     }
+    },
+    "channelTitle": "MLG Highlights",
+    "localized": {
+     "title": "2017-18 NBA Full Game Highlights",
+     "description": ""
+    }
+   }
+  }
+ ]
+}
+
+[DEBUG] 2018-05-08 14:09:36.501 [http-nio-8080-exec-3] GenericDAO - Searching for user with useName = admin
+[INFO ] 2018-05-08 14:25:05.904 [http-nio-8080-exec-4] LoadAPI - {
+ "kind": "youtube#playlistListResponse",
+ "etag": "\"95M1zlW0txkV42I4OG1Zscxrg5A/l5SfmUnZDHBmwOJwq0mxqRU9BaI\"",
+ "pageInfo": {
+  "totalResults": 6,
+  "resultsPerPage": 20
+ },
+ "items": [
+  {
+   "kind": "youtube#playlist",
+   "etag": "\"95M1zlW0txkV42I4OG1Zscxrg5A/rlNixQvMtzuAQgtHdMLZC8bxX8Y\"",
+   "id": "PL5j8RirTTnK5nkT8Y8ej2XJECIXzrmWjj",
+   "snippet": {
+    "publishedAt": "2018-04-12T12:01:40.000Z",
+    "channelId": "UCoh_z6QB0AGB1oxWufvbDUg",
+    "title": "2018 NBA Playoffs | Full Game Highlights",
+    "description": "",
+    "thumbnails": {
+     "default": {
+      "url": "https://i.ytimg.com/vi/vug4bROR79I/default.jpg",
+      "width": 120,
+      "height": 90
+     },
+     "medium": {
+      "url": "https://i.ytimg.com/vi/vug4bROR79I/mqdefault.jpg",
+      "width": 320,
+      "height": 180
+     },
+     "high": {
+      "url": "https://i.ytimg.com/vi/vug4bROR79I/hqdefault.jpg",
+      "width": 480,
+      "height": 360
+     },
+     "standard": {
+      "url": "https://i.ytimg.com/vi/vug4bROR79I/sddefault.jpg",
+      "width": 640,
+      "height": 480
+     }
+    },
+    "channelTitle": "MLG Highlights",
+    "localized": {
+     "title": "2018 NBA Playoffs | Full Game Highlights",
+     "description": ""
+    }
+   }
+  },
+  {
+   "kind": "youtube#playlist",
+   "etag": "\"95M1zlW0txkV42I4OG1Zscxrg5A/HeGqjFziiUSqyzNKWhUGoJ0A3Dc\"",
+   "id": "PL5j8RirTTnK6N3ILtk4ZnQhBevGlSbB86",
+   "snippet": {
+    "publishedAt": "2018-02-16T10:27:39.000Z",
+    "channelId": "UCoh_z6QB0AGB1oxWufvbDUg",
+    "title": "2018 NBA All-Star Weekend Full Highlights",
+    "description": "",
+    "thumbnails": {
+     "default": {
+      "url": "https://i.ytimg.com/vi/1mRA9FVJNkQ/default.jpg",
+      "width": 120,
+      "height": 90
+     },
+     "medium": {
+      "url": "https://i.ytimg.com/vi/1mRA9FVJNkQ/mqdefault.jpg",
+      "width": 320,
+      "height": 180
+     },
+     "high": {
+      "url": "https://i.ytimg.com/vi/1mRA9FVJNkQ/hqdefault.jpg",
+      "width": 480,
+      "height": 360
+     },
+     "standard": {
+      "url": "https://i.ytimg.com/vi/1mRA9FVJNkQ/sddefault.jpg",
+      "width": 640,
+      "height": 480
+     }
+    },
+    "channelTitle": "MLG Highlights",
+    "localized": {
+     "title": "2018 NBA All-Star Weekend Full Highlights",
+     "description": ""
+    }
+   }
+  },
+  {
+   "kind": "youtube#playlist",
+   "etag": "\"95M1zlW0txkV42I4OG1Zscxrg5A/sHJnadTGrKq0ZTthA4YstTD-YWg\"",
+   "id": "PL5j8RirTTnK6Z4aPxa-7ZcrApp3snojIq",
+   "snippet": {
+    "publishedAt": "2018-01-18T08:41:15.000Z",
+    "channelId": "UCoh_z6QB0AGB1oxWufvbDUg",
+    "title": "Hoops N Brews: NBA Debate Show",
+    "description": "",
+    "thumbnails": {
+     "default": {
+      "url": "https://i.ytimg.com/vi/Yw8Hig_duRg/default.jpg",
+      "width": 120,
+      "height": 90
+     },
+     "medium": {
+      "url": "https://i.ytimg.com/vi/Yw8Hig_duRg/mqdefault.jpg",
+      "width": 320,
+      "height": 180
+     },
+     "high": {
+      "url": "https://i.ytimg.com/vi/Yw8Hig_duRg/hqdefault.jpg",
+      "width": 480,
+      "height": 360
+     },
+     "standard": {
+      "url": "https://i.ytimg.com/vi/Yw8Hig_duRg/sddefault.jpg",
+      "width": 640,
+      "height": 480
+     },
+     "maxres": {
+      "url": "https://i.ytimg.com/vi/Yw8Hig_duRg/maxresdefault.jpg",
+      "width": 1280,
+      "height": 720
+     }
+    },
+    "channelTitle": "MLG Highlights",
+    "localized": {
+     "title": "Hoops N Brews: NBA Debate Show",
+     "description": ""
+    }
+   }
+  },
+  {
+   "kind": "youtube#playlist",
+   "etag": "\"95M1zlW0txkV42I4OG1Zscxrg5A/VGEdwoZF984ktOKcTDJSVkXoM3o\"",
+   "id": "PL5j8RirTTnK5YbZCIY_fAgyEzdBcyXA3b",
+   "snippet": {
+    "publishedAt": "2017-11-28T05:02:28.000Z",
+    "channelId": "UCoh_z6QB0AGB1oxWufvbDUg",
+    "title": "2017-18 NBA Recaps / Short Moments",
+    "description": "",
+    "thumbnails": {
+     "default": {
+      "url": "https://i.ytimg.com/vi/u5RXAInymBU/default.jpg",
+      "width": 120,
+      "height": 90
+     },
+     "medium": {
+      "url": "https://i.ytimg.com/vi/u5RXAInymBU/mqdefault.jpg",
+      "width": 320,
+      "height": 180
+     },
+     "high": {
+      "url": "https://i.ytimg.com/vi/u5RXAInymBU/hqdefault.jpg",
+      "width": 480,
+      "height": 360
+     },
+     "standard": {
+      "url": "https://i.ytimg.com/vi/u5RXAInymBU/sddefault.jpg",
+      "width": 640,
+      "height": 480
+     },
+     "maxres": {
+      "url": "https://i.ytimg.com/vi/u5RXAInymBU/maxresdefault.jpg",
+      "width": 1280,
+      "height": 720
+     }
+    },
+    "channelTitle": "MLG Highlights",
+    "localized": {
+     "title": "2017-18 NBA Recaps / Short Moments",
+     "description": ""
+    }
+   }
+  },
+  {
+   "kind": "youtube#playlist",
+   "etag": "\"95M1zlW0txkV42I4OG1Zscxrg5A/W54RShSIID_8AbZjRZAx2KBVsIw\"",
+   "id": "PL5j8RirTTnK6WiA838VLzaTIxnd9zxP8f",
+   "snippet": {
+    "publishedAt": "2017-11-28T05:01:35.000Z",
+    "channelId": "UCoh_z6QB0AGB1oxWufvbDUg",
+    "title": "2017-18 NBA Player Highlights",
+    "description": "",
+    "thumbnails": {
+     "default": {
+      "url": "https://i.ytimg.com/vi/7LIz1BwZu_I/default.jpg",
+      "width": 120,
+      "height": 90
+     },
+     "medium": {
+      "url": "https://i.ytimg.com/vi/7LIz1BwZu_I/mqdefault.jpg",
+      "width": 320,
+      "height": 180
+     },
+     "high": {
+      "url": "https://i.ytimg.com/vi/7LIz1BwZu_I/hqdefault.jpg",
+      "width": 480,
+      "height": 360
+     },
+     "standard": {
+      "url": "https://i.ytimg.com/vi/7LIz1BwZu_I/sddefault.jpg",
+      "width": 640,
+      "height": 480
+     }
+    },
+    "channelTitle": "MLG Highlights",
+    "localized": {
+     "title": "2017-18 NBA Player Highlights",
+     "description": ""
+    }
+   }
+  },
+  {
+   "kind": "youtube#playlist",
+   "etag": "\"95M1zlW0txkV42I4OG1Zscxrg5A/Ltjrl5COOFMD8_6t5OaaKaOVQAI\"",
+   "id": "PL5j8RirTTnK78PtLzP05VGHAp9qrU8NAE",
+   "snippet": {
+    "publishedAt": "2017-09-26T14:07:53.000Z",
+    "channelId": "UCoh_z6QB0AGB1oxWufvbDUg",
+    "title": "2017-18 NBA Full Game Highlights",
+    "description": "",
+    "thumbnails": {
+     "default": {
+      "url": "https://i.ytimg.com/vi/k6iQGGGPb2Y/default.jpg",
+      "width": 120,
+      "height": 90
+     },
+     "medium": {
+      "url": "https://i.ytimg.com/vi/k6iQGGGPb2Y/mqdefault.jpg",
+      "width": 320,
+      "height": 180
+     },
+     "high": {
+      "url": "https://i.ytimg.com/vi/k6iQGGGPb2Y/hqdefault.jpg",
+      "width": 480,
+      "height": 360
+     },
+     "standard": {
+      "url": "https://i.ytimg.com/vi/k6iQGGGPb2Y/sddefault.jpg",
+      "width": 640,
+      "height": 480
+     }
+    },
+    "channelTitle": "MLG Highlights",
+    "localized": {
+     "title": "2017-18 NBA Full Game Highlights",
+     "description": ""
+    }
+   }
+  }
+ ]
+}
+
+[DEBUG] 2018-05-08 14:25:16.914 [http-nio-8080-exec-7] GenericDAO - Searching for user with userName = admin
+[INFO ] 2018-05-08 14:25:17.793 [http-nio-8080-exec-7] ViewUser - User{userName ='admin', userPass ='admin', first name ='Johnny', last name ='Smith', email ='smith@john.com'}
+[INFO ] 2018-05-08 14:25:17.793 [http-nio-8080-exec-7] ViewUser - null
+[DEBUG] 2018-05-08 14:25:17.793 [http-nio-8080-exec-7] GenericDAO - Searching for Object: class matc.madjava.entity.Team with user = User{userName ='admin', userPass ='admin', first name ='Johnny', last name ='Smith', email ='smith@john.com'}
+[DEBUG] 2018-05-08 14:25:17.848 [http-nio-8080-exec-9] GenericDAO - Searching for user with userName = admin
+[INFO ] 2018-05-08 14:25:17.914 [http-nio-8080-exec-9] ViewUser - User{userName ='admin', userPass ='admin', first name ='Johnny', last name ='Smith', email ='smith@john.com'}
+[INFO ] 2018-05-08 14:25:17.914 [http-nio-8080-exec-9] ViewUser - null
+[DEBUG] 2018-05-08 14:25:17.914 [http-nio-8080-exec-9] GenericDAO - Searching for Object: class matc.madjava.entity.Team with user = User{userName ='admin', userPass ='admin', first name ='Johnny', last name ='Smith', email ='smith@john.com'}
+[DEBUG] 2018-05-08 14:25:28.779 [http-nio-8080-exec-5] GenericDAO - Searching for user with userName = admin
+[INFO ] 2018-05-08 14:25:40.820 [http-nio-8080-exec-5] LoadAPI - {
+ "kind": "youtube#playlistListResponse",
+ "etag": "\"95M1zlW0txkV42I4OG1Zscxrg5A/Gjwj62oeQJuwj-cgpBYLiC7VBao\"",
+ "pageInfo": {
+  "totalResults": 6,
+  "resultsPerPage": 20
+ },
+ "items": [
+  {
+   "kind": "youtube#playlist",
+   "etag": "\"95M1zlW0txkV42I4OG1Zscxrg5A/rlNixQvMtzuAQgtHdMLZC8bxX8Y\"",
+   "id": "PL5j8RirTTnK5nkT8Y8ej2XJECIXzrmWjj",
+   "snippet": {
+    "publishedAt": "2018-04-12T12:01:40.000Z",
+    "channelId": "UCoh_z6QB0AGB1oxWufvbDUg",
+    "title": "2018 NBA Playoffs | Full Game Highlights",
+    "description": "",
+    "thumbnails": {
+     "default": {
+      "url": "https://i.ytimg.com/vi/vug4bROR79I/default.jpg",
+      "width": 120,
+      "height": 90
+     },
+     "medium": {
+      "url": "https://i.ytimg.com/vi/vug4bROR79I/mqdefault.jpg",
+      "width": 320,
+      "height": 180
+     },
+     "high": {
+      "url": "https://i.ytimg.com/vi/vug4bROR79I/hqdefault.jpg",
+      "width": 480,
+      "height": 360
+     },
+     "standard": {
+      "url": "https://i.ytimg.com/vi/vug4bROR79I/sddefault.jpg",
+      "width": 640,
+      "height": 480
+     }
+    },
+    "channelTitle": "MLG Highlights",
+    "localized": {
+     "title": "2018 NBA Playoffs | Full Game Highlights",
+     "description": ""
+    }
+   }
+  },
+  {
+   "kind": "youtube#playlist",
+   "etag": "\"95M1zlW0txkV42I4OG1Zscxrg5A/HeGqjFziiUSqyzNKWhUGoJ0A3Dc\"",
+   "id": "PL5j8RirTTnK6N3ILtk4ZnQhBevGlSbB86",
+   "snippet": {
+    "publishedAt": "2018-02-16T10:27:39.000Z",
+    "channelId": "UCoh_z6QB0AGB1oxWufvbDUg",
+    "title": "2018 NBA All-Star Weekend Full Highlights",
+    "description": "",
+    "thumbnails": {
+     "default": {
+      "url": "https://i.ytimg.com/vi/1mRA9FVJNkQ/default.jpg",
+      "width": 120,
+      "height": 90
+     },
+     "medium": {
+      "url": "https://i.ytimg.com/vi/1mRA9FVJNkQ/mqdefault.jpg",
+      "width": 320,
+      "height": 180
+     },
+     "high": {
+      "url": "https://i.ytimg.com/vi/1mRA9FVJNkQ/hqdefault.jpg",
+      "width": 480,
+      "height": 360
+     },
+     "standard": {
+      "url": "https://i.ytimg.com/vi/1mRA9FVJNkQ/sddefault.jpg",
+      "width": 640,
+      "height": 480
+     }
+    },
+    "channelTitle": "MLG Highlights",
+    "localized": {
+     "title": "2018 NBA All-Star Weekend Full Highlights",
+     "description": ""
+    }
+   }
+  },
+  {
+   "kind": "youtube#playlist",
+   "etag": "\"95M1zlW0txkV42I4OG1Zscxrg5A/sHJnadTGrKq0ZTthA4YstTD-YWg\"",
+   "id": "PL5j8RirTTnK6Z4aPxa-7ZcrApp3snojIq",
+   "snippet": {
+    "publishedAt": "2018-01-18T08:41:15.000Z",
+    "channelId": "UCoh_z6QB0AGB1oxWufvbDUg",
+    "title": "Hoops N Brews: NBA Debate Show",
+    "description": "",
+    "thumbnails": {
+     "default": {
+      "url": "https://i.ytimg.com/vi/Yw8Hig_duRg/default.jpg",
+      "width": 120,
+      "height": 90
+     },
+     "medium": {
+      "url": "https://i.ytimg.com/vi/Yw8Hig_duRg/mqdefault.jpg",
+      "width": 320,
+      "height": 180
+     },
+     "high": {
+      "url": "https://i.ytimg.com/vi/Yw8Hig_duRg/hqdefault.jpg",
+      "width": 480,
+      "height": 360
+     },
+     "standard": {
+      "url": "https://i.ytimg.com/vi/Yw8Hig_duRg/sddefault.jpg",
+      "width": 640,
+      "height": 480
+     },
+     "maxres": {
+      "url": "https://i.ytimg.com/vi/Yw8Hig_duRg/maxresdefault.jpg",
+      "width": 1280,
+      "height": 720
+     }
+    },
+    "channelTitle": "MLG Highlights",
+    "localized": {
+     "title": "Hoops N Brews: NBA Debate Show",
+     "description": ""
+    }
+   }
+  },
+  {
+   "kind": "youtube#playlist",
+   "etag": "\"95M1zlW0txkV42I4OG1Zscxrg5A/VGEdwoZF984ktOKcTDJSVkXoM3o\"",
+   "id": "PL5j8RirTTnK5YbZCIY_fAgyEzdBcyXA3b",
+   "snippet": {
+    "publishedAt": "2017-11-28T05:02:28.000Z",
+    "channelId": "UCoh_z6QB0AGB1oxWufvbDUg",
+    "title": "2017-18 NBA Recaps / Short Moments",
+    "description": "",
+    "thumbnails": {
+     "default": {
+      "url": "https://i.ytimg.com/vi/u5RXAInymBU/default.jpg",
+      "width": 120,
+      "height": 90
+     },
+     "medium": {
+      "url": "https://i.ytimg.com/vi/u5RXAInymBU/mqdefault.jpg",
+      "width": 320,
+      "height": 180
+     },
+     "high": {
+      "url": "https://i.ytimg.com/vi/u5RXAInymBU/hqdefault.jpg",
+      "width": 480,
+      "height": 360
+     },
+     "standard": {
+      "url": "https://i.ytimg.com/vi/u5RXAInymBU/sddefault.jpg",
+      "width": 640,
+      "height": 480
+     },
+     "maxres": {
+      "url": "https://i.ytimg.com/vi/u5RXAInymBU/maxresdefault.jpg",
+      "width": 1280,
+      "height": 720
+     }
+    },
+    "channelTitle": "MLG Highlights",
+    "localized": {
+     "title": "2017-18 NBA Recaps / Short Moments",
+     "description": ""
+    }
+   }
+  },
+  {
+   "kind": "youtube#playlist",
+   "etag": "\"95M1zlW0txkV42I4OG1Zscxrg5A/W54RShSIID_8AbZjRZAx2KBVsIw\"",
+   "id": "PL5j8RirTTnK6WiA838VLzaTIxnd9zxP8f",
+   "snippet": {
+    "publishedAt": "2017-11-28T05:01:35.000Z",
+    "channelId": "UCoh_z6QB0AGB1oxWufvbDUg",
+    "title": "2017-18 NBA Player Highlights",
+    "description": "",
+    "thumbnails": {
+     "default": {
+      "url": "https://i.ytimg.com/vi/7LIz1BwZu_I/default.jpg",
+      "width": 120,
+      "height": 90
+     },
+     "medium": {
+      "url": "https://i.ytimg.com/vi/7LIz1BwZu_I/mqdefault.jpg",
+      "width": 320,
+      "height": 180
+     },
+     "high": {
+      "url": "https://i.ytimg.com/vi/7LIz1BwZu_I/hqdefault.jpg",
+      "width": 480,
+      "height": 360
+     },
+     "standard": {
+      "url": "https://i.ytimg.com/vi/7LIz1BwZu_I/sddefault.jpg",
+      "width": 640,
+      "height": 480
+     }
+    },
+    "channelTitle": "MLG Highlights",
+    "localized": {
+     "title": "2017-18 NBA Player Highlights",
+     "description": ""
+    }
+   }
+  },
+  {
+   "kind": "youtube#playlist",
+   "etag": "\"95M1zlW0txkV42I4OG1Zscxrg5A/Ltjrl5COOFMD8_6t5OaaKaOVQAI\"",
+   "id": "PL5j8RirTTnK78PtLzP05VGHAp9qrU8NAE",
+   "snippet": {
+    "publishedAt": "2017-09-26T14:07:53.000Z",
+    "channelId": "UCoh_z6QB0AGB1oxWufvbDUg",
+    "title": "2017-18 NBA Full Game Highlights",
+    "description": "",
+    "thumbnails": {
+     "default": {
+      "url": "https://i.ytimg.com/vi/k6iQGGGPb2Y/default.jpg",
+      "width": 120,
+      "height": 90
+     },
+     "medium": {
+      "url": "https://i.ytimg.com/vi/k6iQGGGPb2Y/mqdefault.jpg",
+      "width": 320,
+      "height": 180
+     },
+     "high": {
+      "url": "https://i.ytimg.com/vi/k6iQGGGPb2Y/hqdefault.jpg",
+      "width": 480,
+      "height": 360
+     },
+     "standard": {
+      "url": "https://i.ytimg.com/vi/k6iQGGGPb2Y/sddefault.jpg",
+      "width": 640,
+      "height": 480
+     }
+    },
+    "channelTitle": "MLG Highlights",
+    "localized": {
+     "title": "2017-18 NBA Full Game Highlights",
+     "description": ""
+    }
+   }
+  }
+ ]
+}
+
+[DEBUG] 2018-05-08 14:25:47.128 [http-nio-8080-exec-6] GenericDAO - Searching for user with userName = User
+[INFO ] 2018-05-08 14:29:37.452 [http-nio-8080-exec-5] LoadAPI - {
+ "kind": "youtube#playlistListResponse",
+ "etag": "\"95M1zlW0txkV42I4OG1Zscxrg5A/RwT9aOAJbKe3tP69oPqz1_OBBGA\"",
+ "pageInfo": {
+  "totalResults": 6,
+  "resultsPerPage": 20
+ },
+ "items": [
+  {
+   "kind": "youtube#playlist",
+   "etag": "\"95M1zlW0txkV42I4OG1Zscxrg5A/rlNixQvMtzuAQgtHdMLZC8bxX8Y\"",
+   "id": "PL5j8RirTTnK5nkT8Y8ej2XJECIXzrmWjj",
+   "snippet": {
+    "publishedAt": "2018-04-12T12:01:40.000Z",
+    "channelId": "UCoh_z6QB0AGB1oxWufvbDUg",
+    "title": "2018 NBA Playoffs | Full Game Highlights",
+    "description": "",
+    "thumbnails": {
+     "default": {
+      "url": "https://i.ytimg.com/vi/vug4bROR79I/default.jpg",
+      "width": 120,
+      "height": 90
+     },
+     "medium": {
+      "url": "https://i.ytimg.com/vi/vug4bROR79I/mqdefault.jpg",
+      "width": 320,
+      "height": 180
+     },
+     "high": {
+      "url": "https://i.ytimg.com/vi/vug4bROR79I/hqdefault.jpg",
+      "width": 480,
+      "height": 360
+     },
+     "standard": {
+      "url": "https://i.ytimg.com/vi/vug4bROR79I/sddefault.jpg",
+      "width": 640,
+      "height": 480
+     }
+    },
+    "channelTitle": "MLG Highlights",
+    "localized": {
+     "title": "2018 NBA Playoffs | Full Game Highlights",
+     "description": ""
+    }
+   }
+  },
+  {
+   "kind": "youtube#playlist",
+   "etag": "\"95M1zlW0txkV42I4OG1Zscxrg5A/HeGqjFziiUSqyzNKWhUGoJ0A3Dc\"",
+   "id": "PL5j8RirTTnK6N3ILtk4ZnQhBevGlSbB86",
+   "snippet": {
+    "publishedAt": "2018-02-16T10:27:39.000Z",
+    "channelId": "UCoh_z6QB0AGB1oxWufvbDUg",
+    "title": "2018 NBA All-Star Weekend Full Highlights",
+    "description": "",
+    "thumbnails": {
+     "default": {
+      "url": "https://i.ytimg.com/vi/1mRA9FVJNkQ/default.jpg",
+      "width": 120,
+      "height": 90
+     },
+     "medium": {
+      "url": "https://i.ytimg.com/vi/1mRA9FVJNkQ/mqdefault.jpg",
+      "width": 320,
+      "height": 180
+     },
+     "high": {
+      "url": "https://i.ytimg.com/vi/1mRA9FVJNkQ/hqdefault.jpg",
+      "width": 480,
+      "height": 360
+     },
+     "standard": {
+      "url": "https://i.ytimg.com/vi/1mRA9FVJNkQ/sddefault.jpg",
+      "width": 640,
+      "height": 480
+     }
+    },
+    "channelTitle": "MLG Highlights",
+    "localized": {
+     "title": "2018 NBA All-Star Weekend Full Highlights",
+     "description": ""
+    }
+   }
+  },
+  {
+   "kind": "youtube#playlist",
+   "etag": "\"95M1zlW0txkV42I4OG1Zscxrg5A/sHJnadTGrKq0ZTthA4YstTD-YWg\"",
+   "id": "PL5j8RirTTnK6Z4aPxa-7ZcrApp3snojIq",
+   "snippet": {
+    "publishedAt": "2018-01-18T08:41:15.000Z",
+    "channelId": "UCoh_z6QB0AGB1oxWufvbDUg",
+    "title": "Hoops N Brews: NBA Debate Show",
+    "description": "",
+    "thumbnails": {
+     "default": {
+      "url": "https://i.ytimg.com/vi/Yw8Hig_duRg/default.jpg",
+      "width": 120,
+      "height": 90
+     },
+     "medium": {
+      "url": "https://i.ytimg.com/vi/Yw8Hig_duRg/mqdefault.jpg",
+      "width": 320,
+      "height": 180
+     },
+     "high": {
+      "url": "https://i.ytimg.com/vi/Yw8Hig_duRg/hqdefault.jpg",
+      "width": 480,
+      "height": 360
+     },
+     "standard": {
+      "url": "https://i.ytimg.com/vi/Yw8Hig_duRg/sddefault.jpg",
+      "width": 640,
+      "height": 480
+     },
+     "maxres": {
+      "url": "https://i.ytimg.com/vi/Yw8Hig_duRg/maxresdefault.jpg",
+      "width": 1280,
+      "height": 720
+     }
+    },
+    "channelTitle": "MLG Highlights",
+    "localized": {
+     "title": "Hoops N Brews: NBA Debate Show",
+     "description": ""
+    }
+   }
+  },
+  {
+   "kind": "youtube#playlist",
+   "etag": "\"95M1zlW0txkV42I4OG1Zscxrg5A/VGEdwoZF984ktOKcTDJSVkXoM3o\"",
+   "id": "PL5j8RirTTnK5YbZCIY_fAgyEzdBcyXA3b",
+   "snippet": {
+    "publishedAt": "2017-11-28T05:02:28.000Z",
+    "channelId": "UCoh_z6QB0AGB1oxWufvbDUg",
+    "title": "2017-18 NBA Recaps / Short Moments",
+    "description": "",
+    "thumbnails": {
+     "default": {
+      "url": "https://i.ytimg.com/vi/u5RXAInymBU/default.jpg",
+      "width": 120,
+      "height": 90
+     },
+     "medium": {
+      "url": "https://i.ytimg.com/vi/u5RXAInymBU/mqdefault.jpg",
+      "width": 320,
+      "height": 180
+     },
+     "high": {
+      "url": "https://i.ytimg.com/vi/u5RXAInymBU/hqdefault.jpg",
+      "width": 480,
+      "height": 360
+     },
+     "standard": {
+      "url": "https://i.ytimg.com/vi/u5RXAInymBU/sddefault.jpg",
+      "width": 640,
+      "height": 480
+     },
+     "maxres": {
+      "url": "https://i.ytimg.com/vi/u5RXAInymBU/maxresdefault.jpg",
+      "width": 1280,
+      "height": 720
+     }
+    },
+    "channelTitle": "MLG Highlights",
+    "localized": {
+     "title": "2017-18 NBA Recaps / Short Moments",
+     "description": ""
+    }
+   }
+  },
+  {
+   "kind": "youtube#playlist",
+   "etag": "\"95M1zlW0txkV42I4OG1Zscxrg5A/W54RShSIID_8AbZjRZAx2KBVsIw\"",
+   "id": "PL5j8RirTTnK6WiA838VLzaTIxnd9zxP8f",
+   "snippet": {
+    "publishedAt": "2017-11-28T05:01:35.000Z",
+    "channelId": "UCoh_z6QB0AGB1oxWufvbDUg",
+    "title": "2017-18 NBA Player Highlights",
+    "description": "",
+    "thumbnails": {
+     "default": {
+      "url": "https://i.ytimg.com/vi/7LIz1BwZu_I/default.jpg",
+      "width": 120,
+      "height": 90
+     },
+     "medium": {
+      "url": "https://i.ytimg.com/vi/7LIz1BwZu_I/mqdefault.jpg",
+      "width": 320,
+      "height": 180
+     },
+     "high": {
+      "url": "https://i.ytimg.com/vi/7LIz1BwZu_I/hqdefault.jpg",
+      "width": 480,
+      "height": 360
+     },
+     "standard": {
+      "url": "https://i.ytimg.com/vi/7LIz1BwZu_I/sddefault.jpg",
+      "width": 640,
+      "height": 480
+     }
+    },
+    "channelTitle": "MLG Highlights",
+    "localized": {
+     "title": "2017-18 NBA Player Highlights",
+     "description": ""
+    }
+   }
+  },
+  {
+   "kind": "youtube#playlist",
+   "etag": "\"95M1zlW0txkV42I4OG1Zscxrg5A/Ltjrl5COOFMD8_6t5OaaKaOVQAI\"",
+   "id": "PL5j8RirTTnK78PtLzP05VGHAp9qrU8NAE",
+   "snippet": {
+    "publishedAt": "2017-09-26T14:07:53.000Z",
+    "channelId": "UCoh_z6QB0AGB1oxWufvbDUg",
+    "title": "2017-18 NBA Full Game Highlights",
+    "description": "",
+    "thumbnails": {
+     "default": {
+      "url": "https://i.ytimg.com/vi/k6iQGGGPb2Y/default.jpg",
+      "width": 120,
+      "height": 90
+     },
+     "medium": {
+      "url": "https://i.ytimg.com/vi/k6iQGGGPb2Y/mqdefault.jpg",
+      "width": 320,
+      "height": 180
+     },
+     "high": {
+      "url": "https://i.ytimg.com/vi/k6iQGGGPb2Y/hqdefault.jpg",
+      "width": 480,
+      "height": 360
+     },
+     "standard": {
+      "url": "https://i.ytimg.com/vi/k6iQGGGPb2Y/sddefault.jpg",
+      "width": 640,
+      "height": 480
+     }
+    },
+    "channelTitle": "MLG Highlights",
+    "localized": {
+     "title": "2017-18 NBA Full Game Highlights",
+     "description": ""
+    }
+   }
+  }
+ ]
+}
+
+[DEBUG] 2018-05-08 14:29:50.123 [http-nio-8080-exec-7] GenericDAO - Searching for user with userName = User
+[INFO ] 2018-05-08 14:29:50.856 [http-nio-8080-exec-7] ViewUser - User{userName ='User', userPass ='User', first name ='Beth', last name ='Seth', email ='seth@beth.com'}
+[INFO ] 2018-05-08 14:29:50.856 [http-nio-8080-exec-7] ViewUser - null
+[DEBUG] 2018-05-08 14:29:50.856 [http-nio-8080-exec-7] GenericDAO - Searching for Object: class matc.madjava.entity.Team with user = User{userName ='User', userPass ='User', first name ='Beth', last name ='Seth', email ='seth@beth.com'}
+[DEBUG] 2018-05-08 14:29:50.876 [http-nio-8080-exec-9] GenericDAO - Searching for user with userName = User
+[INFO ] 2018-05-08 14:29:50.896 [http-nio-8080-exec-9] ViewUser - User{userName ='User', userPass ='User', first name ='Beth', last name ='Seth', email ='seth@beth.com'}
+[INFO ] 2018-05-08 14:29:50.896 [http-nio-8080-exec-9] ViewUser - null
+[DEBUG] 2018-05-08 14:29:50.896 [http-nio-8080-exec-9] GenericDAO - Searching for Object: class matc.madjava.entity.Team with user = User{userName ='User', userPass ='User', first name ='Beth', last name ='Seth', email ='seth@beth.com'}
+[DEBUG] 2018-05-08 14:29:58.829 [http-nio-8080-exec-6] GenericDAO - Searching for user with userName = User
+[DEBUG] 2018-05-08 14:30:16.603 [http-nio-8080-exec-3] GenericDAO - The list of entity type [Player{playerID='1', firstName='Russel', lastName='Westbrook'}, Player{playerID='2', firstName='Stephen', lastName='Curry'}]
+[DEBUG] 2018-05-08 14:30:16.839 [http-nio-8080-exec-3] GenericDAO - The list of entity type [Player{playerID='1', firstName='James', lastName='Harden'}, Player{playerID='2', firstName='DeMar', lastName='DeRozan'}]
+[DEBUG] 2018-05-08 14:30:16.898 [http-nio-8080-exec-3] GenericDAO - The list of entity type [Player{playerID='1', firstName='Lebron', lastName='James'}, Player{playerID='2', firstName='Kawhi', lastName='Leonard'}]
+[DEBUG] 2018-05-08 14:30:16.948 [http-nio-8080-exec-3] GenericDAO - The list of entity type [Player{playerID='1', firstName='Anthony', lastName='Davis'}]
+[DEBUG] 2018-05-08 14:30:16.981 [http-nio-8080-exec-3] GenericDAO - The list of entity type [Player{playerID='1', firstName='Karl', lastName='Anthony Towns'}]
+[DEBUG] 2018-05-08 14:30:40.511 [http-nio-8080-exec-2] GenericDAO - The list of entity type [Player{playerID='1', firstName='Russel', lastName='Westbrook'}, Player{playerID='2', firstName='Stephen', lastName='Curry'}]
+[DEBUG] 2018-05-08 14:30:40.545 [http-nio-8080-exec-2] GenericDAO - The list of entity type [Player{playerID='1', firstName='James', lastName='Harden'}, Player{playerID='2', firstName='DeMar', lastName='DeRozan'}]
+[DEBUG] 2018-05-08 14:30:40.579 [http-nio-8080-exec-2] GenericDAO - The list of entity type [Player{playerID='1', firstName='Lebron', lastName='James'}, Player{playerID='2', firstName='Kawhi', lastName='Leonard'}]
+[DEBUG] 2018-05-08 14:30:40.606 [http-nio-8080-exec-2] GenericDAO - The list of entity type [Player{playerID='1', firstName='Anthony', lastName='Davis'}]
+[DEBUG] 2018-05-08 14:30:40.636 [http-nio-8080-exec-2] GenericDAO - The list of entity type [Player{playerID='1', firstName='Karl', lastName='Anthony Towns'}]
+[DEBUG] 2018-05-08 14:30:56.575 [http-nio-8080-exec-2] GenericDAO - Searching for user with userName = User
+[DEBUG] 2018-05-08 14:31:10.357 [http-nio-8080-exec-3] GenericDAO - Searching for user with userName = User
+[DEBUG] 2018-05-08 14:32:32.636 [http-nio-8080-exec-4] GenericDAO - Searching for user with userName = User
+[INFO ] 2018-05-08 14:32:32.714 [http-nio-8080-exec-4] ViewUser - User{userName ='User', userPass ='User', first name ='Beth', last name ='Seth', email ='seth@beth.com'}
+[INFO ] 2018-05-08 14:32:32.714 [http-nio-8080-exec-4] ViewUser - null
+[DEBUG] 2018-05-08 14:32:32.714 [http-nio-8080-exec-4] GenericDAO - Searching for Object: class matc.madjava.entity.Team with user = User{userName ='User', userPass ='User', first name ='Beth', last name ='Seth', email ='seth@beth.com'}
+[INFO ] 2018-05-08 14:32:35.254 [http-nio-8080-exec-1] DeleteTeam - 2
+[INFO ] 2018-05-08 14:34:50.524 [http-nio-8080-exec-5] LoadAPI - {
+ "kind": "youtube#playlistListResponse",
+ "etag": "\"95M1zlW0txkV42I4OG1Zscxrg5A/DbtuU9kpDVcjJ0fIR_AUy1jNVME\"",
+ "pageInfo": {
+  "totalResults": 6,
+  "resultsPerPage": 20
+ },
+ "items": [
+  {
+   "kind": "youtube#playlist",
+   "etag": "\"95M1zlW0txkV42I4OG1Zscxrg5A/rlNixQvMtzuAQgtHdMLZC8bxX8Y\"",
+   "id": "PL5j8RirTTnK5nkT8Y8ej2XJECIXzrmWjj",
+   "snippet": {
+    "publishedAt": "2018-04-12T12:01:40.000Z",
+    "channelId": "UCoh_z6QB0AGB1oxWufvbDUg",
+    "title": "2018 NBA Playoffs | Full Game Highlights",
+    "description": "",
+    "thumbnails": {
+     "default": {
+      "url": "https://i.ytimg.com/vi/vug4bROR79I/default.jpg",
+      "width": 120,
+      "height": 90
+     },
+     "medium": {
+      "url": "https://i.ytimg.com/vi/vug4bROR79I/mqdefault.jpg",
+      "width": 320,
+      "height": 180
+     },
+     "high": {
+      "url": "https://i.ytimg.com/vi/vug4bROR79I/hqdefault.jpg",
+      "width": 480,
+      "height": 360
+     },
+     "standard": {
+      "url": "https://i.ytimg.com/vi/vug4bROR79I/sddefault.jpg",
+      "width": 640,
+      "height": 480
+     }
+    },
+    "channelTitle": "MLG Highlights",
+    "localized": {
+     "title": "2018 NBA Playoffs | Full Game Highlights",
+     "description": ""
+    }
+   }
+  },
+  {
+   "kind": "youtube#playlist",
+   "etag": "\"95M1zlW0txkV42I4OG1Zscxrg5A/HeGqjFziiUSqyzNKWhUGoJ0A3Dc\"",
+   "id": "PL5j8RirTTnK6N3ILtk4ZnQhBevGlSbB86",
+   "snippet": {
+    "publishedAt": "2018-02-16T10:27:39.000Z",
+    "channelId": "UCoh_z6QB0AGB1oxWufvbDUg",
+    "title": "2018 NBA All-Star Weekend Full Highlights",
+    "description": "",
+    "thumbnails": {
+     "default": {
+      "url": "https://i.ytimg.com/vi/1mRA9FVJNkQ/default.jpg",
+      "width": 120,
+      "height": 90
+     },
+     "medium": {
+      "url": "https://i.ytimg.com/vi/1mRA9FVJNkQ/mqdefault.jpg",
+      "width": 320,
+      "height": 180
+     },
+     "high": {
+      "url": "https://i.ytimg.com/vi/1mRA9FVJNkQ/hqdefault.jpg",
+      "width": 480,
+      "height": 360
+     },
+     "standard": {
+      "url": "https://i.ytimg.com/vi/1mRA9FVJNkQ/sddefault.jpg",
+      "width": 640,
+      "height": 480
+     }
+    },
+    "channelTitle": "MLG Highlights",
+    "localized": {
+     "title": "2018 NBA All-Star Weekend Full Highlights",
+     "description": ""
+    }
+   }
+  },
+  {
+   "kind": "youtube#playlist",
+   "etag": "\"95M1zlW0txkV42I4OG1Zscxrg5A/sHJnadTGrKq0ZTthA4YstTD-YWg\"",
+   "id": "PL5j8RirTTnK6Z4aPxa-7ZcrApp3snojIq",
+   "snippet": {
+    "publishedAt": "2018-01-18T08:41:15.000Z",
+    "channelId": "UCoh_z6QB0AGB1oxWufvbDUg",
+    "title": "Hoops N Brews: NBA Debate Show",
+    "description": "",
+    "thumbnails": {
+     "default": {
+      "url": "https://i.ytimg.com/vi/Yw8Hig_duRg/default.jpg",
+      "width": 120,
+      "height": 90
+     },
+     "medium": {
+      "url": "https://i.ytimg.com/vi/Yw8Hig_duRg/mqdefault.jpg",
+      "width": 320,
+      "height": 180
+     },
+     "high": {
+      "url": "https://i.ytimg.com/vi/Yw8Hig_duRg/hqdefault.jpg",
+      "width": 480,
+      "height": 360
+     },
+     "standard": {
+      "url": "https://i.ytimg.com/vi/Yw8Hig_duRg/sddefault.jpg",
+      "width": 640,
+      "height": 480
+     },
+     "maxres": {
+      "url": "https://i.ytimg.com/vi/Yw8Hig_duRg/maxresdefault.jpg",
+      "width": 1280,
+      "height": 720
+     }
+    },
+    "channelTitle": "MLG Highlights",
+    "localized": {
+     "title": "Hoops N Brews: NBA Debate Show",
+     "description": ""
+    }
+   }
+  },
+  {
+   "kind": "youtube#playlist",
+   "etag": "\"95M1zlW0txkV42I4OG1Zscxrg5A/VGEdwoZF984ktOKcTDJSVkXoM3o\"",
+   "id": "PL5j8RirTTnK5YbZCIY_fAgyEzdBcyXA3b",
+   "snippet": {
+    "publishedAt": "2017-11-28T05:02:28.000Z",
+    "channelId": "UCoh_z6QB0AGB1oxWufvbDUg",
+    "title": "2017-18 NBA Recaps / Short Moments",
+    "description": "",
+    "thumbnails": {
+     "default": {
+      "url": "https://i.ytimg.com/vi/u5RXAInymBU/default.jpg",
+      "width": 120,
+      "height": 90
+     },
+     "medium": {
+      "url": "https://i.ytimg.com/vi/u5RXAInymBU/mqdefault.jpg",
+      "width": 320,
+      "height": 180
+     },
+     "high": {
+      "url": "https://i.ytimg.com/vi/u5RXAInymBU/hqdefault.jpg",
+      "width": 480,
+      "height": 360
+     },
+     "standard": {
+      "url": "https://i.ytimg.com/vi/u5RXAInymBU/sddefault.jpg",
+      "width": 640,
+      "height": 480
+     },
+     "maxres": {
+      "url": "https://i.ytimg.com/vi/u5RXAInymBU/maxresdefault.jpg",
+      "width": 1280,
+      "height": 720
+     }
+    },
+    "channelTitle": "MLG Highlights",
+    "localized": {
+     "title": "2017-18 NBA Recaps / Short Moments",
+     "description": ""
+    }
+   }
+  },
+  {
+   "kind": "youtube#playlist",
+   "etag": "\"95M1zlW0txkV42I4OG1Zscxrg5A/W54RShSIID_8AbZjRZAx2KBVsIw\"",
+   "id": "PL5j8RirTTnK6WiA838VLzaTIxnd9zxP8f",
+   "snippet": {
+    "publishedAt": "2017-11-28T05:01:35.000Z",
+    "channelId": "UCoh_z6QB0AGB1oxWufvbDUg",
+    "title": "2017-18 NBA Player Highlights",
+    "description": "",
+    "thumbnails": {
+     "default": {
+      "url": "https://i.ytimg.com/vi/7LIz1BwZu_I/default.jpg",
+      "width": 120,
+      "height": 90
+     },
+     "medium": {
+      "url": "https://i.ytimg.com/vi/7LIz1BwZu_I/mqdefault.jpg",
+      "width": 320,
+      "height": 180
+     },
+     "high": {
+      "url": "https://i.ytimg.com/vi/7LIz1BwZu_I/hqdefault.jpg",
+      "width": 480,
+      "height": 360
+     },
+     "standard": {
+      "url": "https://i.ytimg.com/vi/7LIz1BwZu_I/sddefault.jpg",
+      "width": 640,
+      "height": 480
+     }
+    },
+    "channelTitle": "MLG Highlights",
+    "localized": {
+     "title": "2017-18 NBA Player Highlights",
+     "description": ""
+    }
+   }
+  },
+  {
+   "kind": "youtube#playlist",
+   "etag": "\"95M1zlW0txkV42I4OG1Zscxrg5A/Ltjrl5COOFMD8_6t5OaaKaOVQAI\"",
+   "id": "PL5j8RirTTnK78PtLzP05VGHAp9qrU8NAE",
+   "snippet": {
+    "publishedAt": "2017-09-26T14:07:53.000Z",
+    "channelId": "UCoh_z6QB0AGB1oxWufvbDUg",
+    "title": "2017-18 NBA Full Game Highlights",
+    "description": "",
+    "thumbnails": {
+     "default": {
+      "url": "https://i.ytimg.com/vi/k6iQGGGPb2Y/default.jpg",
+      "width": 120,
+      "height": 90
+     },
+     "medium": {
+      "url": "https://i.ytimg.com/vi/k6iQGGGPb2Y/mqdefault.jpg",
+      "width": 320,
+      "height": 180
+     },
+     "high": {
+      "url": "https://i.ytimg.com/vi/k6iQGGGPb2Y/hqdefault.jpg",
+      "width": 480,
+      "height": 360
+     },
+     "standard": {
+      "url": "https://i.ytimg.com/vi/k6iQGGGPb2Y/sddefault.jpg",
+      "width": 640,
+      "height": 480
+     }
+    },
+    "channelTitle": "MLG Highlights",
+    "localized": {
+     "title": "2017-18 NBA Full Game Highlights",
+     "description": ""
+    }
+   }
+  }
+ ]
+}
+
+[DEBUG] 2018-05-08 14:35:04.919 [http-nio-8080-exec-10] GenericDAO - Searching for user with userName = admin
+[INFO ] 2018-05-08 14:35:06.000 [http-nio-8080-exec-10] ViewUser - User{userName ='admin', userPass ='admin', first name ='Johnny', last name ='Smith', email ='smith@john.com'}
+[INFO ] 2018-05-08 14:35:06.001 [http-nio-8080-exec-10] ViewUser - null
+[DEBUG] 2018-05-08 14:35:06.001 [http-nio-8080-exec-10] GenericDAO - Searching for Object: class matc.madjava.entity.Team with user = User{userName ='admin', userPass ='admin', first name ='Johnny', last name ='Smith', email ='smith@john.com'}
+[INFO ] 2018-05-08 14:35:53.232 [http-nio-8080-exec-10] DeleteTeam - 1
+[DEBUG] 2018-05-08 14:36:04.286 [http-nio-8080-exec-4] GenericDAO - Searching for user with userName = admin
+[INFO ] 2018-05-08 14:36:04.303 [http-nio-8080-exec-4] ViewUser - User{userName ='admin', userPass ='admin', first name ='Johnny', last name ='Smith', email ='smith@john.com'}
+[INFO ] 2018-05-08 14:36:04.303 [http-nio-8080-exec-4] ViewUser - null
+[DEBUG] 2018-05-08 14:36:04.304 [http-nio-8080-exec-4] GenericDAO - Searching for Object: class matc.madjava.entity.Team with user = User{userName ='admin', userPass ='admin', first name ='Johnny', last name ='Smith', email ='smith@john.com'}
+[INFO ] 2018-05-08 14:42:29.632 [http-nio-8080-exec-5] LoadAPI - {
+ "kind": "youtube#playlistListResponse",
+ "etag": "\"95M1zlW0txkV42I4OG1Zscxrg5A/s8Fy9qg1ya3Wtl0KN-mumgxiwMc\"",
+ "pageInfo": {
+  "totalResults": 6,
+  "resultsPerPage": 20
+ },
+ "items": [
+  {
+   "kind": "youtube#playlist",
+   "etag": "\"95M1zlW0txkV42I4OG1Zscxrg5A/rlNixQvMtzuAQgtHdMLZC8bxX8Y\"",
+   "id": "PL5j8RirTTnK5nkT8Y8ej2XJECIXzrmWjj",
+   "snippet": {
+    "publishedAt": "2018-04-12T12:01:40.000Z",
+    "channelId": "UCoh_z6QB0AGB1oxWufvbDUg",
+    "title": "2018 NBA Playoffs | Full Game Highlights",
+    "description": "",
+    "thumbnails": {
+     "default": {
+      "url": "https://i.ytimg.com/vi/vug4bROR79I/default.jpg",
+      "width": 120,
+      "height": 90
+     },
+     "medium": {
+      "url": "https://i.ytimg.com/vi/vug4bROR79I/mqdefault.jpg",
+      "width": 320,
+      "height": 180
+     },
+     "high": {
+      "url": "https://i.ytimg.com/vi/vug4bROR79I/hqdefault.jpg",
+      "width": 480,
+      "height": 360
+     },
+     "standard": {
+      "url": "https://i.ytimg.com/vi/vug4bROR79I/sddefault.jpg",
+      "width": 640,
+      "height": 480
+     }
+    },
+    "channelTitle": "MLG Highlights",
+    "localized": {
+     "title": "2018 NBA Playoffs | Full Game Highlights",
+     "description": ""
+    }
+   }
+  },
+  {
+   "kind": "youtube#playlist",
+   "etag": "\"95M1zlW0txkV42I4OG1Zscxrg5A/HeGqjFziiUSqyzNKWhUGoJ0A3Dc\"",
+   "id": "PL5j8RirTTnK6N3ILtk4ZnQhBevGlSbB86",
+   "snippet": {
+    "publishedAt": "2018-02-16T10:27:39.000Z",
+    "channelId": "UCoh_z6QB0AGB1oxWufvbDUg",
+    "title": "2018 NBA All-Star Weekend Full Highlights",
+    "description": "",
+    "thumbnails": {
+     "default": {
+      "url": "https://i.ytimg.com/vi/1mRA9FVJNkQ/default.jpg",
+      "width": 120,
+      "height": 90
+     },
+     "medium": {
+      "url": "https://i.ytimg.com/vi/1mRA9FVJNkQ/mqdefault.jpg",
+      "width": 320,
+      "height": 180
+     },
+     "high": {
+      "url": "https://i.ytimg.com/vi/1mRA9FVJNkQ/hqdefault.jpg",
+      "width": 480,
+      "height": 360
+     },
+     "standard": {
+      "url": "https://i.ytimg.com/vi/1mRA9FVJNkQ/sddefault.jpg",
+      "width": 640,
+      "height": 480
+     }
+    },
+    "channelTitle": "MLG Highlights",
+    "localized": {
+     "title": "2018 NBA All-Star Weekend Full Highlights",
+     "description": ""
+    }
+   }
+  },
+  {
+   "kind": "youtube#playlist",
+   "etag": "\"95M1zlW0txkV42I4OG1Zscxrg5A/sHJnadTGrKq0ZTthA4YstTD-YWg\"",
+   "id": "PL5j8RirTTnK6Z4aPxa-7ZcrApp3snojIq",
+   "snippet": {
+    "publishedAt": "2018-01-18T08:41:15.000Z",
+    "channelId": "UCoh_z6QB0AGB1oxWufvbDUg",
+    "title": "Hoops N Brews: NBA Debate Show",
+    "description": "",
+    "thumbnails": {
+     "default": {
+      "url": "https://i.ytimg.com/vi/Yw8Hig_duRg/default.jpg",
+      "width": 120,
+      "height": 90
+     },
+     "medium": {
+      "url": "https://i.ytimg.com/vi/Yw8Hig_duRg/mqdefault.jpg",
+      "width": 320,
+      "height": 180
+     },
+     "high": {
+      "url": "https://i.ytimg.com/vi/Yw8Hig_duRg/hqdefault.jpg",
+      "width": 480,
+      "height": 360
+     },
+     "standard": {
+      "url": "https://i.ytimg.com/vi/Yw8Hig_duRg/sddefault.jpg",
+      "width": 640,
+      "height": 480
+     },
+     "maxres": {
+      "url": "https://i.ytimg.com/vi/Yw8Hig_duRg/maxresdefault.jpg",
+      "width": 1280,
+      "height": 720
+     }
+    },
+    "channelTitle": "MLG Highlights",
+    "localized": {
+     "title": "Hoops N Brews: NBA Debate Show",
+     "description": ""
+    }
+   }
+  },
+  {
+   "kind": "youtube#playlist",
+   "etag": "\"95M1zlW0txkV42I4OG1Zscxrg5A/VGEdwoZF984ktOKcTDJSVkXoM3o\"",
+   "id": "PL5j8RirTTnK5YbZCIY_fAgyEzdBcyXA3b",
+   "snippet": {
+    "publishedAt": "2017-11-28T05:02:28.000Z",
+    "channelId": "UCoh_z6QB0AGB1oxWufvbDUg",
+    "title": "2017-18 NBA Recaps / Short Moments",
+    "description": "",
+    "thumbnails": {
+     "default": {
+      "url": "https://i.ytimg.com/vi/u5RXAInymBU/default.jpg",
+      "width": 120,
+      "height": 90
+     },
+     "medium": {
+      "url": "https://i.ytimg.com/vi/u5RXAInymBU/mqdefault.jpg",
+      "width": 320,
+      "height": 180
+     },
+     "high": {
+      "url": "https://i.ytimg.com/vi/u5RXAInymBU/hqdefault.jpg",
+      "width": 480,
+      "height": 360
+     },
+     "standard": {
+      "url": "https://i.ytimg.com/vi/u5RXAInymBU/sddefault.jpg",
+      "width": 640,
+      "height": 480
+     },
+     "maxres": {
+      "url": "https://i.ytimg.com/vi/u5RXAInymBU/maxresdefault.jpg",
+      "width": 1280,
+      "height": 720
+     }
+    },
+    "channelTitle": "MLG Highlights",
+    "localized": {
+     "title": "2017-18 NBA Recaps / Short Moments",
+     "description": ""
+    }
+   }
+  },
+  {
+   "kind": "youtube#playlist",
+   "etag": "\"95M1zlW0txkV42I4OG1Zscxrg5A/W54RShSIID_8AbZjRZAx2KBVsIw\"",
+   "id": "PL5j8RirTTnK6WiA838VLzaTIxnd9zxP8f",
+   "snippet": {
+    "publishedAt": "2017-11-28T05:01:35.000Z",
+    "channelId": "UCoh_z6QB0AGB1oxWufvbDUg",
+    "title": "2017-18 NBA Player Highlights",
+    "description": "",
+    "thumbnails": {
+     "default": {
+      "url": "https://i.ytimg.com/vi/7LIz1BwZu_I/default.jpg",
+      "width": 120,
+      "height": 90
+     },
+     "medium": {
+      "url": "https://i.ytimg.com/vi/7LIz1BwZu_I/mqdefault.jpg",
+      "width": 320,
+      "height": 180
+     },
+     "high": {
+      "url": "https://i.ytimg.com/vi/7LIz1BwZu_I/hqdefault.jpg",
+      "width": 480,
+      "height": 360
+     },
+     "standard": {
+      "url": "https://i.ytimg.com/vi/7LIz1BwZu_I/sddefault.jpg",
+      "width": 640,
+      "height": 480
+     }
+    },
+    "channelTitle": "MLG Highlights",
+    "localized": {
+     "title": "2017-18 NBA Player Highlights",
+     "description": ""
+    }
+   }
+  },
+  {
+   "kind": "youtube#playlist",
+   "etag": "\"95M1zlW0txkV42I4OG1Zscxrg5A/Ltjrl5COOFMD8_6t5OaaKaOVQAI\"",
+   "id": "PL5j8RirTTnK78PtLzP05VGHAp9qrU8NAE",
+   "snippet": {
+    "publishedAt": "2017-09-26T14:07:53.000Z",
+    "channelId": "UCoh_z6QB0AGB1oxWufvbDUg",
+    "title": "2017-18 NBA Full Game Highlights",
+    "description": "",
+    "thumbnails": {
+     "default": {
+      "url": "https://i.ytimg.com/vi/k6iQGGGPb2Y/default.jpg",
+      "width": 120,
+      "height": 90
+     },
+     "medium": {
+      "url": "https://i.ytimg.com/vi/k6iQGGGPb2Y/mqdefault.jpg",
+      "width": 320,
+      "height": 180
+     },
+     "high": {
+      "url": "https://i.ytimg.com/vi/k6iQGGGPb2Y/hqdefault.jpg",
+      "width": 480,
+      "height": 360
+     },
+     "standard": {
+      "url": "https://i.ytimg.com/vi/k6iQGGGPb2Y/sddefault.jpg",
+      "width": 640,
+      "height": 480
+     }
+    },
+    "channelTitle": "MLG Highlights",
+    "localized": {
+     "title": "2017-18 NBA Full Game Highlights",
+     "description": ""
+    }
+   }
+  }
+ ]
+}
+
+[DEBUG] 2018-05-08 14:42:40.215 [http-nio-8080-exec-8] GenericDAO - Searching for user with userName = admin
+[INFO ] 2018-05-08 14:42:40.745 [http-nio-8080-exec-8] ViewUser - User{userName ='admin', userPass ='admin', first name ='Johnny', last name ='Smith', email ='smith@john.com'}
+[INFO ] 2018-05-08 14:42:40.745 [http-nio-8080-exec-8] ViewUser - null
+[DEBUG] 2018-05-08 14:42:40.746 [http-nio-8080-exec-8] GenericDAO - Searching for Object: class matc.madjava.entity.Team with user = User{userName ='admin', userPass ='admin', first name ='Johnny', last name ='Smith', email ='smith@john.com'}
+[DEBUG] 2018-05-08 14:42:53.277 [http-nio-8080-exec-4] GenericDAO - The list of entity type [Player{playerID='1', firstName='Russel', lastName='Westbrook'}, Player{playerID='2', firstName='Stephen', lastName='Curry'}]
+[DEBUG] 2018-05-08 14:42:53.326 [http-nio-8080-exec-4] GenericDAO - The list of entity type [Player{playerID='1', firstName='James', lastName='Harden'}, Player{playerID='2', firstName='DeMar', lastName='DeRozan'}]
+[DEBUG] 2018-05-08 14:42:53.369 [http-nio-8080-exec-4] GenericDAO - The list of entity type [Player{playerID='1', firstName='Lebron', lastName='James'}, Player{playerID='2', firstName='Kawhi', lastName='Leonard'}]
+[DEBUG] 2018-05-08 14:42:53.409 [http-nio-8080-exec-4] GenericDAO - The list of entity type [Player{playerID='1', firstName='Anthony', lastName='Davis'}]
+[DEBUG] 2018-05-08 14:42:53.455 [http-nio-8080-exec-4] GenericDAO - The list of entity type [Player{playerID='1', firstName='Karl', lastName='Anthony Towns'}]
+[DEBUG] 2018-05-08 14:42:57.926 [http-nio-8080-exec-9] GenericDAO - Searching for user with userName = admin
+[DEBUG] 2018-05-08 14:43:01.099 [http-nio-8080-exec-6] GenericDAO - The list of entity type [Player{playerID='1', firstName='Russel', lastName='Westbrook'}, Player{playerID='2', firstName='Stephen', lastName='Curry'}]
+[DEBUG] 2018-05-08 14:43:01.132 [http-nio-8080-exec-6] GenericDAO - The list of entity type [Player{playerID='1', firstName='James', lastName='Harden'}, Player{playerID='2', firstName='DeMar', lastName='DeRozan'}]
+[DEBUG] 2018-05-08 14:43:01.182 [http-nio-8080-exec-6] GenericDAO - The list of entity type [Player{playerID='1', firstName='Lebron', lastName='James'}, Player{playerID='2', firstName='Kawhi', lastName='Leonard'}]
+[DEBUG] 2018-05-08 14:43:01.211 [http-nio-8080-exec-6] GenericDAO - The list of entity type [Player{playerID='1', firstName='Anthony', lastName='Davis'}]
+[DEBUG] 2018-05-08 14:43:01.240 [http-nio-8080-exec-6] GenericDAO - The list of entity type [Player{playerID='1', firstName='Karl', lastName='Anthony Towns'}]
+[DEBUG] 2018-05-08 14:43:13.861 [http-nio-8080-exec-3] GenericDAO - Searching for user with userName = admin
+[DEBUG] 2018-05-08 14:43:19.515 [http-nio-8080-exec-4] GenericDAO - Searching for user with userName = admin
+[INFO ] 2018-05-08 14:43:20.817 [http-nio-8080-exec-10] ViewTeams - 3
+[INFO ] 2018-05-08 14:43:20.817 [http-nio-8080-exec-10] ViewTeams - 3
+[DEBUG] 2018-05-08 14:43:24.104 [http-nio-8080-exec-6] GenericDAO - Searching for user with userName = admin
+[INFO ] 2018-05-08 14:43:24.173 [http-nio-8080-exec-6] ViewUser - User{userName ='admin', userPass ='admin', first name ='Johnny', last name ='Smith', email ='smith@john.com'}
+[INFO ] 2018-05-08 14:43:24.173 [http-nio-8080-exec-6] ViewUser - null
+[DEBUG] 2018-05-08 14:43:24.173 [http-nio-8080-exec-6] GenericDAO - Searching for Object: class matc.madjava.entity.Team with user = User{userName ='admin', userPass ='admin', first name ='Johnny', last name ='Smith', email ='smith@john.com'}
+[INFO ] 2018-05-08 14:43:28.024 [http-nio-8080-exec-4] DeleteTeam - 3
+[INFO ] 2018-05-08 14:45:10.136 [http-nio-8080-exec-4] LoadAPI - {
+ "kind": "youtube#playlistListResponse",
+ "etag": "\"95M1zlW0txkV42I4OG1Zscxrg5A/EVJUH23rnKM1aXfMJQ0p8FV7GSI\"",
+ "pageInfo": {
+  "totalResults": 6,
+  "resultsPerPage": 20
+ },
+ "items": [
+  {
+   "kind": "youtube#playlist",
+   "etag": "\"95M1zlW0txkV42I4OG1Zscxrg5A/rlNixQvMtzuAQgtHdMLZC8bxX8Y\"",
+   "id": "PL5j8RirTTnK5nkT8Y8ej2XJECIXzrmWjj",
+   "snippet": {
+    "publishedAt": "2018-04-12T12:01:40.000Z",
+    "channelId": "UCoh_z6QB0AGB1oxWufvbDUg",
+    "title": "2018 NBA Playoffs | Full Game Highlights",
+    "description": "",
+    "thumbnails": {
+     "default": {
+      "url": "https://i.ytimg.com/vi/vug4bROR79I/default.jpg",
+      "width": 120,
+      "height": 90
+     },
+     "medium": {
+      "url": "https://i.ytimg.com/vi/vug4bROR79I/mqdefault.jpg",
+      "width": 320,
+      "height": 180
+     },
+     "high": {
+      "url": "https://i.ytimg.com/vi/vug4bROR79I/hqdefault.jpg",
+      "width": 480,
+      "height": 360
+     },
+     "standard": {
+      "url": "https://i.ytimg.com/vi/vug4bROR79I/sddefault.jpg",
+      "width": 640,
+      "height": 480
+     }
+    },
+    "channelTitle": "MLG Highlights",
+    "localized": {
+     "title": "2018 NBA Playoffs | Full Game Highlights",
+     "description": ""
+    }
+   }
+  },
+  {
+   "kind": "youtube#playlist",
+   "etag": "\"95M1zlW0txkV42I4OG1Zscxrg5A/HeGqjFziiUSqyzNKWhUGoJ0A3Dc\"",
+   "id": "PL5j8RirTTnK6N3ILtk4ZnQhBevGlSbB86",
+   "snippet": {
+    "publishedAt": "2018-02-16T10:27:39.000Z",
+    "channelId": "UCoh_z6QB0AGB1oxWufvbDUg",
+    "title": "2018 NBA All-Star Weekend Full Highlights",
+    "description": "",
+    "thumbnails": {
+     "default": {
+      "url": "https://i.ytimg.com/vi/1mRA9FVJNkQ/default.jpg",
+      "width": 120,
+      "height": 90
+     },
+     "medium": {
+      "url": "https://i.ytimg.com/vi/1mRA9FVJNkQ/mqdefault.jpg",
+      "width": 320,
+      "height": 180
+     },
+     "high": {
+      "url": "https://i.ytimg.com/vi/1mRA9FVJNkQ/hqdefault.jpg",
+      "width": 480,
+      "height": 360
+     },
+     "standard": {
+      "url": "https://i.ytimg.com/vi/1mRA9FVJNkQ/sddefault.jpg",
+      "width": 640,
+      "height": 480
+     }
+    },
+    "channelTitle": "MLG Highlights",
+    "localized": {
+     "title": "2018 NBA All-Star Weekend Full Highlights",
+     "description": ""
+    }
+   }
+  },
+  {
+   "kind": "youtube#playlist",
+   "etag": "\"95M1zlW0txkV42I4OG1Zscxrg5A/sHJnadTGrKq0ZTthA4YstTD-YWg\"",
+   "id": "PL5j8RirTTnK6Z4aPxa-7ZcrApp3snojIq",
+   "snippet": {
+    "publishedAt": "2018-01-18T08:41:15.000Z",
+    "channelId": "UCoh_z6QB0AGB1oxWufvbDUg",
+    "title": "Hoops N Brews: NBA Debate Show",
+    "description": "",
+    "thumbnails": {
+     "default": {
+      "url": "https://i.ytimg.com/vi/Yw8Hig_duRg/default.jpg",
+      "width": 120,
+      "height": 90
+     },
+     "medium": {
+      "url": "https://i.ytimg.com/vi/Yw8Hig_duRg/mqdefault.jpg",
+      "width": 320,
+      "height": 180
+     },
+     "high": {
+      "url": "https://i.ytimg.com/vi/Yw8Hig_duRg/hqdefault.jpg",
+      "width": 480,
+      "height": 360
+     },
+     "standard": {
+      "url": "https://i.ytimg.com/vi/Yw8Hig_duRg/sddefault.jpg",
+      "width": 640,
+      "height": 480
+     },
+     "maxres": {
+      "url": "https://i.ytimg.com/vi/Yw8Hig_duRg/maxresdefault.jpg",
+      "width": 1280,
+      "height": 720
+     }
+    },
+    "channelTitle": "MLG Highlights",
+    "localized": {
+     "title": "Hoops N Brews: NBA Debate Show",
+     "description": ""
+    }
+   }
+  },
+  {
+   "kind": "youtube#playlist",
+   "etag": "\"95M1zlW0txkV42I4OG1Zscxrg5A/VGEdwoZF984ktOKcTDJSVkXoM3o\"",
+   "id": "PL5j8RirTTnK5YbZCIY_fAgyEzdBcyXA3b",
+   "snippet": {
+    "publishedAt": "2017-11-28T05:02:28.000Z",
+    "channelId": "UCoh_z6QB0AGB1oxWufvbDUg",
+    "title": "2017-18 NBA Recaps / Short Moments",
+    "description": "",
+    "thumbnails": {
+     "default": {
+      "url": "https://i.ytimg.com/vi/u5RXAInymBU/default.jpg",
+      "width": 120,
+      "height": 90
+     },
+     "medium": {
+      "url": "https://i.ytimg.com/vi/u5RXAInymBU/mqdefault.jpg",
+      "width": 320,
+      "height": 180
+     },
+     "high": {
+      "url": "https://i.ytimg.com/vi/u5RXAInymBU/hqdefault.jpg",
+      "width": 480,
+      "height": 360
+     },
+     "standard": {
+      "url": "https://i.ytimg.com/vi/u5RXAInymBU/sddefault.jpg",
+      "width": 640,
+      "height": 480
+     },
+     "maxres": {
+      "url": "https://i.ytimg.com/vi/u5RXAInymBU/maxresdefault.jpg",
+      "width": 1280,
+      "height": 720
+     }
+    },
+    "channelTitle": "MLG Highlights",
+    "localized": {
+     "title": "2017-18 NBA Recaps / Short Moments",
+     "description": ""
+    }
+   }
+  },
+  {
+   "kind": "youtube#playlist",
+   "etag": "\"95M1zlW0txkV42I4OG1Zscxrg5A/W54RShSIID_8AbZjRZAx2KBVsIw\"",
+   "id": "PL5j8RirTTnK6WiA838VLzaTIxnd9zxP8f",
+   "snippet": {
+    "publishedAt": "2017-11-28T05:01:35.000Z",
+    "channelId": "UCoh_z6QB0AGB1oxWufvbDUg",
+    "title": "2017-18 NBA Player Highlights",
+    "description": "",
+    "thumbnails": {
+     "default": {
+      "url": "https://i.ytimg.com/vi/7LIz1BwZu_I/default.jpg",
+      "width": 120,
+      "height": 90
+     },
+     "medium": {
+      "url": "https://i.ytimg.com/vi/7LIz1BwZu_I/mqdefault.jpg",
+      "width": 320,
+      "height": 180
+     },
+     "high": {
+      "url": "https://i.ytimg.com/vi/7LIz1BwZu_I/hqdefault.jpg",
+      "width": 480,
+      "height": 360
+     },
+     "standard": {
+      "url": "https://i.ytimg.com/vi/7LIz1BwZu_I/sddefault.jpg",
+      "width": 640,
+      "height": 480
+     }
+    },
+    "channelTitle": "MLG Highlights",
+    "localized": {
+     "title": "2017-18 NBA Player Highlights",
+     "description": ""
+    }
+   }
+  },
+  {
+   "kind": "youtube#playlist",
+   "etag": "\"95M1zlW0txkV42I4OG1Zscxrg5A/Ltjrl5COOFMD8_6t5OaaKaOVQAI\"",
+   "id": "PL5j8RirTTnK78PtLzP05VGHAp9qrU8NAE",
+   "snippet": {
+    "publishedAt": "2017-09-26T14:07:53.000Z",
+    "channelId": "UCoh_z6QB0AGB1oxWufvbDUg",
+    "title": "2017-18 NBA Full Game Highlights",
+    "description": "",
+    "thumbnails": {
+     "default": {
+      "url": "https://i.ytimg.com/vi/k6iQGGGPb2Y/default.jpg",
+      "width": 120,
+      "height": 90
+     },
+     "medium": {
+      "url": "https://i.ytimg.com/vi/k6iQGGGPb2Y/mqdefault.jpg",
+      "width": 320,
+      "height": 180
+     },
+     "high": {
+      "url": "https://i.ytimg.com/vi/k6iQGGGPb2Y/hqdefault.jpg",
+      "width": 480,
+      "height": 360
+     },
+     "standard": {
+      "url": "https://i.ytimg.com/vi/k6iQGGGPb2Y/sddefault.jpg",
+      "width": 640,
+      "height": 480
+     }
+    },
+    "channelTitle": "MLG Highlights",
+    "localized": {
+     "title": "2017-18 NBA Full Game Highlights",
+     "description": ""
+    }
+   }
+  }
+ ]
+}
+
+[DEBUG] 2018-05-08 14:45:20.784 [http-nio-8080-exec-7] GenericDAO - Searching for user with userName = admin
+[INFO ] 2018-05-08 14:45:21.394 [http-nio-8080-exec-7] ViewUser - User{userName ='admin', userPass ='admin', first name ='Johnny', last name ='Smith', email ='smith@john.com'}
+[INFO ] 2018-05-08 14:45:21.394 [http-nio-8080-exec-7] ViewUser - null
+[DEBUG] 2018-05-08 14:45:21.395 [http-nio-8080-exec-7] GenericDAO - Searching for Object: class matc.madjava.entity.Team with user = User{userName ='admin', userPass ='admin', first name ='Johnny', last name ='Smith', email ='smith@john.com'}
+[INFO ] 2018-05-08 14:45:25.482 [http-nio-8080-exec-3] DeleteTeam - 3

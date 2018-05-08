@@ -28,6 +28,7 @@ com\google\youtube\MaxRes.class
 matc\madjava\entity\ShootingGuard.class
 matc\madjava\controller\TeamSelector.class
 com\google\youtube\PageInfo.class
+matc\madjava\controller\DeleteTeam.class
 matc\madjava\entity\PowerForward.class
 com\google\youtube\Standard.class
 com\google\youtube\Medium.class

@@ -140,7 +140,19 @@
         </auth-constraint>
     </security-constraint>
 
-  <security-role>
+    <security-constraint>
+        <web-resource-collection>
+            <web-resource-name>deleteTeamServlet</web-resource-name>
+            <url-pattern>/deleteTeam</url-pattern>
+        </web-resource-collection>
+        <auth-constraint>
+            <role-name>user</role-name>
+            <role-name>administrator</role-name>
+        </auth-constraint>
+    </security-constraint>
+
+
+    <security-role>
     <role-name>user</role-name>
   </security-role>
 
