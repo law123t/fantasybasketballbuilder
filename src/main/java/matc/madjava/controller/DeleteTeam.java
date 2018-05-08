@@ -29,7 +29,15 @@ public class DeleteTeam extends HttpServlet {
     GenericDAO genericDAOTeam;
     Team team;
 
-
+    /**
+     * This method pulls the id of the team to be deleted and deletes it, it then redirects the user back
+     * to the application launch page
+     *
+     * @param req
+     * @param resp
+     * @throws ServletException
+     * @throws IOException
+     */
     @Override
     protected void doPost(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
         HttpSession httpSession = req.getSession();

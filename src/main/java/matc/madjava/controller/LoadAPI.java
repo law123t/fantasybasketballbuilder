@@ -35,6 +35,15 @@ public class LoadAPI extends HttpServlet {
 
     private final Logger log = LogManager.getLogger(this.getClass());
 
+    /**
+     * This servlet is called on login and sets the api web call for the entire session and redirects
+     * to application landing page
+     *
+     * @param req
+     * @param resp
+     * @throws ServletException
+     * @throws IOException
+     */
     @Override
     protected void doGet (HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
         ObjectMapper mapper = new ObjectMapper();

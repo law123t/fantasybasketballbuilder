@@ -22,6 +22,16 @@ public class CheckAdmin extends HttpServlet {
     GenericDAO genericDAOUserRole;
     UserRoles userRoles;
 
+    /**
+     * This method pulls user from session using principal and validates whether user is an
+     * Administrator role or a user role, and redirects to admin authorized area or back to application
+     * launch
+     *
+     * @param req
+     * @param resp
+     * @throws ServletException
+     * @throws IOException
+     */
     @Override
     protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
         HttpSession httpSession = req.getSession();

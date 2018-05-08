@@ -30,6 +30,14 @@ public class DeleteUser extends HttpServlet {
     UserRoles userRoles;
     User user;
 
+    /**
+     * This method gets all users except the logged in user, and passes the array list of users to be
+     * available for the deleteUser.jsp
+     * @param req
+     * @param resp
+     * @throws ServletException
+     * @throws IOException
+     */
     @Override
     protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
         HttpSession httpSession = req.getSession();
@@ -53,7 +61,15 @@ public class DeleteUser extends HttpServlet {
         dispatcher.forward(req, resp);
     }
 
-
+    /**
+     * This method gets passed user data and either deletes them, or sends them to the CheckAdmin
+     * Servlet for further validation.
+     *
+     * @param req
+     * @param resp
+     * @throws ServletException
+     * @throws IOException
+     */
     @Override
     protected void doPost(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
         HttpSession httpSession = req.getSession();

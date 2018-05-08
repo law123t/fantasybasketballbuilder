@@ -23,6 +23,15 @@ public class DeleteAdmin extends HttpServlet {
     GenericDAO genericDAOUser;
     GenericDAO genericDAOUserRole;
 
+    /**
+     * This method validates the Admins password is being passed
+     * before it deletes a user who is identified with role of Admin
+     *
+     * @param req
+     * @param resp
+     * @throws ServletException
+     * @throws IOException
+     */
     @Override
     protected void doPost(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
         HttpSession httpSession = req.getSession();

@@ -30,20 +30,19 @@ public class ViewTeams extends HttpServlet {
     private GenericDAO teamDAO;
     private final Logger log = LogManager.getLogger(this.getClass());
 
+    /**
+     * This Method Gets in depth stats for Selected team from teamSelect servlet and passes it to
+     * the viewTeams.jsp
+     *
+     * @param req
+     * @param resp
+     * @throws ServletException
+     * @throws IOException
+     */
     @Override
     protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
         HttpSession httpSession = req.getSession();
 
-        String validation = req.getParameter("team");
-
-        if (validation.equals("")|| validation == null) {
-
-            httpSession.setAttribute("message", "Create a Team First!");
-
-            RequestDispatcher dispatcher = req.getRequestDispatcher("basketballApp/createTeam.jsp");
-            dispatcher.forward(req, resp);
-
-        } else {
             functions = new Functions();
 
             myteam = new Team();
@@ -176,7 +175,6 @@ public class ViewTeams extends HttpServlet {
 
             RequestDispatcher dispatcher = req.getRequestDispatcher("basketballApp/viewTeams.jsp");
             dispatcher.forward(req, resp);
-        }
     }
 
 }

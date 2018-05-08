@@ -19,6 +19,14 @@ public class Logout extends HttpServlet {
 
     private final Logger log = LogManager.getLogger(this.getClass());
 
+    /**
+     * Invalidates login and redirects to index.jsp launch page
+     *
+     * @param req
+     * @param resp
+     * @throws ServletException
+     * @throws IOException
+     */
     @Override
     protected void doGet (HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
 

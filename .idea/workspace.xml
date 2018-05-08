@@ -7,58 +7,56 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="96b480fa-f281-40ef-8134-faeb902e446e" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/matc/madjava/controller/DeleteTeam.java" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change beforePath="$PROJECT_DIR$/logs/all.log" afterPath="$PROJECT_DIR$/logs/all.log" />
-      <change beforePath="$PROJECT_DIR$/logs/hibernate.log" afterPath="$PROJECT_DIR$/logs/hibernate.log" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/matc/madjava/controller/AppStartup.java" afterPath="$PROJECT_DIR$/src/main/java/matc/madjava/controller/AppStartup.java" />
+      <change beforePath="$PROJECT_DIR$/logs/hibernate.log" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/matc/madjava/controller/CheckAdmin.java" afterPath="$PROJECT_DIR$/src/main/java/matc/madjava/controller/CheckAdmin.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/matc/madjava/controller/CreateTeam.java" afterPath="$PROJECT_DIR$/src/main/java/matc/madjava/controller/CreateTeam.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/matc/madjava/controller/DeleteAdmin.java" afterPath="$PROJECT_DIR$/src/main/java/matc/madjava/controller/DeleteAdmin.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/matc/madjava/controller/DeleteTeam.java" afterPath="$PROJECT_DIR$/src/main/java/matc/madjava/controller/DeleteTeam.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/matc/madjava/controller/DeleteUser.java" afterPath="$PROJECT_DIR$/src/main/java/matc/madjava/controller/DeleteUser.java" />
       <change beforePath="$PROJECT_DIR$/src/main/java/matc/madjava/controller/LoadAPI.java" afterPath="$PROJECT_DIR$/src/main/java/matc/madjava/controller/LoadAPI.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/matc/madjava/controller/TeamSelector.java" afterPath="$PROJECT_DIR$/src/main/java/matc/madjava/controller/TeamSelector.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/matc/madjava/controller/Logout.java" afterPath="$PROJECT_DIR$/src/main/java/matc/madjava/controller/Logout.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/matc/madjava/controller/Signup.java" afterPath="$PROJECT_DIR$/src/main/java/matc/madjava/controller/Signup.java" />
       <change beforePath="$PROJECT_DIR$/src/main/java/matc/madjava/controller/ViewTeams.java" afterPath="$PROJECT_DIR$/src/main/java/matc/madjava/controller/ViewTeams.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/fantasybasketballbuilder.properties" afterPath="$PROJECT_DIR$/src/main/resources/fantasybasketballbuilder.properties" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/basketballApp/basketballApp-Admin/adminpasscheck.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/basketballApp/basketballApp-Admin/adminpasscheck.jsp" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/basketballApp/content-jsp/javascript.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/basketballApp/content-jsp/javascript.jsp" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/basketballApp/content-jsp/nav.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/basketballApp/content-jsp/nav.jsp" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/basketballApp/createTeam.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/basketballApp/createTeam.jsp" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/basketballApp/teamsSelector.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/basketballApp/teamsSelector.jsp" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/basketballApp/viewUser.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/basketballApp/viewUser.jsp" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/content-jsp/nav-launch.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/content-jsp/nav-launch.jsp" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/content-jsp/nav.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/content-jsp/nav.jsp" />
-      <change beforePath="$PROJECT_DIR$/target/classes/fantasybasketballbuilder.properties" afterPath="$PROJECT_DIR$/target/classes/fantasybasketballbuilder.properties" />
-      <change beforePath="$PROJECT_DIR$/target/classes/matc/madjava/controller/AppStartup.class" afterPath="$PROJECT_DIR$/target/classes/matc/madjava/controller/AppStartup.class" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/matc/madjava/controller/ViewUser.java" afterPath="$PROJECT_DIR$/src/main/java/matc/madjava/controller/ViewUser.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/matc/madjava/controller/updateUser.java" afterPath="$PROJECT_DIR$/src/main/java/matc/madjava/controller/updateUser.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/matc/madjava/persistence/GenericDAO.java" afterPath="$PROJECT_DIR$/src/main/java/matc/madjava/persistence/GenericDAO.java" />
+      <change beforePath="$PROJECT_DIR$/src/test/matc/madjava/persistence/CenterDAOTest.java" afterPath="$PROJECT_DIR$/src/test/matc/madjava/persistence/CenterDAOTest.java" />
+      <change beforePath="$PROJECT_DIR$/src/test/matc/madjava/persistence/PointGuardDAOTest.java" afterPath="$PROJECT_DIR$/src/test/matc/madjava/persistence/PointGuardDAOTest.java" />
+      <change beforePath="$PROJECT_DIR$/src/test/matc/madjava/persistence/PowerForwardDAOTest.java" afterPath="$PROJECT_DIR$/src/test/matc/madjava/persistence/PowerForwardDAOTest.java" />
+      <change beforePath="$PROJECT_DIR$/src/test/matc/madjava/persistence/ShootingGuardDAOTest.java" afterPath="$PROJECT_DIR$/src/test/matc/madjava/persistence/ShootingGuardDAOTest.java" />
+      <change beforePath="$PROJECT_DIR$/src/test/matc/madjava/persistence/SmallForwardDAOTest.java" afterPath="$PROJECT_DIR$/src/test/matc/madjava/persistence/SmallForwardDAOTest.java" />
+      <change beforePath="$PROJECT_DIR$/src/test/matc/madjava/persistence/TeamDAOTest.java" afterPath="$PROJECT_DIR$/src/test/matc/madjava/persistence/TeamDAOTest.java" />
+      <change beforePath="$PROJECT_DIR$/src/test/matc/madjava/persistence/UserDAOTest.java" afterPath="$PROJECT_DIR$/src/test/matc/madjava/persistence/UserDAOTest.java" />
+      <change beforePath="$PROJECT_DIR$/src/test/matc/madjava/persistence/UserRolesDAOTest.java" afterPath="$PROJECT_DIR$/src/test/matc/madjava/persistence/UserRolesDAOTest.java" />
+      <change beforePath="$PROJECT_DIR$/target/classes/matc/madjava/controller/CheckAdmin.class" afterPath="$PROJECT_DIR$/target/classes/matc/madjava/controller/CheckAdmin.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/matc/madjava/controller/CreateTeam.class" afterPath="$PROJECT_DIR$/target/classes/matc/madjava/controller/CreateTeam.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/matc/madjava/controller/DeleteAdmin.class" afterPath="$PROJECT_DIR$/target/classes/matc/madjava/controller/DeleteAdmin.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/matc/madjava/controller/DeleteTeam.class" afterPath="$PROJECT_DIR$/target/classes/matc/madjava/controller/DeleteTeam.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/matc/madjava/controller/DeleteUser.class" afterPath="$PROJECT_DIR$/target/classes/matc/madjava/controller/DeleteUser.class" />
       <change beforePath="$PROJECT_DIR$/target/classes/matc/madjava/controller/LoadAPI.class" afterPath="$PROJECT_DIR$/target/classes/matc/madjava/controller/LoadAPI.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/matc/madjava/controller/TeamSelector.class" afterPath="$PROJECT_DIR$/target/classes/matc/madjava/controller/TeamSelector.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/matc/madjava/controller/Logout.class" afterPath="$PROJECT_DIR$/target/classes/matc/madjava/controller/Logout.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/matc/madjava/controller/Signup.class" afterPath="$PROJECT_DIR$/target/classes/matc/madjava/controller/Signup.class" />
       <change beforePath="$PROJECT_DIR$/target/classes/matc/madjava/controller/ViewTeams.class" afterPath="$PROJECT_DIR$/target/classes/matc/madjava/controller/ViewTeams.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/matc/madjava/controller/ViewUser.class" afterPath="$PROJECT_DIR$/target/classes/matc/madjava/controller/ViewUser.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/matc/madjava/controller/updateUser.class" afterPath="$PROJECT_DIR$/target/classes/matc/madjava/controller/updateUser.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/matc/madjava/persistence/GenericDAO.class" afterPath="$PROJECT_DIR$/target/classes/matc/madjava/persistence/GenericDAO.class" />
       <change beforePath="$PROJECT_DIR$/target/fantasybasketballbuilder.war" afterPath="$PROJECT_DIR$/target/fantasybasketballbuilder.war" />
-      <change beforePath="$PROJECT_DIR$/target/fantasybasketballbuilder/META-INF/MANIFEST.MF" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/fantasybasketballbuilder/WEB-INF/classes/fantasybasketballbuilder.properties" afterPath="$PROJECT_DIR$/target/fantasybasketballbuilder/WEB-INF/classes/fantasybasketballbuilder.properties" />
-      <change beforePath="$PROJECT_DIR$/target/fantasybasketballbuilder/WEB-INF/classes/matc/madjava/controller/AppStartup.class" afterPath="$PROJECT_DIR$/target/fantasybasketballbuilder/WEB-INF/classes/matc/madjava/controller/AppStartup.class" />
+      <change beforePath="$PROJECT_DIR$/target/fantasybasketballbuilder/WEB-INF/classes/matc/madjava/controller/CheckAdmin.class" afterPath="$PROJECT_DIR$/target/fantasybasketballbuilder/WEB-INF/classes/matc/madjava/controller/CheckAdmin.class" />
+      <change beforePath="$PROJECT_DIR$/target/fantasybasketballbuilder/WEB-INF/classes/matc/madjava/controller/CreateTeam.class" afterPath="$PROJECT_DIR$/target/fantasybasketballbuilder/WEB-INF/classes/matc/madjava/controller/CreateTeam.class" />
+      <change beforePath="$PROJECT_DIR$/target/fantasybasketballbuilder/WEB-INF/classes/matc/madjava/controller/DeleteAdmin.class" afterPath="$PROJECT_DIR$/target/fantasybasketballbuilder/WEB-INF/classes/matc/madjava/controller/DeleteAdmin.class" />
+      <change beforePath="$PROJECT_DIR$/target/fantasybasketballbuilder/WEB-INF/classes/matc/madjava/controller/DeleteTeam.class" afterPath="$PROJECT_DIR$/target/fantasybasketballbuilder/WEB-INF/classes/matc/madjava/controller/DeleteTeam.class" />
+      <change beforePath="$PROJECT_DIR$/target/fantasybasketballbuilder/WEB-INF/classes/matc/madjava/controller/DeleteUser.class" afterPath="$PROJECT_DIR$/target/fantasybasketballbuilder/WEB-INF/classes/matc/madjava/controller/DeleteUser.class" />
       <change beforePath="$PROJECT_DIR$/target/fantasybasketballbuilder/WEB-INF/classes/matc/madjava/controller/LoadAPI.class" afterPath="$PROJECT_DIR$/target/fantasybasketballbuilder/WEB-INF/classes/matc/madjava/controller/LoadAPI.class" />
-      <change beforePath="$PROJECT_DIR$/target/fantasybasketballbuilder/WEB-INF/classes/matc/madjava/controller/TeamSelector.class" afterPath="$PROJECT_DIR$/target/fantasybasketballbuilder/WEB-INF/classes/matc/madjava/controller/TeamSelector.class" />
+      <change beforePath="$PROJECT_DIR$/target/fantasybasketballbuilder/WEB-INF/classes/matc/madjava/controller/Logout.class" afterPath="$PROJECT_DIR$/target/fantasybasketballbuilder/WEB-INF/classes/matc/madjava/controller/Logout.class" />
+      <change beforePath="$PROJECT_DIR$/target/fantasybasketballbuilder/WEB-INF/classes/matc/madjava/controller/Signup.class" afterPath="$PROJECT_DIR$/target/fantasybasketballbuilder/WEB-INF/classes/matc/madjava/controller/Signup.class" />
       <change beforePath="$PROJECT_DIR$/target/fantasybasketballbuilder/WEB-INF/classes/matc/madjava/controller/ViewTeams.class" afterPath="$PROJECT_DIR$/target/fantasybasketballbuilder/WEB-INF/classes/matc/madjava/controller/ViewTeams.class" />
-      <change beforePath="$PROJECT_DIR$/target/fantasybasketballbuilder/WEB-INF/web.xml" afterPath="$PROJECT_DIR$/target/fantasybasketballbuilder/WEB-INF/web.xml" />
-      <change beforePath="$PROJECT_DIR$/target/fantasybasketballbuilder/basketballApp/basketballApp-Admin/adminpasscheck.jsp" afterPath="$PROJECT_DIR$/target/fantasybasketballbuilder/basketballApp/basketballApp-Admin/adminpasscheck.jsp" />
-      <change beforePath="$PROJECT_DIR$/target/fantasybasketballbuilder/basketballApp/content-jsp/javascript.jsp" afterPath="$PROJECT_DIR$/target/fantasybasketballbuilder/basketballApp/content-jsp/javascript.jsp" />
-      <change beforePath="$PROJECT_DIR$/target/fantasybasketballbuilder/basketballApp/content-jsp/nav.jsp" afterPath="$PROJECT_DIR$/target/fantasybasketballbuilder/basketballApp/content-jsp/nav.jsp" />
-      <change beforePath="$PROJECT_DIR$/target/fantasybasketballbuilder/basketballApp/createTeam.jsp" afterPath="$PROJECT_DIR$/target/fantasybasketballbuilder/basketballApp/createTeam.jsp" />
-      <change beforePath="$PROJECT_DIR$/target/fantasybasketballbuilder/basketballApp/teamsSelector.jsp" afterPath="$PROJECT_DIR$/target/fantasybasketballbuilder/basketballApp/teamsSelector.jsp" />
-      <change beforePath="$PROJECT_DIR$/target/fantasybasketballbuilder/basketballApp/viewUser.jsp" afterPath="$PROJECT_DIR$/target/fantasybasketballbuilder/basketballApp/viewUser.jsp" />
-      <change beforePath="$PROJECT_DIR$/target/fantasybasketballbuilder/content-jsp/nav-launch.jsp" afterPath="$PROJECT_DIR$/target/fantasybasketballbuilder/content-jsp/nav-launch.jsp" />
-      <change beforePath="$PROJECT_DIR$/target/fantasybasketballbuilder/content-jsp/nav.jsp" afterPath="$PROJECT_DIR$/target/fantasybasketballbuilder/content-jsp/nav.jsp" />
+      <change beforePath="$PROJECT_DIR$/target/fantasybasketballbuilder/WEB-INF/classes/matc/madjava/controller/ViewUser.class" afterPath="$PROJECT_DIR$/target/fantasybasketballbuilder/WEB-INF/classes/matc/madjava/controller/ViewUser.class" />
+      <change beforePath="$PROJECT_DIR$/target/fantasybasketballbuilder/WEB-INF/classes/matc/madjava/controller/updateUser.class" afterPath="$PROJECT_DIR$/target/fantasybasketballbuilder/WEB-INF/classes/matc/madjava/controller/updateUser.class" />
+      <change beforePath="$PROJECT_DIR$/target/fantasybasketballbuilder/WEB-INF/classes/matc/madjava/persistence/GenericDAO.class" afterPath="$PROJECT_DIR$/target/fantasybasketballbuilder/WEB-INF/classes/matc/madjava/persistence/GenericDAO.class" />
       <change beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" afterPath="$PROJECT_DIR$/target/maven-archiver/pom.properties" />
       <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/matc/madjava/persistence/CenterDAOTest.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/matc/madjava/persistence/PointGuardDAOTest.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/matc/madjava/persistence/PowerForwardDAOTest.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/matc/madjava/persistence/ShootingGuardDAOTest.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/matc/madjava/persistence/SmallForwardDAOTest.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/matc/madjava/persistence/TeamDAOTest.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/matc/madjava/persistence/UserDAOTest.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/matc/madjava/persistence/UserRolesDAOTest.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/matc/madjava/util/Database.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/matc/madjava/util/FunctionsTest.class" afterPath="" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -70,6 +68,9 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/fantasybasketballbuilder$matc_madjava_persistence_in_fantasybasketballbuilder.coverage" NAME="matc.madjava.persistence in fantasybasketballbuilder Coverage Results" MODIFIED="1525817231423" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>matc.madjava.persistence.*</FILTER>
+    </SUITE>
     <SUITE FILE_PATH="coverage/fantasybasketballbuilder$Launch.coverage" NAME="Launch Coverage Results" MODIFIED="1525370547921" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
     <SUITE FILE_PATH="coverage/fantasybasketballbuilder$All_in_fantasybasketballbuilder.coverage" NAME="All in fantasybasketballbuilder Coverage Results" MODIFIED="1525370636107" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
   </component>
@@ -89,54 +90,6 @@
         <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
         <item name="hibernate.cfg.xml/Hibernate" type="feb32156:DbDataSourceImpl" />
       </path>
-      <path>
-        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="hibernate.cfg.xml/Hibernate" type="feb32156:DbDataSourceImpl" />
-      </path>
-      <path>
-        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="proj_basketball@localhost" type="feb32156:DbDataSourceImpl" />
-      </path>
-      <path>
-        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="proj_basketball@localhost" type="feb32156:DbDataSourceImpl" />
-        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
-      </path>
-      <path>
-        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="proj_basketball@localhost" type="feb32156:DbDataSourceImpl" />
-        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
-        <item name="proj_basketball: schema" type="c314c289:MysqlImplModel$Schema" />
-      </path>
-      <path>
-        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="proj_basketball@localhost" type="feb32156:DbDataSourceImpl" />
-        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
-        <item name="proj_basketball: schema" type="c314c289:MysqlImplModel$Schema" />
-        <item name="users: table" type="98d5ac3d:MysqlImplModel$Table" />
-      </path>
-      <path>
-        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="test_basketball@localhost" type="feb32156:DbDataSourceImpl" />
-      </path>
-      <path>
-        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="test_basketball@localhost" type="feb32156:DbDataSourceImpl" />
-        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
-      </path>
-      <path>
-        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="test_basketball@localhost" type="feb32156:DbDataSourceImpl" />
-        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
-        <item name="test_basketball: schema" type="c314c289:MysqlImplModel$Schema" />
-      </path>
-      <path>
-        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="test_basketball@localhost" type="feb32156:DbDataSourceImpl" />
-        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
-        <item name="test_basketball: schema" type="c314c289:MysqlImplModel$Schema" />
-        <item name="users: table" type="98d5ac3d:MysqlImplModel$Table" />
-      </path>
     </expand>
     <select />
   </component>
@@ -145,81 +98,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="viewUser.jsp" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/basketballApp/viewUser.jsp">
+      <file leaf-file-name="UserRolesDAOTest.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/matc/madjava/persistence/UserRolesDAOTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="178">
-              <caret line="84" column="57" lean-forward="false" selection-start-line="84" selection-start-column="57" selection-end-line="84" selection-end-column="73" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="teamsSelector.jsp" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/basketballApp/teamsSelector.jsp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="229">
-              <caret line="37" column="81" lean-forward="false" selection-start-line="37" selection-start-column="81" selection-end-line="37" selection-end-column="81" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="javascript.jsp" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/basketballApp/content-jsp/javascript.jsp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="10" column="9" lean-forward="false" selection-start-line="10" selection-start-column="9" selection-end-line="10" selection-end-column="9" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="DeleteTeam.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/matc/madjava/controller/DeleteTeam.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="419">
-              <caret line="42" column="45" lean-forward="false" selection-start-line="42" selection-start-column="45" selection-end-line="42" selection-end-column="45" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ViewUser.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/matc/madjava/controller/ViewUser.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="59">
-              <caret line="27" column="38" lean-forward="false" selection-start-line="27" selection-start-column="38" selection-end-line="27" selection-end-column="38" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ViewTeams.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/matc/madjava/controller/ViewTeams.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="493">
-              <caret line="91" column="52" lean-forward="false" selection-start-line="91" selection-start-column="52" selection-end-line="91" selection-end-column="52" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="LoadAPI.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/matc/madjava/controller/LoadAPI.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="32" column="1" lean-forward="false" selection-start-line="32" selection-start-column="1" selection-end-line="32" selection-end-column="1" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="fantasybasketballbuilder.properties" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/fantasybasketballbuilder.properties">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
-              <caret line="1" column="21" lean-forward="false" selection-start-line="1" selection-start-column="21" selection-end-line="1" selection-end-column="21" />
+            <state relative-caret-position="181">
+              <caret line="86" column="7" lean-forward="false" selection-start-line="86" selection-start-column="7" selection-end-line="86" selection-end-column="7" />
               <folding />
             </state>
           </provider>
@@ -262,26 +145,9 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/test/matc/madjava/util/FunctionsTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/matc/madjava/util/Functions.java" />
-        <option value="$PROJECT_DIR$/src/main/webapp/basketballApp/viewTeams.jsp" />
-        <option value="$PROJECT_DIR$/.gitignore" />
-        <option value="$PROJECT_DIR$/src/main/webapp/index.jsp" />
-        <option value="$PROJECT_DIR$/src/main/webapp/basketballApp/content-jsp/javascript-createteam.jsp" />
-        <option value="$PROJECT_DIR$/src/main/webapp/signup.jsp" />
-        <option value="$PROJECT_DIR$/src/test/matc/madjava/persistence/UserRolesDAOTest.java" />
-        <option value="$PROJECT_DIR$/src/main/webapp/basketballApp/basketballApp-Admin/content-jsp/head.jsp" />
-        <option value="$PROJECT_DIR$/src/main/java/matc/madjava/controller/CheckAdmin.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/basketballApp/basketballApp-Admin/content-jsp/nav.jsp" />
         <option value="$PROJECT_DIR$/src/main/webapp/basketballApp/basketballApp-Admin/admin.jsp" />
-        <option value="$PROJECT_DIR$/src/main/java/matc/madjava/controller/DeleteUser.java" />
-        <option value="$PROJECT_DIR$/src/main/java/matc/madjava/controller/DeleteAdmin.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/basketballApp/basketballApp-Admin/deleteUser.jsp" />
-        <option value="$PROJECT_DIR$/src/test/matc/madjava/persistence/TeamDAOTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/matc/madjava/persistence/GenericDAO.java" />
-        <option value="$PROJECT_DIR$/src/test/matc/madjava/persistence/UserDAOTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/matc/madjava/controller/ViewUser.java" />
-        <option value="$PROJECT_DIR$/src/main/java/matc/madjava/controller/updateUser.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/basketballApp/content-jsp/head.jsp" />
         <option value="$PROJECT_DIR$/src/main/java/com/google/youtube/High.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/google/youtube/ItemsItem.java" />
@@ -300,19 +166,36 @@
         <option value="$PROJECT_DIR$/src/main/webapp/content-jsp/javascript.jsp" />
         <option value="$PROJECT_DIR$/src/main/webapp/basketballApp/basketballApp-Admin/adminpasscheck.jsp" />
         <option value="$PROJECT_DIR$/src/main/webapp/basketballApp/createTeam.jsp" />
-        <option value="$PROJECT_DIR$/src/main/java/matc/madjava/controller/LoadAPI.java" />
         <option value="$PROJECT_DIR$/src/main/resources/fantasybasketballbuilder.properties" />
         <option value="$PROJECT_DIR$/src/main/java/matc/madjava/controller/AppStartup.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" />
         <option value="$PROJECT_DIR$/src/main/java/matc/madjava/controller/TeamSelector.java" />
-        <option value="$PROJECT_DIR$/src/main/java/matc/madjava/controller/ViewTeams.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/content-jsp/nav.jsp" />
         <option value="$PROJECT_DIR$/src/main/webapp/basketballApp/content-jsp/nav.jsp" />
         <option value="$PROJECT_DIR$/src/main/webapp/content-jsp/nav-launch.jsp" />
         <option value="$PROJECT_DIR$/src/main/webapp/basketballApp/viewUser.jsp" />
         <option value="$PROJECT_DIR$/src/main/webapp/basketballApp/teamsSelector.jsp" />
         <option value="$PROJECT_DIR$/src/main/webapp/basketballApp/content-jsp/javascript.jsp" />
+        <option value="$PROJECT_DIR$/src/main/java/matc/madjava/controller/ViewUser.java" />
+        <option value="$PROJECT_DIR$/src/main/java/matc/madjava/controller/ViewTeams.java" />
+        <option value="$PROJECT_DIR$/src/main/java/matc/madjava/controller/LoadAPI.java" />
+        <option value="$PROJECT_DIR$/src/test/matc/madjava/persistence/CenterDAOTest.java" />
+        <option value="$PROJECT_DIR$/src/test/matc/madjava/persistence/ShootingGuardDAOTest.java" />
+        <option value="$PROJECT_DIR$/src/test/matc/madjava/persistence/PointGuardDAOTest.java" />
+        <option value="$PROJECT_DIR$/src/test/matc/madjava/persistence/PowerForwardDAOTest.java" />
+        <option value="$PROJECT_DIR$/src/test/matc/madjava/persistence/SmallForwardDAOTest.java" />
+        <option value="$PROJECT_DIR$/src/test/matc/madjava/persistence/UserDAOTest.java" />
+        <option value="$PROJECT_DIR$/src/test/matc/madjava/persistence/TeamDAOTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/matc/madjava/persistence/GenericDAO.java" />
+        <option value="$PROJECT_DIR$/src/main/java/matc/madjava/controller/CheckAdmin.java" />
+        <option value="$PROJECT_DIR$/src/main/java/matc/madjava/controller/CreateTeam.java" />
+        <option value="$PROJECT_DIR$/src/main/java/matc/madjava/controller/DeleteAdmin.java" />
         <option value="$PROJECT_DIR$/src/main/java/matc/madjava/controller/DeleteTeam.java" />
+        <option value="$PROJECT_DIR$/src/main/java/matc/madjava/controller/DeleteUser.java" />
+        <option value="$PROJECT_DIR$/src/main/java/matc/madjava/controller/Logout.java" />
+        <option value="$PROJECT_DIR$/src/main/java/matc/madjava/controller/Signup.java" />
+        <option value="$PROJECT_DIR$/src/main/java/matc/madjava/controller/updateUser.java" />
+        <option value="$PROJECT_DIR$/src/test/matc/madjava/persistence/UserRolesDAOTest.java" />
       </list>
     </option>
   </component>
@@ -351,7 +234,7 @@
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="539" />
     <option name="y" value="350" />
     <option name="width" value="697" />
@@ -437,38 +320,9 @@
               <item name="fantasybasketballbuilder" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="webapp" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="fantasybasketballbuilder" type="b2602c69:ProjectViewProjectNode" />
-              <item name="fantasybasketballbuilder" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="webapp" type="462c0819:PsiDirectoryNode" />
-              <item name="basketballApp" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="fantasybasketballbuilder" type="b2602c69:ProjectViewProjectNode" />
-              <item name="fantasybasketballbuilder" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="webapp" type="462c0819:PsiDirectoryNode" />
-              <item name="basketballApp" type="462c0819:PsiDirectoryNode" />
-              <item name="content-jsp" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="fantasybasketballbuilder" type="b2602c69:ProjectViewProjectNode" />
-              <item name="fantasybasketballbuilder" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="webapp" type="462c0819:PsiDirectoryNode" />
-              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="fantasybasketballbuilder" type="b2602c69:ProjectViewProjectNode" />
-              <item name="fantasybasketballbuilder" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="madjava" type="462c0819:PsiDirectoryNode" />
+              <item name="persistence" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -532,7 +386,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="TomEE Server.Launch">
+  <component name="RunManager" selected="JUnit.matc.madjava.persistence in fantasybasketballbuilder">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="HTML_USED" value="false" />
       <option name="WIDTH" value="400" />
@@ -554,15 +408,20 @@
       <module name="" />
       <envs />
     </configuration>
-    <configuration name="All in fantasybasketballbuilder" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+    <configuration name="CenterDAOTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="matc.madjava.persistence.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <module name="fantasybasketballbuilder" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" />
+      <option name="PACKAGE_NAME" value="matc.madjava.persistence" />
+      <option name="MAIN_CLASS_NAME" value="matc.madjava.persistence.CenterDAOTest" />
       <option name="METHOD_NAME" />
-      <option name="TEST_OBJECT" value="package" />
+      <option name="TEST_OBJECT" value="class" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
@@ -574,7 +433,7 @@
       <envs />
       <patterns />
     </configuration>
-    <configuration name="TeamDAOTest.getByIdSuccess" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="PointGuardDAOTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
           <option name="PATTERN" value="matc.madjava.persistence.*" />
@@ -585,9 +444,9 @@
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="matc.madjava.persistence" />
-      <option name="MAIN_CLASS_NAME" value="matc.madjava.persistence.TeamDAOTest" />
-      <option name="METHOD_NAME" value="getByIdSuccess" />
-      <option name="TEST_OBJECT" value="method" />
+      <option name="MAIN_CLASS_NAME" value="matc.madjava.persistence.PointGuardDAOTest" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
@@ -599,7 +458,7 @@
       <envs />
       <patterns />
     </configuration>
-    <configuration name="TeamDAOTest.getByPropertyEqualObject" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="PowerForwardDAOTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
           <option name="PATTERN" value="matc.madjava.persistence.*" />
@@ -610,9 +469,9 @@
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="matc.madjava.persistence" />
-      <option name="MAIN_CLASS_NAME" value="matc.madjava.persistence.TeamDAOTest" />
-      <option name="METHOD_NAME" value="getByPropertyEqualObject" />
-      <option name="TEST_OBJECT" value="method" />
+      <option name="MAIN_CLASS_NAME" value="matc.madjava.persistence.PowerForwardDAOTest" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
@@ -624,7 +483,7 @@
       <envs />
       <patterns />
     </configuration>
-    <configuration name="UserDAOTest.getByPropertyNotEqualSuccess" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="SmallForwardDAOTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
           <option name="PATTERN" value="matc.madjava.persistence.*" />
@@ -635,34 +494,9 @@
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="matc.madjava.persistence" />
-      <option name="MAIN_CLASS_NAME" value="matc.madjava.persistence.UserDAOTest" />
-      <option name="METHOD_NAME" value="getByPropertyNotEqualSuccess" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-    </configuration>
-    <configuration name="UserDAOTest.updateSuccess" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="matc.madjava.persistence.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <module name="fantasybasketballbuilder" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="matc.madjava.persistence" />
-      <option name="MAIN_CLASS_NAME" value="matc.madjava.persistence.UserDAOTest" />
-      <option name="METHOD_NAME" value="updateSuccess" />
-      <option name="TEST_OBJECT" value="method" />
+      <option name="MAIN_CLASS_NAME" value="matc.madjava.persistence.SmallForwardDAOTest" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
@@ -683,6 +517,31 @@
       <option name="MAIN_CLASS_NAME" />
       <option name="METHOD_NAME" />
       <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+    </configuration>
+    <configuration name="matc.madjava.persistence in fantasybasketballbuilder" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="matc.madjava.persistence.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="fantasybasketballbuilder" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="matc.madjava.persistence" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="package" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
@@ -886,19 +745,19 @@
     <list size="7">
       <item index="0" class="java.lang.String" itemvalue="TomEE Server.Launch" />
       <item index="1" class="java.lang.String" itemvalue="TomEE Server.launch2" />
-      <item index="2" class="java.lang.String" itemvalue="JUnit.TeamDAOTest.getByIdSuccess" />
-      <item index="3" class="java.lang.String" itemvalue="JUnit.All in fantasybasketballbuilder" />
-      <item index="4" class="java.lang.String" itemvalue="JUnit.UserDAOTest.getByPropertyNotEqualSuccess" />
-      <item index="5" class="java.lang.String" itemvalue="JUnit.TeamDAOTest.getByPropertyEqualObject" />
-      <item index="6" class="java.lang.String" itemvalue="JUnit.UserDAOTest.updateSuccess" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.PointGuardDAOTest" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.CenterDAOTest" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.PowerForwardDAOTest" />
+      <item index="5" class="java.lang.String" itemvalue="JUnit.SmallForwardDAOTest" />
+      <item index="6" class="java.lang.String" itemvalue="JUnit.matc.madjava.persistence in fantasybasketballbuilder" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.UserDAOTest.updateSuccess" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.TeamDAOTest.getByPropertyEqualObject" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.UserDAOTest.getByPropertyNotEqualSuccess" />
-        <item index="3" class="java.lang.String" itemvalue="JUnit.All in fantasybasketballbuilder" />
-        <item index="4" class="java.lang.String" itemvalue="JUnit.TeamDAOTest.getByIdSuccess" />
+        <item index="0" class="java.lang.String" itemvalue="JUnit.matc.madjava.persistence in fantasybasketballbuilder" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.SmallForwardDAOTest" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.PowerForwardDAOTest" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.CenterDAOTest" />
+        <item index="4" class="java.lang.String" itemvalue="JUnit.PointGuardDAOTest" />
       </list>
     </recent_temporary>
   </component>
@@ -922,56 +781,56 @@
       <workItem from="1525348220296" duration="11410000" />
       <workItem from="1525360059401" duration="43182000" />
       <workItem from="1525731118196" duration="6542000" />
-      <workItem from="1525746613570" duration="6649000" />
+      <workItem from="1525746613570" duration="11191000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="TeamDAOTest_getByPropertyEqualObject - 2018.05.06 at 22h 01m 21s.xml">
+    <history-entry file="CenterDAOTest - 2018.05.08 at 16h 27m 11s.xml">
+      <configuration name="CenterDAOTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="PointGuardDAOTest - 2018.05.08 at 16h 20m 21s.xml">
+      <configuration name="PointGuardDAOTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="PowerForwardDAOTest - 2018.05.08 at 16h 31m 26s.xml">
+      <configuration name="PowerForwardDAOTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SmallForwardDAOTest - 2018.05.08 at 16h 35m 54s.xml">
+      <configuration name="SmallForwardDAOTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TeamDAOTest_getByPropertyEqualObject - 2018.05.08 at 16h 07m 24s.xml">
       <configuration name="TeamDAOTest.getByPropertyEqualObject" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="UserDAOTest_getByPropertyNotEqualSuccess - 2018.05.06 at 17h 24m 20s.xml">
-      <configuration name="UserDAOTest.getByPropertyNotEqualSuccess" configurationId="JUnit" />
+    <history-entry file="UserRolesDAOTest_getByPropertyEqualObject - 2018.05.08 at 16h 05m 31s.xml">
+      <configuration name="UserRolesDAOTest.getByPropertyEqualObject" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="UserDAOTest_updateSuccess - 2018.05.06 at 22h 46m 52s.xml">
-      <configuration name="UserDAOTest.updateSuccess" configurationId="JUnit" />
+    <history-entry file="UserRolesDAOTest_getByPropertyEqualObject - 2018.05.08 at 16h 05m 56s.xml">
+      <configuration name="UserRolesDAOTest.getByPropertyEqualObject" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="UserDAOTest_updateSuccess - 2018.05.06 at 22h 47m 20s.xml">
-      <configuration name="UserDAOTest.updateSuccess" configurationId="JUnit" />
+    <history-entry file="UserRolesDAOTest_getByPropertyEqualObject - 2018.05.08 at 16h 06m 28s.xml">
+      <configuration name="UserRolesDAOTest.getByPropertyEqualObject" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="UserDAOTest_updateSuccess - 2018.05.06 at 22h 56m 02s.xml">
-      <configuration name="UserDAOTest.updateSuccess" configurationId="JUnit" />
+    <history-entry file="matc_madjava_persistence_in_fantasybasketballbuilder - 2018.05.08 at 16h 42m 38s.xml">
+      <configuration name="matc.madjava.persistence in fantasybasketballbuilder" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="UserDAOTest_updateSuccess - 2018.05.06 at 23h 02m 41s.xml">
-      <configuration name="UserDAOTest.updateSuccess" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="UserDAOTest_updateSuccess - 2018.05.06 at 23h 07m 32s.xml">
-      <configuration name="UserDAOTest.updateSuccess" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="UserDAOTest_updateSuccess - 2018.05.06 at 23h 11m 47s.xml">
-      <configuration name="UserDAOTest.updateSuccess" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="UserDAOTest_updateSuccess - 2018.05.06 at 23h 13m 15s.xml">
-      <configuration name="UserDAOTest.updateSuccess" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="UserDAOTest_updateSuccess - 2018.05.06 at 23h 26m 36s.xml">
-      <configuration name="UserDAOTest.updateSuccess" configurationId="JUnit" />
+    <history-entry file="matc_madjava_persistence_in_fantasybasketballbuilder - 2018.05.08 at 17h 09m 26s.xml">
+      <configuration name="matc.madjava.persistence in fantasybasketballbuilder" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="250115000" />
+    <option name="totallyTimeSpent" value="254657000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="7" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3223684" sideWeight="0.5030257" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32894737" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
-      <window_info id="Maven Projects" active="true" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1860817" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18683812" sideWeight="0.49076518" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="CDI" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.18154311" sideWeight="0.48021108" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.18154311" sideWeight="0.469657" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="JSF" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -984,7 +843,8 @@
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.37664473" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.37664473" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18683812" sideWeight="0.50923485" order="12" side_tool="true" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Persistence" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.21558245" sideWeight="0.47229552" order="5" side_tool="true" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22163388" sideWeight="0.5277045" order="0" side_tool="false" content_ui="combo" />
@@ -997,7 +857,6 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.18154311" sideWeight="0.5197889" order="12" side_tool="true" content_ui="tabs" />
       <window_info id="Database Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32894737" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32894737" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
@@ -1057,161 +916,26 @@
           </properties>
           <option name="timeStamp" value="3" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/test/matc/madjava/persistence/TeamDAOTest.java</url>
+          <line>122</line>
+          <properties class="matc.madjava.persistence.TeamDAOTest" method="getByPropertyEqualObject">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/matc/madjava/persistence/GenericDAO.java</url>
+          <line>197</line>
+          <properties />
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
       </breakpoints>
-      <option name="time" value="5" />
+      <option name="time" value="7" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/test/matc/madjava/persistence/TeamDAOTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="589">
-          <caret line="130" column="5" lean-forward="false" selection-start-line="130" selection-start-column="5" selection-end-line="130" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/matc/madjava/persistence/UserRolesDAOTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="510">
-          <caret line="41" column="38" lean-forward="true" selection-start-line="41" selection-start-column="38" selection-end-line="41" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://table:/86ea854b/6f09a007-0cc7-4b3d-a5f2-0d2c2e442173/test_basketball.users">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/logs/hibernate.log">
-      <provider selected="true" editor-type-id="LogFileEditorProvider">
-        <state relative-caret-position="-129169">
-          <caret line="8" column="143" lean-forward="false" selection-start-line="6" selection-start-column="68" selection-end-line="8" selection-end-column="143" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/logs/hibernate_test.log">
-      <provider selected="true" editor-type-id="LogFileEditorProvider">
-        <state relative-caret-position="150">
-          <caret line="11226" column="84" lean-forward="false" selection-start-line="11226" selection-start-column="83" selection-end-line="11226" selection-end-column="84" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/matc/madjava/persistence/GenericDAO.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="246">
-          <caret line="68" column="29" lean-forward="false" selection-start-line="68" selection-start-column="29" selection-end-line="68" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/matc/madjava/controller/DeleteUser.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="113">
-          <caret line="58" column="51" lean-forward="false" selection-start-line="58" selection-start-column="51" selection-end-line="58" selection-end-column="51" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://table:/86ea854b/2e695cfb-f4cf-4205-b89e-e8559b08e6d3/proj_basketball.users">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/matc/madjava/entity/User.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="11" column="13" lean-forward="false" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/matc/madjava/persistence/UserDAOTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="65" column="29" lean-forward="true" selection-start-line="65" selection-start-column="29" selection-end-line="65" selection-end-column="29" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/cleandb.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="178">
-          <caret line="15" column="26" lean-forward="false" selection-start-line="15" selection-start-column="26" selection-end-line="15" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/basketballApp/basketballApp-Admin/content-jsp/head.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="25">
-          <caret line="16" column="8" lean-forward="false" selection-start-line="16" selection-start-column="8" selection-end-line="26" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/basketballApp/basketballApp-Admin/admin.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-34">
-          <caret line="16" column="41" lean-forward="false" selection-start-line="16" selection-start-column="41" selection-end-line="16" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/matc/madjava/controller/CheckAdmin.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="254">
-          <caret line="38" column="12" lean-forward="false" selection-start-line="38" selection-start-column="12" selection-end-line="38" selection-end-column="47" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/META-INF/context.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/basketballApp/content-jsp/head.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="271">
-          <caret line="46" column="29" lean-forward="false" selection-start-line="46" selection-start-column="29" selection-end-line="46" selection-end-column="29" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/google/youtube/Snippet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="26" column="0" lean-forward="false" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/google/youtube/PageInfo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/google/youtube/Medium.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="14" column="0" lean-forward="false" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/google/youtube/APIResponse.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-408">
-          <caret line="10" column="0" lean-forward="true" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/google/youtube/High.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
@@ -1292,30 +1016,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/matc/madjava/controller/updateUser.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="38" column="46" lean-forward="false" selection-start-line="37" selection-start-column="8" selection-end-line="38" selection-end-column="46" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/matc/madjava/entity/UserRoles.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-800">
-          <caret line="13" column="13" lean-forward="false" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/matc/madjava/controller/AppStartup.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="544">
-          <caret line="40" column="34" lean-forward="false" selection-start-line="40" selection-start-column="34" selection-end-line="40" selection-end-column="34" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/basketballApp/createTeam.jsp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-1394">
@@ -1324,50 +1024,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/matc/madjava/controller/Login.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="254">
-          <caret line="45" column="37" lean-forward="false" selection-start-line="45" selection-start-column="37" selection-end-line="45" selection-end-column="37" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/fantasybasketballbuilder.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" column="21" lean-forward="false" selection-start-line="1" selection-start-column="21" selection-end-line="1" selection-end-column="21" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="263">
           <caret line="150" column="26" lean-forward="true" selection-start-line="150" selection-start-column="26" selection-end-line="150" selection-end-column="26" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/matc/madjava/entity/Team.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="60" column="0" lean-forward="false" selection-start-line="60" selection-start-column="0" selection-end-line="60" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/matc/madjava/controller/TeamSelector.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="31" column="120" lean-forward="false" selection-start-line="31" selection-start-column="120" selection-end-line="31" selection-end-column="120" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/matc/madjava/controller/ViewUser.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="59">
-          <caret line="27" column="38" lean-forward="false" selection-start-line="27" selection-start-column="38" selection-end-line="27" selection-end-column="38" />
           <folding />
         </state>
       </provider>
@@ -1404,18 +1064,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/matc/madjava/controller/ViewTeams.java">
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/basketballApp/content-jsp/javascript.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="493">
-          <caret line="91" column="52" lean-forward="false" selection-start-line="91" selection-start-column="52" selection-end-line="91" selection-end-column="52" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/basketballApp/viewUser.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="178">
-          <caret line="84" column="57" lean-forward="false" selection-start-line="84" selection-start-column="57" selection-end-line="84" selection-end-column="73" />
+        <state relative-caret-position="170">
+          <caret line="10" column="9" lean-forward="false" selection-start-line="10" selection-start-column="9" selection-end-line="10" selection-end-column="9" />
           <folding />
         </state>
       </provider>
@@ -1428,26 +1080,261 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/basketballApp/content-jsp/javascript.jsp">
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/basketballApp/viewUser.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="9" lean-forward="false" selection-start-line="10" selection-start-column="9" selection-end-line="10" selection-end-column="9" />
+        <state relative-caret-position="178">
+          <caret line="84" column="57" lean-forward="false" selection-start-line="84" selection-start-column="57" selection-end-line="84" selection-end-column="73" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/matc/madjava/controller/ViewUser.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="32" column="38" lean-forward="false" selection-start-line="32" selection-start-column="38" selection-end-line="32" selection-end-column="38" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://table:/86ea854b/2e695cfb-f4cf-4205-b89e-e8559b08e6d3/proj_basketball.users">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/matc/madjava/entity/User.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="11" column="13" lean-forward="false" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/matc/madjava/controller/ViewTeams.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="35" column="7" lean-forward="false" selection-start-line="35" selection-start-column="7" selection-end-line="35" selection-end-column="7" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/matc/madjava/controller/LoadAPI.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="32" column="1" lean-forward="false" selection-start-line="32" selection-start-column="1" selection-end-line="32" selection-end-column="1" />
+        <state relative-caret-position="170">
+          <caret line="40" column="7" lean-forward="false" selection-start-line="40" selection-start-column="7" selection-end-line="40" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/fantasybasketballbuilder.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="21" lean-forward="false" selection-start-line="1" selection-start-column="21" selection-end-line="1" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/matc/madjava/entity/Team.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="493">
+          <caret line="60" column="0" lean-forward="false" selection-start-line="60" selection-start-column="0" selection-end-line="60" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/matc/madjava/entity/UserRoles.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="13" column="13" lean-forward="false" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/matc/madjava/entity/Center.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-494">
+          <caret line="11" column="13" lean-forward="false" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://table:/86ea854b/2e695cfb-f4cf-4205-b89e-e8559b08e6d3/proj_basketball.center">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/matc/madjava/persistence/CenterDAOTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" column="8" lean-forward="false" selection-start-line="16" selection-start-column="8" selection-end-line="127" selection-end-column="9" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://table:/86ea854b/2e695cfb-f4cf-4205-b89e-e8559b08e6d3/proj_basketball.shooting_guard">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/matc/madjava/persistence/UserDAOTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="96">
+          <caret line="90" column="7" lean-forward="false" selection-start-line="90" selection-start-column="7" selection-end-line="90" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/matc/madjava/persistence/ShootingGuardDAOTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="229">
+          <caret line="39" column="28" lean-forward="false" selection-start-line="39" selection-start-column="28" selection-end-line="39" selection-end-column="28" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/matc/madjava/persistence/TeamDAOTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="130" column="5" lean-forward="true" selection-start-line="130" selection-start-column="5" selection-end-line="130" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/matc/madjava/persistence/SmallForwardDAOTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="116">
+          <caret line="95" column="7" lean-forward="false" selection-start-line="95" selection-start-column="7" selection-end-line="95" selection-end-column="7" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/matc/madjava/persistence/PointGuardDAOTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="235">
+          <caret line="95" column="0" lean-forward="false" selection-start-line="95" selection-start-column="0" selection-end-line="95" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/matc/madjava/persistence/PowerForwardDAOTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="95" column="7" lean-forward="false" selection-start-line="95" selection-start-column="7" selection-end-line="95" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/matc/madjava/controller/AppStartup.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="167">
+          <caret line="40" column="34" lean-forward="false" selection-start-line="40" selection-start-column="34" selection-end-line="40" selection-end-column="34" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/matc/madjava/controller/CheckAdmin.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-329">
+          <caret line="28" column="7" lean-forward="false" selection-start-line="28" selection-start-column="7" selection-end-line="28" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/matc/madjava/controller/CreateTeam.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="102" column="7" lean-forward="false" selection-start-line="102" selection-start-column="7" selection-end-line="102" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/matc/madjava/controller/DeleteAdmin.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="186">
+          <caret line="27" column="68" lean-forward="true" selection-start-line="27" selection-start-column="68" selection-end-line="27" selection-end-column="68" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/matc/madjava/controller/DeleteTeam.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="419">
-          <caret line="42" column="45" lean-forward="false" selection-start-line="42" selection-start-column="45" selection-end-line="42" selection-end-column="45" />
+        <state relative-caret-position="147">
+          <caret line="34" column="7" lean-forward="false" selection-start-line="34" selection-start-column="7" selection-end-line="34" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/matc/madjava/controller/DeleteUser.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="164">
+          <caret line="64" column="68" lean-forward="false" selection-start-line="64" selection-start-column="68" selection-end-line="64" selection-end-column="68" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/matc/madjava/controller/Login.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="459">
+          <caret line="45" column="37" lean-forward="false" selection-start-line="45" selection-start-column="37" selection-end-line="45" selection-end-column="37" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/matc/madjava/controller/Logout.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="169">
+          <caret line="23" column="7" lean-forward="false" selection-start-line="23" selection-start-column="7" selection-end-line="23" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/matc/madjava/controller/TeamSelector.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-380">
+          <caret line="31" column="120" lean-forward="false" selection-start-line="31" selection-start-column="120" selection-end-line="31" selection-end-column="120" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/matc/madjava/controller/updateUser.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="33" column="102" lean-forward="false" selection-start-line="33" selection-start-column="102" selection-end-line="33" selection-end-column="102" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/matc/madjava/controller/Signup.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1777">
+          <caret line="52" column="61" lean-forward="false" selection-start-line="52" selection-start-column="61" selection-end-line="52" selection-end-column="61" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/matc/madjava/persistence/GenericDAO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="147">
+          <caret line="194" column="60" lean-forward="true" selection-start-line="194" selection-start-column="60" selection-end-line="194" selection-end-column="60" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/matc/madjava/persistence/UserRolesDAOTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="181">
+          <caret line="86" column="7" lean-forward="false" selection-start-line="86" selection-start-column="7" selection-end-line="86" selection-end-column="7" />
           <folding />
         </state>
       </provider>

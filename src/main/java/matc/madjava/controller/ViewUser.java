@@ -28,6 +28,14 @@ public class ViewUser  extends HttpServlet {
     private GenericDAO genericDAOTeam;
     private final Logger log = LogManager.getLogger(this.getClass());
 
+    /**
+     * Gets User Data and Team Data as objects and sends it to the View Team JSP for displaying and
+     * for Updating and Deleting forms
+     * @param req
+     * @param resp
+     * @throws ServletException
+     * @throws IOException
+     */
     @Override
     protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
         HttpSession httpSession = req.getSession();

@@ -123,10 +123,19 @@ class TeamDAOTest {
     void getByPropertyEqualObject() {
         GenericDAO genericUserDAO = new GenericDAO(User.class);
         User user = (User)genericUserDAO.getByID(1);
-        List<Team> userTeams = genericTeamDAO.getByPropertyEqualObject("user", user);
+        List<Team> userTeams = genericTeamDAO.getByPropertyEqualObject("userId", user);
 
-        assertEquals(1, userTeams.size());
+        assertEquals(2, userTeams.size());
         assertNotNull(userTeams, "Teams are null");
 
+    }
+
+    @Test
+    void getByPropertyNotEqualSuccess() {
+        List<Team> teams = genericTeamDAO.getAllExceptEntity("teamName", "Team One");
+        for(Team team : teams) {
+            System.out.println(team.getTeamName());
+        }
+        assertEquals(0, teams.size());
     }
 }

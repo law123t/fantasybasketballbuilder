@@ -38,11 +38,19 @@ public class CreateTeam extends HttpServlet {
     private GenericDAO powerForwardDAO;
     private GenericDAO userDAO;
 
+    /**
+     * This method pulls all players from the database and converts them to string and passes
+     * along the Array of objects to be available for the createTeam.jsp
+     *
+     * @param req
+     * @param resp
+     * @throws ServletException
+     * @throws IOException
+     */
     @Override
     protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
         HttpSession httpSession = req.getSession();
 
-        teamDAO = new GenericDAO(Team.class);
         powerForwardDAO = new GenericDAO(PowerForward.class);
         pointGuardDAO = new GenericDAO(PointGuard.class);
         shootingGuardDAO = new GenericDAO(ShootingGuard.class);
@@ -89,6 +97,15 @@ public class CreateTeam extends HttpServlet {
         dispatcher.forward(req, resp);
     }
 
+    /**
+     * This method gets called by an Ajax Post on the createTeam.jsp page and gets player/team
+     * information via the Droppable form and inserts a new team accordingly
+     *
+     * @param req
+     * @param resp
+     * @throws ServletException
+     * @throws IOException
+     */
     @Override
     protected void doPost(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
         HttpSession httpSession = req.getSession();

@@ -79,8 +79,8 @@ class UserRolesDAOTest {
      */
     @Test
     void getByPropertyEqualSuccess() {
-        List<UserRoles> roles = genericDAO.getByPropertyLike("userName", "admin");
-        assertEquals(2, roles.size());
+        List<UserRoles> roles = genericDAO.getByPropertyEqual("userName", "admin");
+        assertEquals(1, roles.size());
         assertEquals(1, roles.get(0).getUserRoleId());
     }
 
@@ -103,5 +103,14 @@ class UserRolesDAOTest {
     void getByPropertyEqualUnique() {
         UserRoles role = (UserRoles)genericDAO.getByPropertyEqualUnique("userName", "admin");
         assertEquals("admin", role.getUserName());
+    }
+
+    @Test
+    void getByPropertyNotEqualSuccess() {
+        List<UserRoles> roles = genericDAO.getAllExceptEntity("userName", "admin");
+        for(UserRoles role : roles) {
+            System.out.println(role.getUserName());
+        }
+        assertEquals(2, roles.size());
     }
 }

@@ -19,10 +19,20 @@ public class GenericDAO<T> {
         this.type = type;
     }
 
+    /**
+     * gets sessionfactoryprovider session
+     * @return session
+     */
     private Session getSession() {
         return SessionFactoryProvider.getSessionFactory().openSession();
     }
 
+    /**
+     * This generic method gets object by ID
+     * @param id id of object
+     * @param <T> type
+     * @return T
+     */
     public <T>T getByID(int id) {
         Session session = getSession();
         T entity = (T)session.get( type, id );
@@ -30,6 +40,10 @@ public class GenericDAO<T> {
         return entity;
     }
 
+    /**
+     * * This generic method deletes object by its parameter
+     * @param entity passed object
+     */
     public void delete( T entity) {
         Session session = getSession();
         Transaction transaction = session.beginTransaction();
@@ -38,6 +52,10 @@ public class GenericDAO<T> {
         session.close();
     }
 
+    /**
+     * * This generic method gets all of the desired object
+     * @return List<T>
+     */
     public List<T> getAll() {
         Session session = getSession();
 
@@ -52,6 +70,12 @@ public class GenericDAO<T> {
         return entity;
     }
 
+    /**
+     * This generic method inserts a new object
+     *
+     * @param entity object
+     * @return id
+     */
     public int insert(T entity) {
         int id = 0;
         Session session = getSession();
@@ -62,6 +86,11 @@ public class GenericDAO<T> {
         return id;
     }
 
+    /**
+     * This generic method updates an existing object
+     *
+     * @param entity passed object
+     */
     public void update(T entity) {
         Session session = getSession();
         Transaction transaction = session.beginTransaction();
@@ -70,6 +99,12 @@ public class GenericDAO<T> {
         session.close();
     }
 
+    /**
+     * This generic method gets all objects with equal property name and value
+     * @param propertyName entity property name
+     * @param value value to search by
+     * @return List<T>
+     */
     public List<T> getByPropertyEqual(String propertyName, String value) {
         Session session = getSession();
 
@@ -86,8 +121,11 @@ public class GenericDAO<T> {
     }
 
     /**
-     * Get user by property (like)
-     * sample usage: getByPropertyLike("lastname", "C")
+     * Generic method that gets entities that are like a passed string based on a property name
+     *
+     * @param propertyName entity property name
+     * @param value value to query by
+     * @return List<T>
      */
     public List<T> getByPropertyLike(String propertyName, String value) {
         Session session = getSession();
@@ -106,6 +144,12 @@ public class GenericDAO<T> {
         return entities;
     }
 
+    /**
+     * This generic method That gets a single object by property name and a value
+     * @param propertyName entity property name
+     * @param value value to query by
+     * @return entity
+     */
     public T getByPropertyEqualUnique(String propertyName, String value) {
         Session session = getSession();
 
@@ -121,6 +165,12 @@ public class GenericDAO<T> {
         return entity;
     }
 
+    /**
+     * This generic method that returns all but specified entity with specified property name
+     * @param propertyName entity property name
+     * @param value value to query by
+     * @return entities
+     */
     public List<T> getAllExceptEntity(String propertyName, String value) {
         Session session = getSession();
 

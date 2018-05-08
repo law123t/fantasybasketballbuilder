@@ -34,12 +34,30 @@ public class Signup extends HttpServlet {
     User user;
     UserRoles userRoles;
 
+    /**
+     * Simple redirect to signup.jsp
+     *
+     * @param req
+     * @param resp
+     * @throws ServletException
+     * @throws IOException
+     */
     @Override
     protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
         RequestDispatcher dispatcher = req.getRequestDispatcher("signup.jsp");
         dispatcher.forward(req, resp);
     }
 
+    /**
+     * This method gets parameters and inserts user. Servlet also contains form validation and redirects
+     * back to the form with various related error messages. based on adminkey field which's value is
+     * determined by the application properties, user is either set to an Admin or a regular user
+     *
+     * @param req
+     * @param resp
+     * @throws ServletException
+     * @throws IOException
+     */
     @Override
     protected void doPost(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
         HttpSession httpSession = req.getSession();

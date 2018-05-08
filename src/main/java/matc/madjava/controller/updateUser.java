@@ -28,6 +28,16 @@ public class updateUser extends HttpServlet {
     User user;
     private final Logger log = LogManager.getLogger(this.getClass());
 
+    /**
+     * This method gets form parameters and validates what field to update based on select option, and
+     * what to replace it with with the text input. 3rd input field is used to validate previous password
+     * before being to update it. user is then updated and redirected back to application launch page.
+     *
+     * @param req
+     * @param resp
+     * @throws ServletException
+     * @throws IOException
+     */
     @Override
     protected void doPost(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
         HttpSession httpSession = req.getSession();
