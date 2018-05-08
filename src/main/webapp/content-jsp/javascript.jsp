@@ -38,7 +38,7 @@
     // 4. The API will call this function when the video player is ready.
     function onPlayerReady(event) {
         // cue a playlist.
-        player.cuePlaylist({list: 'PL5j8RirTTnK78PtLzP05VGHAp9qrU8NAE'});
+        player.cuePlaylist({list: '${playlistID}'});
         player.playVideo();
     }
 

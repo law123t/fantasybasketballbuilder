@@ -9,11 +9,11 @@ matc\madjava\controller\ViewUser.class
 matc\madjava\persistence\GenericDAO.class
 matc\madjava\controller\ViewTeams.class
 matc\madjava\entity\Center.class
-com\google\youtube\Response.class
 com\google\youtube\Snippet.class
 matc\madjava\entity\PointGuard.class
 matc\madjava\entity\UserRoles.class
 matc\madjava\entity\SmallForward.class
+com\google\youtube\APIResponse.class
 matc\madjava\controller\Signup.class
 matc\madjava\controller\updateUser.class
 com\google\youtube\ItemsItem.class
@@ -24,6 +24,7 @@ com\google\youtube\Localized.class
 matc\madjava\controller\CheckAdmin.class
 matc\madjava\entity\User.class
 matc\madjava\util\Functions.class
+com\google\youtube\MaxRes.class
 matc\madjava\entity\ShootingGuard.class
 matc\madjava\controller\TeamSelector.class
 com\google\youtube\PageInfo.class

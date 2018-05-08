@@ -7,31 +7,24 @@ import javax.annotation.Generated;
 @Generated("com.robohorse.robopojogenerator")
 public class Snippet{
 
-	@JsonIgnore
 	@JsonProperty("publishedAt")
 	private String publishedAt;
 
-	@JsonIgnore
 	@JsonProperty("localized")
 	private Localized localized;
 
-	@JsonIgnore
 	@JsonProperty("description")
 	private String description;
 
-	@JsonIgnore
 	@JsonProperty("title")
 	private String title;
 
-	@JsonIgnore
 	@JsonProperty("thumbnails")
 	private Thumbnails thumbnails;
 
-	@JsonIgnore
 	@JsonProperty("channelId")
 	private String channelId;
 
-	@JsonIgnore
 	@JsonProperty("channelTitle")
 	private String channelTitle;
 

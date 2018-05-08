@@ -7,11 +7,9 @@ import javax.annotation.Generated;
 @Generated("com.robohorse.robopojogenerator")
 public class PageInfo{
 
-	@JsonIgnore
 	@JsonProperty("totalResults")
 	private int totalResults;
 
-	@JsonIgnore
 	@JsonProperty("resultsPerPage")
 	private int resultsPerPage;
 

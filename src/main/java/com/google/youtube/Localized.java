@@ -7,11 +7,9 @@ import javax.annotation.Generated;
 @Generated("com.robohorse.robopojogenerator")
 public class Localized{
 
-	@JsonIgnore
 	@JsonProperty("description")
 	private String description;
 
-	@JsonIgnore
 	@JsonProperty("title")
 	private String title;
 

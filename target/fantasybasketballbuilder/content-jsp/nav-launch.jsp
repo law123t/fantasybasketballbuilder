@@ -13,7 +13,7 @@
                 <a href="login">Login</a>
             </li>
             <li>
-                <a href="basketballApp/viewTeams.jsp">About Us</a>
+                <a href="#">About Us</a>
             </li>
             <li>
                 <a href="#">Contact</a>

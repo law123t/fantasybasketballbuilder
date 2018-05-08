@@ -7,15 +7,12 @@ import javax.annotation.Generated;
 @Generated("com.robohorse.robopojogenerator")
 public class Standard{
 
-	@JsonIgnore
 	@JsonProperty("width")
 	private int width;
 
-	@JsonIgnore
 	@JsonProperty("url")
 	private String url;
 
-	@JsonIgnore
 	@JsonProperty("height")
 	private int height;
 

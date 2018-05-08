@@ -51,7 +51,7 @@
             background-color:bisque;
             padding: 15px;
             width: 700px;
-            height: 200px;
+            height: 300px;
             clear: both;
         }
     </style>

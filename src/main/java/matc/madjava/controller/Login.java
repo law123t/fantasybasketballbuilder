@@ -43,7 +43,7 @@ public class Login extends HttpServlet {
 
         HttpSession session = req.getSession();
 
-        resp.sendRedirect("appIndex.jsp");
+        resp.sendRedirect("loadapi");
 
     }
 }

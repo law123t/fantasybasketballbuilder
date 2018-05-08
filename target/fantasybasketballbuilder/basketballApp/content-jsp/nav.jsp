@@ -7,7 +7,7 @@
                 </a>
             </li>
             <li>
-                <a href="teamSelector">My Teams</a>
+                <a href="teamSelector">View Team Stats</a>
             </li>
             <li>
                 <a href="createTeam">Create a Team</a>

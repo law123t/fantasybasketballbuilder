@@ -1,6 +1,7 @@
 package matc.madjava.controller;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
+import com.google.youtube.APIResponse;
 import com.google.youtube.ItemsItem;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
@@ -18,6 +19,8 @@ import javax.ws.rs.client.WebTarget;
 import javax.ws.rs.core.MediaType;
 import javax.xml.ws.Response;
 import java.io.IOException;
+import java.util.ArrayList;
+import java.util.List;
 import java.util.Properties;
 
 
@@ -52,12 +55,11 @@ public class LoadAPI extends HttpServlet {
 
         String webResponse = target.request(MediaType.APPLICATION_JSON).get(String.class);
 
+        log.info(webResponse);
 
-        ItemsItem[] itemsItem = mapper.readValue(webResponse, ItemsItem[].class);
-
-        String singleItem = itemsItem[1].getId();
-        log.info(singleItem);
-        req.setAttribute("playlistID", itemsItem);
+        APIResponse response = mapper.readValue(webResponse, APIResponse.class);
+        String playlistId = response.getItems().get(1).getId();
+        session.setAttribute("playlistID", playlistId);
         resp.sendRedirect("appIndex.jsp");
 
     }

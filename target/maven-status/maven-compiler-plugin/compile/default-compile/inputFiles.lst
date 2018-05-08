@@ -1,6 +1,7 @@
 C:\Users\Ren\Documents\GitHub\fantasybasketballbuilder\src\main\java\matc\madjava\entity\ShootingGuard.java
 C:\Users\Ren\Documents\GitHub\fantasybasketballbuilder\src\main\java\matc\madjava\entity\PointGuard.java
 C:\Users\Ren\Documents\GitHub\fantasybasketballbuilder\src\main\java\matc\madjava\controller\LoadAPI.java
+C:\Users\Ren\Documents\GitHub\fantasybasketballbuilder\src\main\java\com\google\youtube\MaxRes.java
 C:\Users\Ren\Documents\GitHub\fantasybasketballbuilder\src\main\java\matc\madjava\controller\ViewUser.java
 C:\Users\Ren\Documents\GitHub\fantasybasketballbuilder\src\main\java\matc\madjava\controller\DeleteUser.java
 C:\Users\Ren\Documents\GitHub\fantasybasketballbuilder\src\main\java\matc\madjava\entity\Team.java
@@ -14,7 +15,7 @@ C:\Users\Ren\Documents\GitHub\fantasybasketballbuilder\src\main\java\matc\madjav
 C:\Users\Ren\Documents\GitHub\fantasybasketballbuilder\src\main\java\matc\madjava\controller\Signup.java
 C:\Users\Ren\Documents\GitHub\fantasybasketballbuilder\src\main\java\matc\madjava\entity\PowerForward.java
 C:\Users\Ren\Documents\GitHub\fantasybasketballbuilder\src\main\java\com\google\youtube\Standard.java
-C:\Users\Ren\Documents\GitHub\fantasybasketballbuilder\src\main\java\com\google\youtube\Response.java
+C:\Users\Ren\Documents\GitHub\fantasybasketballbuilder\src\main\java\com\google\youtube\APIResponse.java
 C:\Users\Ren\Documents\GitHub\fantasybasketballbuilder\src\main\java\matc\madjava\entity\Center.java
 C:\Users\Ren\Documents\GitHub\fantasybasketballbuilder\src\main\java\matc\madjava\entity\User.java
 C:\Users\Ren\Documents\GitHub\fantasybasketballbuilder\src\main\java\matc\madjava\persistence\GenericDAO.java

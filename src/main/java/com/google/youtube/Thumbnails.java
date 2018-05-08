@@ -7,21 +7,20 @@ import javax.annotation.Generated;
 @Generated("com.robohorse.robopojogenerator")
 public class Thumbnails{
 
-	@JsonIgnore
 	@JsonProperty("standard")
 	private Standard standard;
 
-	@JsonIgnore
 	@JsonProperty("default")
 	private JsonMemberDefault jsonMemberDefault;
 
-	@JsonIgnore
 	@JsonProperty("high")
 	private High high;
 
-	@JsonIgnore
 	@JsonProperty("medium")
 	private Medium medium;
+
+	@JsonProperty("maxres")
+	private MaxRes maxres;
 
 	public void setStandard(Standard standard){
 		this.standard = standard;
@@ -55,6 +54,15 @@ public class Thumbnails{
 		return medium;
 	}
 
+	public void setMaxRes(MaxRes maxres){
+		this.maxres = maxres;
+	}
+
+	public MaxRes getMaxRes(){
+		return maxres;
+	}
+
+
 	@Override
  	public String toString(){
 		return 
@@ -62,7 +70,8 @@ public class Thumbnails{
 			"standard = '" + standard + '\'' + 
 			",default = '" + jsonMemberDefault + '\'' + 
 			",high = '" + high + '\'' + 
-			",medium = '" + medium + '\'' + 
-			"}";
+			",medium = '" + medium + '\'' +
+					",maxres = '" + maxres + '\'' +
+					"}";
 		}
 }
